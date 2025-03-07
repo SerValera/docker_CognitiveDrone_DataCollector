@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a raccoon",
+    "prompt_simpler": "Fly through the small triangle red gate with a raccoon",
+    "options": [
+        "rat.dae",
+        "chimpanzee.dae",
+        "raccoon.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to simplify 'Fly through the gate with a raccoon' by analyzing the FPV image. Upon analyzing the image:\n\n1. There are three gate-like symbols in the image: a blue triangle, a green square, and a red triangle. Each is positioned in front of a screen displaying an animal. \n2. The animal images likely correspond to the objects mentioned in the task. The left screen shows what appears to be a giraffe; the middle screen shows a raccoon, and the right screen displays a raccoon as well, but the right red triangle is the furthest, and risk for precision is higher.\n3. The task specifies a 'gate with a raccoon.' From the screens, the most prominent and central image of a raccoon is associated with the green square.\n4. Since the animals are behind the shapes, the command will need to match the raccoon image with the corresponding gate shape.\n5. The middle gate (green square) is aligned with the raccoon, and is therefore the most logical choice for the required action.\n6. There are no visible environmental constraints like obstacles or lighting conditions that would hinder the flight路径 based on the image. \n7. The goal of ensuring a safe and feasible action aligns with flying through the green square since it is clearly marked and positioned centrally.\n\nGiven this analysis, the command should specify flying through the green square gate with the raccoon.",
+    "prompt_after_reasoning": "Fly through green square gate with raccoon"
+}

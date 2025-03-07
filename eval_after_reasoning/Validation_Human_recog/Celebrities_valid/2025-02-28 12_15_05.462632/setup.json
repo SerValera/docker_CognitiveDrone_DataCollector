@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Michael Jordan",
+    "prompt_simpler": "Fly through the big triangle red gate with Michael Jordan",
+    "options": [
+        "Michael_Jordan.dae",
+        "Levon_Aronyan.dae",
+        "Bill_Gates.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to 'Fly through the gate with Michael Jordan.' Analyzing the FPV image, there are three gates, each with a different shape and color: a red triangle, a green circle, and a blue circle. Additionally, there are three small video streams aligned horizontally, each featuring a person. The second video stream appears to show Michael Jordan in his iconic Bulls jersey.\n\nGiven the context and the visual data:\n- There is no one named 'gate with Michael Jordan' in the image, but it seems the command implies flying through a gate corresponding to Michael Jordan’s video stream.\n- Michael Jordan is visually identified in the second video stream from the left, which lies above the green circle gate.\n- The other gates are less likely since they don’t line up directly with a video of Michael Jordan.\n\nAssuming the task is to match the video of Michael Jordan to its corresponding gate:\n- The green circle is directly beneath he video featuring Michael Jordan, indicating that the task likely involves the green gate.\n\nSimplifying with safety and clarity in mind:\n- The most logical and precise command in this context is to direct the drone to fly through the green circle gate, as it corresponds with the intended individual in the task (Michael Jordan).",
+    "prompt_after_reasoning": "Fly through green circle gate with Michael Jordan"
+}

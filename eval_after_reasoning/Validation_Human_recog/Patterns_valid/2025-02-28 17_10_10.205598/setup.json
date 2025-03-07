@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a coat",
+    "prompt_simpler": "Fly through the small triangle red gate with a person with a coat",
+    "options": [
+        "a_coat.dae",
+        "a_sweater.dae",
+        "a_t-short.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with a person wearing a coat. In the provided image, I observe two distinct human figures. One is positioned on the left within a smaller panel and appears to be wearing a coat, confirmed by visual analysis showing the outlines typical for a coat. The other person on the right is not wearing a coat. There are also three distinct colored gates: a red triangle, a green triangle, and a blue circle. The person wearing a coat is near the green triangle. Given the task is to fly through a gate associated with this person, the logical choice is to use the green triangle gate. There are no evident safety concerns such as obstacles or poor lighting in the immediate area. The task is clear and straightforward, requiring a single flying action.",
+    "prompt_after_reasoning": "Fly through green triangle gate with person wearing a coat"
+}

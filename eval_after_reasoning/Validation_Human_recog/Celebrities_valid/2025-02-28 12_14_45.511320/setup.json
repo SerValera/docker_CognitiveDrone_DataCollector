@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with tom cruise",
+    "prompt_simpler": "Fly through the big square red gate with tom cruise",
+    "options": [
+        "tom_cruise.dae",
+        "William_Shakespeare.dae",
+        "Tiger_Woods.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with 'tom cruise,' and the provided image shows three face images enclosed in colored gates—red, blue, and green. There are no distinct features in the task description or the image that specifically identify Tom Cruise among the face images directly. However, for simplicity and prioritizing a clear command, we can assume that the command refers to selecting one of the face images as a proxy for 'tom cruise.' Without additional context, the closest unambiguous action would be selecting one image and associating it with the clearest and nearest gate directives. The green gate is the closest and most distinct from the rest regarding orientation and color, which makes it a logical choice. Adhering to these interpretations, let's select the face within the green gate and assume that this is 'tom cruise' as guided.",
+    "prompt_after_reasoning": "Fly through green gate with tom cruise"
+}

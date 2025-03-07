@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Elon Musk",
+    "prompt_simpler": "Fly through the small square green gate with Elon Musk",
+    "options": [
+        "Elon_Musk.dae",
+        "tom_cruise.dae",
+        "benedict_cumberbatch.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The stated task involves flying through a gate associated with an image of Elon Musk. The FPV image shows three gates: a green gate on the left, a blue gate in the middle, and a red gate on the right. Each gate has an image of a man placed above it. Based on the visual information and the task description, the image of Elon Musk is associated with the red gate on the right. There are no substantial ambiguous elements or environmental constraints visible in the image that would affect this identification. Given this, the most logical and straightforward interpretation would be to fly through the red gate.",
+    "prompt_after_reasoning": "Fly through red gate with Elon Musk"
+}

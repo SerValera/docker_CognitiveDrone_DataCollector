@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a elephant",
+    "prompt_simpler": "Fly through the small square green gate with a elephant",
+    "options": [
+        "crocodile.dae",
+        "elephant.dae",
+        "wolf.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with an elephant. Observing the FPV image, there are three gates: a red circle, a green square, and a blue rectangle. Each gate is associated with a different image: the red circle with a bird, the green square with an elephant, and the blue rectangle with a wolf. The elephant is clearly identified as being associated with the green square gate based on the visual data. There are no environmental constraints or ambiguities that prevent the drone from executing the task as described in the image. Given this, the most accurate and simplified directive would be to fly through the green square gate with the elephant explicitly associated with it.",
+    "prompt_after_reasoning": "Fly through green square gate with elephant"
+}

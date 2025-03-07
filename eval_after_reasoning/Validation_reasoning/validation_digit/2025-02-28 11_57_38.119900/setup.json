@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with nine",
+    "prompt_simpler": "Fly through the big square blue gate with nine",
+    "options": [
+        "nine.dae",
+        "three.dae",
+        "eight.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the number '9'. From the image:\n\n- The first object at the left features the number '9', which is enclosed in a red square with a blue rectangular base, suggesting a gate-like structure.\n- The middle object displays the number '3', bordered by a green circle, without a gate-like appearance.\n- The third object presents the number '8', bordered by a circle with a green triangle and a blue circle concentrically, also not indicating a gate-like structure for '9'.\n\nSince the task specifies 'gate with nine', and the visual data supports that the number '9' is indeed associated with the gate-like structure, no adjustments are needed to the original task.\nExamining the image assures there are no ambiguous elements or obstacles that could impede safe flight.",
+    "prompt_after_reasoning": "Fly through the red square gate with 9"
+}

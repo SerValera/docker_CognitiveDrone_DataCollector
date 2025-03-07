@@ -1,0 +1,31 @@
+version: '3'
+
+networks:
+    px4docker:
+      driver: bridge
+
+services:
+    # Pixhawk Gazebo Simulation
+    drone_sim:
+        build: .
+        container_name: sim_workspace
+        hostname: drone_sim
+        privileged: true
+        ipc: host
+        devices:
+            - "/dev/fuse:/dev/fuse:rwm"
+        cap_add:
+            - SYS_ADMIN
+        volumes:
+            - "/tmp/.X11-unix:/tmp/.X11-unix"
+            - ~/.Xauthority:/home/sim/.Xauthority
+            - ./:/home/sim/docker_ardupilot:rw
+        ports:
+            - "14540-14550:14540-14550/udp"
+            - "14570:14570/udp"
+            - "14580:14580/udp"
+            - "11311:11311"
+        environment:
+            - "DISPLAY=$DISPLAY"
+            - "ROS_HOSTNAME=drone_sim"
+            - "ROS_MASTER_URI=http://127.0.0.1:11311"

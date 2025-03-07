@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_5.dae",
+        "Unhealthy/unhealthy_14.dae",
+        "Healthy/healthy_13.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly the drone towards a gate identified as having 'healthy food'. Based on the visual data from the FPV image:\n\n1. There are three gates visible, each distinctly colored — red, green, and blue.\n2. Associated with these gates are images of food. These foods are:\n   - Next to the red gate: a hot dog, which is generally not considered healthy.\n   - Next to the green gate: a bowl of salad, which is considered healthy.\n   - Next to the blue gate: a group of broccoli, which is also healthy.\n3. The task demands targeting 'healthy food', which narrows our options to either the green gate (salad) or the blue gate (broccoli).\n4. Reasonable assumptions: The goal likely emphasizes flying towards a gate with critically recognized healthy food. Given common usage, both can be considered healthy but the salad, symbolizing variety and grooming, could be perceived slightly more pronounced as healthy by general standards.\n\nOverall, the green gate beside the salad seems like the best fit, notably for simplicity, and safety and adheres to the 'healthy food' description perfectly.",
+    "prompt_after_reasoning": "Fly through green gate with salad"
+}

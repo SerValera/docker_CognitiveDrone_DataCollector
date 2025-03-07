@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with a unibrow",
+    "prompt_simpler": "Fly through the small round red gate with a person with a unibrow",
+    "options": [
+        "a_unibrow.dae",
+        "a_dress.dae",
+        "headphones.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

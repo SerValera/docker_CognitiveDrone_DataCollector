@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a watch on their wrist",
+    "prompt_simpler": "Fly through the big triangle red gate with a person with a watch on their wrist",
+    "options": [
+        "a_crossbody_bag.dae",
+        "a_watch_on_their_wrist.dae",
+        "an_umbrella.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate with a person who has a watch on their wrist. First, I analyze the FPV image to identify gates and any people. There are three photo frames, each with a colored gate (green square, red triangle, and blue triangle). Each frame shows a person. \n\nThe person in the green square frame is wearing a watch on their wrist. The person in the red triangle frame is not wearing a watch, and the person in the blue triangle frame is not wearing a watch and is holding an umbrella. \n\nBased on this analysis, the correct gate is the green square gate. No ambiguities are present as the watch is clearly visible on the person in the green square frame. Safety and feasibility are ensured as no obstacles are present around the green square gate, and the task is straightforward.",
+    "prompt_after_reasoning": "Fly through green square gate with person with watch"
+}

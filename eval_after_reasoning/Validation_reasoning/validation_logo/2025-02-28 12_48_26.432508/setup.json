@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with tesla",
+    "prompt_simpler": "Fly through the small square blue gate with tesla",
+    "options": [
+        "tesla.dae",
+        "netflix.dae",
+        "nexora.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to navigate the drone through a gate associated with Tesla. From the FPV image:\n- Three distinct branded panels are visible: Tesla (with the red logo aspect), Netflix, and Neutora.\n- Each panel is associated with a gate: a blue rectangular gate linked to Tesla, a red rectangular gate linked to Netflix, and a green circular gate linked to Neutora.\n- The blue rectangular gate is the gate associated with Tesla as per the image's visual cues.\n  \nAmbiguities:\n- There is no mention of other gates' colors or shapes in the command; thus, visual confirmation is critical.\n  \nSafety and execution: \n- The blue rectangular gate needs to be passed through safely and efficiently, ensuring the drone has enough clearance.\n  \nAssumptions:\n- The visual association between Tesla and the blue rectangular gate will guide the drone to the correct target without conflicting brands or visual clutter.",
+    "prompt_after_reasoning": "Fly through blue rectangular gate with Tesla"
+}

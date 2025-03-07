@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Amelia Earhart",
+    "prompt_simpler": "Fly through the small round green gate with Amelia Earhart",
+    "options": [
+        "Michael_Jordan.dae",
+        "Amelia_Earhart.dae",
+        "Ding_Liren.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task directs the drone to 'Fly through the gate with Amelia Earhart.' Reviewing the provided image:\n\n1. **Identifying Objects**: The image displays three distinct picture frames containing images of people. One of these appears to resemble Amelia Earhart, characterized by historical attire and expression.\n2. **Gates and Shapes**: Near each picture frame, there is a corresponding colored shape: a red circle, a green circle, and a blue triangle. The image that resembles Amelia Earhart is located near the green circle. This suggests that the green circle is the gate the drone should pass through.\n3. **Ambiguities**: The instruction mentions 'gate' in the context of shapes near the portraits. We assume the 'gate' mentioned refers to the green circle associated with the Amelia Earhart image.\n4. **Feasibility**: Flying through a circle is a common and feasible action for a drone provided the appropriate clearance for safety.\n   \nConsidering these points, the task should be adjusted to specify the exact color and shape of the gate and its correspondence to the Amelia Earhart image.",
+    "prompt_after_reasoning": "Fly through green circle gate with Amelia Earhart"
+}

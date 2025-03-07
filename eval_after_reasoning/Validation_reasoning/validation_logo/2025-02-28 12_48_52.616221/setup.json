@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with samsung",
+    "prompt_simpler": "Fly through the big square red gate with samsung",
+    "options": [
+        "samsung.dae",
+        "spotify.dae",
+        "instagram.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Based on the task description 'Fly through the gate with samsung', my initial step is to identify the 'samsung' object within the image. Visually, the image seems to show four gates, each with a differently shaped cutout, and logos inside them. None clearly show the samsung logo. However, the object above the green gate seems to most closely match the Samsung-style font with its clean and minimalist design. In this context, I interpret the 'Samsung' reference as pointing towards this unknown blue sign.\n\nThe next step involves identifying the corresponding gate. Given the current instructions and observation, the green gate is directly associated with the logo that seems most 'Samsung' like. \n\nFrom this, one can reasonably deduce that the task is instructing to fly through the green gate associated with the object that visually resembles the Samsung logo. No apparent obstacles are visible around the green gate, and it looks navigable for the drone. This approach also meets the command format guideline and adheres to safety considerations by selecting a clear and presumably unobstructed path.\n\nThere's a slight ambiguity due to unclear textual and visual input on identifying the 'samsung' object. However, making a logical assumption based on the visual recognition of the fonts and logos, I match it with our Samsung-like object.",
+    "prompt_after_reasoning": "Fly through green gate with Samsung-like object"
+}

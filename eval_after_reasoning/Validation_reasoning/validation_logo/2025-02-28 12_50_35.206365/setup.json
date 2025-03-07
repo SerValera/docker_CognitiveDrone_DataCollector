@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with volkswagen",
+    "prompt_simpler": "Fly through the big round red gate with volkswagen",
+    "options": [
+        "lego.dae",
+        "microsoft.dae",
+        "volkswagen.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The image displays various logos and shapes, including a red gate with a LEGO logo, a colored quadrilateral resembling a Windows logo, and a red circle with a Volkswagen logo. The task is to fly through the gate with the Volkswagen logo, but the gate shape here appears to be interpreted as the red circle associated with the Volkswagen logo. There are other shapes and logos present, but they are not relevant to the task of flying through a 'gate' associated with the Volkswagen URI. The red circle is not physically a gate, but since the instruction specifies 'gate with Volkswagen,' it can be assumed the red circle serves as the 'gate' in this context. There are no visible environmental constraints like obstacles or lighting conditions that would affect the task. Hence, based on the provided visual image data and the task, the most clear and applicable command under the given format would relate to this circle.",
+    "prompt_after_reasoning": "Fly through red circle gate with Volkswagen"
+}

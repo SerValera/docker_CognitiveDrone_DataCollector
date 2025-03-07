@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with hp",
+    "prompt_simpler": "Fly through the big square green gate with hp",
+    "options": [
+        "nikon.dae",
+        "volkswagen.dae",
+        "hp.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

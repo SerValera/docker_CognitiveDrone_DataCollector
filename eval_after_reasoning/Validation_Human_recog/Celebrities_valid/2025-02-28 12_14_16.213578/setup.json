@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Isaac Newton",
+    "prompt_simpler": "Fly through the big round green gate with Isaac Newton",
+    "options": [
+        "William_Shakespeare.dae",
+        "Isaac_Newton.dae",
+        "cristiano_ronaldo.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate that is associated with Isaac Newton. From the image, there are three gates: blue and circular, green and circular, and red and triangular. Also, there are three images of historical/contemporary figures above the gates. The task involves identifying the face of Isaac Newton among these images and confirming which gate is linked to it.\n\n1. Review the figure above the blue gate: The figure resembles a black-and-white portrait that is most commonly associated with historical figures like Shakespeare, not Isaac Newton.\n2. Review the figure above the green gate: This image appears more contemporary and does not match what historical portrayals of Isaac Newton depict.\n3. Review the figure above the red gate: This figure appears similar to known portraits of Isaac Newton in terms of period and style.\n\nBased on historical appearance, the Isaac Newton figure is above the red and triangular gate. The command should specify the red and triangular gate.",
+    "prompt_after_reasoning": "Fly through red triangular gate with Isaac Newton"
+}

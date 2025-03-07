@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with long nails",
+    "prompt_simpler": "Fly through the small round red gate with a person with long nails",
+    "options": [
+        "long_nails.dae",
+        "a_sweater.dae",
+        "a_long_beard.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

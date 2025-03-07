@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a dress",
+    "prompt_simpler": "Fly through the small square blue gate with a person with a dress",
+    "options": [
+        "gray_hair.dae",
+        "a_tattoo.dae",
+        "a_dress.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to 'Fly through the gate with a person with a dress.' From the image, there are three circular markers associated with three people in different positions. The person in the dress is indicated by a blue square over the image of a person in a red dress on the right side of the frame. The task is requesting the drone to fly through a gate with the associated person. However, the gates specified in the image are green, red, and blue circles. For this specific task, safety and simplicity are prioritized, so I will assume the gate's color corresponds with the square color (blue) surrounding the person in a dress. Thus, the command should direct the drone to fly through the blue circle gate corresponding to the person in the dress.",
+    "prompt_after_reasoning": "Fly through blue gate with person in dress"
+}

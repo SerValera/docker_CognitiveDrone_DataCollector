@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with volkswagen",
+    "prompt_simpler": "Fly through the big round green gate with volkswagen",
+    "options": [
+        "volkswagen.dae",
+        "pixar.dae",
+        "fedex.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Analyzing the task, the goal is to fly the drone through a gate while carrying the \"Volkswagen\" logo. From the FPV image, we see several shapes and logos: a green circular shape, a blue triangular shape, and a red triangular shape. The requested logo, 'Volkswagen,' is visible on the left, and a gate is not directly depicted as a traditional 'gate' structure. However, the shapes on the ground are likely symbolic gates for this task.\n\nWithout a clear physical gate, the shapes function as potential gate options. Since the color and shape of the gate aren't specified, I interpret the closest geometric shape to the Volkswagen logo using reasonable proximity and color contrast. The green circular shape is closest to the Volkswagen logo and thus seems to be the logical choice.\n\nAssuming the green circle represents the intended gate, the task would then involve flying the drone through this green circular 'gate' while secured to the Volkswagen logo.\n\nNo visible environmental constraints such as obstacles or lighting conditions appear to interfere with this operation. In this task, we can safely conclude the appropriate gate based on proximity and visual distinctiveness.",
+    "prompt_after_reasoning": "Fly through green, circular gate with Volkswagen"
+}

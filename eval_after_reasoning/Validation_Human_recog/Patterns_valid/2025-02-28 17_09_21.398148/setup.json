@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with tall height",
+    "prompt_simpler": "Fly through the big round green gate with a person with tall height",
+    "options": [
+        "tall_height.dae",
+        "a_coat.dae",
+        "a_piercing.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate with a person who is tall. Looking at the provided image, three different gates are visible, each distinct with a color-coded ring around them: a green ring, a blue ring, and a red ring. Each ring associates with an image that presumably represents a person or object behind the gate. \n\nTo identify the 'tall person', we need to assess the visual representation of the individuals associated with each gate. The individual in the green ring's picture seems to show a person outdoors with arched posture, possibly indicating height. The picture next to the blue ring shows a street scene without a visible person. The individual near the red ring displays a woman with red hair, but there is no clear indication of her being exceptionally tall.\n\nGiven the uncertainty of the other images, the person in the green ring, having an arched posture, can be reasonably assumed as 'tall' in this context, as posture and angle can often emphasize height. Thus, choosing the green gate as the one with the tall person is a reasonable assumption to align with the given command.",
+    "prompt_after_reasoning": "Fly through green gate with person"
+}

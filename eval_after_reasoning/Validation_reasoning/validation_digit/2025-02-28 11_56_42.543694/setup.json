@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the big round blue gate with two",
+    "options": [
+        "six.dae",
+        "five.dae",
+        "two.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The given task is to fly through the gate associated with the number '2'. The image shows three gates, each paired with a number. Breakdown of analysis based on the image:\n\n- The red gate is paired with the number '6'.\n- The green gate is paired with the number '9'.\n- The blue gate is shaped like a triangle and paired with the number '2'.\n\nThe focus of the task is the number '2'. The blue triangular gate is clearly associated with this number. No ambiguities arise in this context; the configuration of thee objects in the image is clear and distinct, with no overlapping or unclear colors. \n\nFor safety, the command should specify the color and shape of the gate, as well as the number.\n\nSimplifying this task into a single, clear command for drone operation:",
+    "prompt_after_reasoning": "Fly through blue triangular gate with two"
+}

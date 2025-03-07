@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a whale",
+    "prompt_simpler": "Fly through the big round red gate with a whale",
+    "options": [
+        "whale.dae",
+        "kangaroo.dae",
+        "cheetah.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "First, I restate the original task: I need the drone to fly through a gate associated with a whale. Observing the FPV image, there are no whales directly visible; however, there is a picture of a whale, possibly indicating the icon or symbol to follow.\n  \nKey components:\n- There are three gates: a red one on the left, a blue one in the middle, and a green one on the right.\n- Adjacent to the left gate, there is an image of a whale.\n- The right gate seems to have a giraffe next to it, and the blue gate has no image beside it.\n- Spatial relationships and environmental constraints are not a major factor based on this image.\n  \nResolving ambiguities:\n- The command 'Fly through the gate with a whale' logically links the whale image to the red gate, as the whale is the closest visual association in the image.\n- Prioritizing safety, I do not interpret the instruction to literally fly through the picture of the whale but rather consider the gate adjacent to the whale image.\n  \nWith these considerations, the task can be translated into a clear and executable command.",
+    "prompt_after_reasoning": "Fly through red, circle gate with whale image"
+}

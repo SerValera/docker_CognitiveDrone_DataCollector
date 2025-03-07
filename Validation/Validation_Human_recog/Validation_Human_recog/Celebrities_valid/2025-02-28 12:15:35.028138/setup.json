@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with JK Rowling",
+    "prompt_simpler": "Fly through the small round red gate with JK Rowling",
+    "options": [
+        "Nelson_Mandela.dae",
+        "JK_Rowling.dae",
+        "selena_gomez.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

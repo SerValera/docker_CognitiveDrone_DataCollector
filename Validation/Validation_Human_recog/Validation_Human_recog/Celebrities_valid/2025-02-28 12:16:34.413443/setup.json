@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Bill Gates",
+    "prompt_simpler": "Fly through the small round red gate with Bill Gates",
+    "options": [
+        "rihanna.dae",
+        "Bill_Gates.dae",
+        "benedict_cumberbatch.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

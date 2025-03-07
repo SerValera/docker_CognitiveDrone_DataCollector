@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with a watch on their wrist",
+    "prompt_simpler": "Fly through the big triangle red gate with a person with a watch on their wrist",
+    "options": [
+        "a_crossbody_bag.dae",
+        "a_watch_on_their_wrist.dae",
+        "an_umbrella.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

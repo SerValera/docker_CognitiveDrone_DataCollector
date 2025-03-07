@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with jennifer lawrence",
+    "prompt_simpler": "Fly through the small square blue gate with jennifer lawrence",
+    "options": [
+        "Vinicius_Junior.dae",
+        "angelina_jolie.dae",
+        "jennifer_lawrence.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to perform a flight action related to a gate that involves Jennifer Lawrence. From the provided image, I can infer the following:\n\n1. **Identification of Gates and Objects**:\n   - A green square, red triangle, and blue square are visible. These could be potential 'gates'.\n   - Two people's faces appear above the corresponding colored shapes, one of which is referred to as Jennifer Lawrence, presumably associated with the red triangle gate.\n\n2. **Analysis of Shapes and Colors**:\n   - The red triangle is the shape that aligns with the mention of Jennifer Lawrence above it. This makes it likely that this is the correct gate to fly through.\n\n3. **Resolving Ambiguities**:\n   - There are no immediate environmental constraints like obstacles or unclear lighting affecting the drone’s navigation towards the red triangle.\n   - The phrase 'gate with Jennifer Lawrence' can safely be interpreted as targeting the red triangular gate, as the person's face is directly above this shape.\n\n4. **Construction of the Command**:\n   - Based on the analysis, the appropriate action involves flying through the red triangular 'gate'.\n   - Only one action is allowed in the command, so it should be clear and direct.\n\nThe entire operation should be kept simple and feasible for the drone without risking safety issues.",
+    "prompt_after_reasoning": "Fly through red triangle gate with Jennifer Lawrence"
+}

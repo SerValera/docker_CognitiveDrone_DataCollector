@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 2+7",
+    "prompt_simpler": "Fly through the big triangle red gate with 9",
+    "options": [
+        "three.dae",
+        "nine.dae",
+        "eight.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate with a number equal to the sum of 2 and 7, which is 9. Looking at the FPV image, we observe three distinct gates, each associated with a number visually displayed above them. The gates are represented by colored shapes at the bottom: blue circle, red triangle, and green square, matched with the numbers 3, 9, and 8, respectively. \n\nBased on this analysis, the red triangle gate, which is associated with the number 9, is the correct target for the task. There are no visible obstacles or overlapping gates that might cause ambiguity. Therefore, I can confidently simplify the task into a single, clear command, ensuring it is safe and unambiguous for the drone.",
+    "prompt_after_reasoning": "Fly through red triangle gate with number 9"
+}

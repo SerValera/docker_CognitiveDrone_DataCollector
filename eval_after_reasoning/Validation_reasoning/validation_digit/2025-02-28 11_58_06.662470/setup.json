@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with five",
+    "prompt_simpler": "Fly through the big square green gate with five",
+    "options": [
+        "five.dae",
+        "six.dae",
+        "two.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with five. Based on the image provided, we observe three numbered objects: '5', '6', and '2'. Each number appears to have a border or gate around it, which seems to represent potential gates that the drone can fly through – specifically the green gate associated with '5', the blue gate associated with '6', and the red gate associated with '2'. The '5' is within a green rectangular gate. \n\nRegarding the spatial relationships, each number-gate pair appears relatively isolated from each other, ensuring there's no ambiguity in associating the number with the gate. Assuming the environment does not have more layers of complication not shown in the image, the visual data is clear and there are no overlapping objects or unclear colors which would cause confusion. \n\nGiven that the task is to fly through the gate with five and there is a distinct green rectangular gate around the number '5', the appropriate command will be to navigate the drone towards the green gate associated with the number five.",
+    "prompt_after_reasoning": "Fly through green rectangular gate with number 5"
+}

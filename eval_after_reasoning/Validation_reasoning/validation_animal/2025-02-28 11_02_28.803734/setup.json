@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a sparrow",
+    "prompt_simpler": "Fly through the small round red gate with a sparrow",
+    "options": [
+        "sparrow.dae",
+        "rat.dae",
+        "lion.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a sparrow. In the provided image, there are a few distinct visual elements to consider:\n\n1. **Object Identification**:\n   - A sparrow is clearly visible on the far left, located above a red circular gate, perched on what appears to be a branch.\n   - A lion image is located at the far right above a green triangular gate.\n   - A rabbit-like figure is present in the center-left side above a blue square gate.\n   - There are three distinct gates colored red, blue, and green in circular, square, and triangular shapes.\n\n2. **Spatial Relationships**:\n   - The sparrow is positioned above the red circular gate.\n   - The gates are separated spatially: the red circular gate is the leftmost gate.\n\n3. **Environmental Context**:\n   - There appear to be no obstacles or unsafe flying conditions depicted in the image regarding these gates.\n   - All gates seem of equal distance from the drone's perspective based on the image.\n\n4. **Resolution of Ambiguities**:\n   - The task specifies a sparrow, and the sparrow is clearly associated with the red circular gate as it is directly above it.\n   - There are no apparent safety concerns within this frame.\n\n5. **Command Simplification**:\n   - The task should specify flight through the red circular gate with the sparrow. It is specific and alignable with the visual data.\n   - Since the gate is circular, red, and has a sparrow above it, the command can be clearly expressed.",
+    "prompt_after_reasoning": "Fly through red circular gate with sparrow"
+}

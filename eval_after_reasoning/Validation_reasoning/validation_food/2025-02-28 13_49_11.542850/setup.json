@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small triangle red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_9.dae",
+        "Unhealthy/unhealthy_1.dae",
+        "Healthy/healthy_12.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to instruct the drone to fly to the gate associated with 'healthy food.' Observing the image, there are three gates of different colors and shapes, accompanied by three food items. The green circle gate is associated with ribs (unhealthy), the blue triangle gate with a hamburger (also unhealthy), and the red triangle gate with broccoli (which is considered healthy).  \nThe spatial relationships are straightforward: each food item is directly above the gate. There are no overlapping objects, and the colors and shapes of the gates are clearly distinguished in the visual data. Therefore, I can confidently associate the 'healthy food' with the broccoli and the corresponding red triangle gate.  \nTo resolve any potential ambiguity about which gate is associated with the healthy food, the visual analysis is sufficient as the choices are clear with the broccoli being the only healthy option. Based on this reasoning and the relevant visual information, the command can be simplified to fly through the red triangle gate.",
+    "prompt_after_reasoning": "Fly through red triangle gate with broccoli"
+}

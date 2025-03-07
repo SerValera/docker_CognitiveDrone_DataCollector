@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with glasses on their head",
+    "prompt_simpler": "Fly through the small square blue gate with a person with glasses on their head",
+    "options": [
+        "long_eyelashes.dae",
+        "glasses_on_their_head.dae",
+        "an_umbrella.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate with a reference to a person with glasses presented in a headshot. The visual analysis involves interpreting the given image to identify relevant objects, gates, and connections to the person referred to.\n\n1. **Analysis of Visuals and Person Reference**:\n   - The images presented include headshots of individuals. One headshot shows a person with what appear to be glasses on their head.\n   - Since this individual is the reference for the gate, we need to identify their corresponding gate.\n\n2. **Gate Identification and Color Matching**:\n   - Gates are color-coded: green, blue, and red.\n   - Linking the person with glasses to the correct gate: The image with the person wearing glasses is in the foreground and adjacent to the green gate. This implies a potential association between the person and the green gate.\n\n3. **Task Feasibility and Safety**:\n   - Focusing on the green gate, the task appears straightforward and collision-free. The drone is required to fly through the gate, aligning with the task objective.\n\n4. **Finalizing the Command**:\n   - Following the observation, the drone should be instructed to fly through the green gate as it correlates with the image of the person with glasses.\n\nThus, the command to the drone is derived from the image and task details to be clear and executable.",
+    "prompt_after_reasoning": "Fly through green square gate with person with glasses"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with redbull",
+    "prompt_simpler": "Fly through the small round green gate with redbull",
+    "options": [
+        "microsoft.dae",
+        "redbull.dae",
+        "facebook.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a Red Bull logo. From the FPV image, I can identify three rectangular shapes with colorful borders that seem like potential gates. The red circle on the left of the image likely indicates the drone's current orientation. The central image features a Red Bull logo surrounded by a green circle, which is the gate associated with Red Bull. There is a red bull-branded logo above the green circle, directly aligning with the task's description. The blue square on the right is part of a different gate. Based on the task and image, my objective is to guide the drone through the green-circled gate as it contains the Red Bull branding. I have to ensure the command is clear and feasible, aligning it with the available 'Fly through' command format. There are no significant environmental constraints visible in the image.",
+    "prompt_after_reasoning": "Fly through green circle gate with Red Bull"
+}

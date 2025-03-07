@@ -1,0 +1,782 @@
+[
+    {
+        "prompt": "Fly through the gate with Robert Lewandowski",
+        "prompt_simpler": "Fly through the big round blue gate with Robert Lewandowski",
+        "options": [
+            "selena_gomez.dae",
+            "Robert_Lewandowski.dae",
+            "tom_holland.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "Upon analyzing the visual data, the image shows three different objects with gates that have different colors and shapes. Each object is accompanied by a gate: a green gate to the left, a blue gate in the middle, and a red gate to the right. The objects seem to be actors who correspond to the shape and color of the gate.\n\nIn the task, the mention is to fly through the gate with 'Robert Lewandowski.' From the visual data provided, the third object from the left seems to resemble Robert Lewandowski, as the other two images do not resemble him. This image is aligned with the red gate. \n\nAmbiguities and assumptions include the object's identity as it is not confirmed that the resemblance matches Robert Lewandowski. Additionally, there is no environmental constraint visible that affects the drone's flight. Considering the goal and visual analysis, the most logical match is the red gate on the right with the object resembling Robert Lewandowski.\n\nThe command should be clear, safe, and feasible, thus ensuring the drone knows which gate to fly through.",
+        "prompt_after_reasoning": "Fly through red gate with Robert Lewandowski"
+    },
+    {
+        "prompt": "Fly through the gate with Bill Gates",
+        "prompt_simpler": "Fly through the small round red gate with Bill Gates",
+        "options": [
+            "rihanna.dae",
+            "Bill_Gates.dae",
+            "benedict_cumberbatch.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with Bill Gates. From the image provided, three rectangular figures are shown with corresponding colored gates in the lower part of the image: a green gate on the left, a red gate in the middle, and a blue gate on the right. Each figure resembles a person, but there is no explicit indication of which figure is Bill Gates. Based on the typical layout and the rightmost position of the blue gate, I'll assume the individual on the right corresponds to Bill Gates. \n\nGiven that the command suggests flying through a gate with a specific person, the image and task imply aligning with the individual on the right. Thus, we must associate the command with the blue gate as it is placed below the figure that logically might be intended for this purpose.\n\nThere appear to be no immediate obstacles or ambient constraints visible in the image, making this gate a safe choice for drone flight. Thus, the command should logically be adjusted to specify the blue gate.",
+        "prompt_after_reasoning": "Fly through blue gate with Bill Gates"
+    },
+    {
+        "prompt": "Fly through the gate with lionel messi",
+        "prompt_simpler": "Fly through the big square red gate with lionel messi",
+        "options": [
+            "taylor_swift.dae",
+            "cristiano_ronaldo.dae",
+            "lionel_messi.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly through the gate with Lionel Messi. Analyzing the image, we can observe four prominent elements: a white circle with a green outline, a small portrait of a person, a larger portrait resembling Lionel Messi above a red outline, and a blurred background that appears like a football field. \n\nThe phrase 'fly through the gate with Lionel Messi' suggests targeting the red outline as the gate associated with Lionel Messi. The other objects do not seem to represent gates or relate to Lionel Messi.\n\nAmbiguities present within the task:\n- The exact size and shape of the red gate are unclear due to the outline being less well-defined.\n- The notion of ‘flying through’ typically implying physical traversal which may not be entirely feasible in this scenario (assuming the drone’s scale to visual elements). \n\nResolving ambiguities:\n- The red outline with Lionel Messi is assumed to represent the gate due to direct correlation with the task mentioning Lionel Messi.\n- Assume examining the outline and Lionel Messi’s vicinity for navigation instead of physically penetrating a virtual projection.\n\nSimplifying the task with priority given to safety and similarity matching, it would be best to direct the drone towards Lionel Messi but aligned with the red outline since it may be termed a 'gate' in this context.",
+        "prompt_after_reasoning": "Fly through red gate with Lionel Messi"
+    },
+    {
+        "prompt": "Fly through the gate with Brad Pitt",
+        "prompt_simpler": "Fly through the small square green gate with Brad Pitt",
+        "options": [
+            "lionel_messi.dae",
+            "Brad_Pitt.dae",
+            "Nikola_Tesla.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly through a gate associated with Brad Pitt. Analyzing the FPV image, it shows three gates (red, green, and blue), each paired with a portrait of a different individual. None of the captions explicitly state Brad Pitt; hence, I must match him to one of the individuals visually. The middle gate features a green frame paired with a portrait of a man resembling Brad Pitt from his appearance (assumed here). Brad Pitt's face here matches public perceptions. The red and blue gates contain other figures that don’t match images of Brad Pitt.\n\nFurther analysis shows no potential obstacles, safety constraints, or lighting issues. The following assumptions are made: The green gate's associated portrait represents Brad Pitt. There are no conflicting tasks or visual ambiguities affecting the command.",
+        "prompt_after_reasoning": "Fly through the green gate with Brad Pitt"
+    },
+    {
+        "prompt": "Fly through the gate with Michael Jordan",
+        "prompt_simpler": "Fly through the big triangle red gate with Michael Jordan",
+        "options": [
+            "Michael_Jordan.dae",
+            "Levon_Aronyan.dae",
+            "Bill_Gates.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with Michael Jordan.' Analyzing the FPV image, there are three gates, each with a different shape and color: a red triangle, a green circle, and a blue circle. Additionally, there are three small video streams aligned horizontally, each featuring a person. The second video stream appears to show Michael Jordan in his iconic Bulls jersey.\n\nGiven the context and the visual data:\n- There is no one named 'gate with Michael Jordan' in the image, but it seems the command implies flying through a gate corresponding to Michael Jordan’s video stream.\n- Michael Jordan is visually identified in the second video stream from the left, which lies above the green circle gate.\n- The other gates are less likely since they don’t line up directly with a video of Michael Jordan.\n\nAssuming the task is to match the video of Michael Jordan to its corresponding gate:\n- The green circle is directly beneath he video featuring Michael Jordan, indicating that the task likely involves the green gate.\n\nSimplifying with safety and clarity in mind:\n- The most logical and precise command in this context is to direct the drone to fly through the green circle gate, as it corresponds with the intended individual in the task (Michael Jordan).",
+        "prompt_after_reasoning": "Fly through green circle gate with Michael Jordan"
+    },
+    {
+        "prompt": "Fly through the gate with rihanna",
+        "prompt_simpler": "Fly through the big round green gate with rihanna",
+        "options": [
+            "Isaac_Newton.dae",
+            "rihanna.dae",
+            "angelina_jolie.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with Rihanna. In the image, there are three gates (red square, green circle, blue circle) and three images of individuals. The central image appears to be Rihanna based on the visual appearance. The green circle gate is directly below Rihanna, suggesting it's the correct gate to fly through. There are no visible obstacles or environmental constraints that would impede the drone from flying through the green circle gate. To ensure safety and feasibility, I must confirm this by choosing a clear command that aligns with the visual data.\n\nUnderstanding the spatial relationship: Rihanna is aligned with the green circle gate, which implies the drone should fly through this gate. The visual clarity and matching alignment eliminate other ambiguities or alternatives.",
+        "prompt_after_reasoning": "Fly through green circle gate with Rihanna"
+    },
+    {
+        "prompt": "Fly through the gate with jennifer lawrence",
+        "prompt_simpler": "Fly through the small square blue gate with jennifer lawrence",
+        "options": [
+            "Vinicius_Junior.dae",
+            "angelina_jolie.dae",
+            "jennifer_lawrence.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to perform a flight action related to a gate that involves Jennifer Lawrence. From the provided image, I can infer the following:\n\n1. **Identification of Gates and Objects**:\n   - A green square, red triangle, and blue square are visible. These could be potential 'gates'.\n   - Two people's faces appear above the corresponding colored shapes, one of which is referred to as Jennifer Lawrence, presumably associated with the red triangle gate.\n\n2. **Analysis of Shapes and Colors**:\n   - The red triangle is the shape that aligns with the mention of Jennifer Lawrence above it. This makes it likely that this is the correct gate to fly through.\n\n3. **Resolving Ambiguities**:\n   - There are no immediate environmental constraints like obstacles or unclear lighting affecting the drone’s navigation towards the red triangle.\n   - The phrase 'gate with Jennifer Lawrence' can safely be interpreted as targeting the red triangular gate, as the person's face is directly above this shape.\n\n4. **Construction of the Command**:\n   - Based on the analysis, the appropriate action involves flying through the red triangular 'gate'.\n   - Only one action is allowed in the command, so it should be clear and direct.\n\nThe entire operation should be kept simple and feasible for the drone without risking safety issues.",
+        "prompt_after_reasoning": "Fly through red triangle gate with Jennifer Lawrence"
+    },
+    {
+        "prompt": "Fly through the gate with Amelia Earhart",
+        "prompt_simpler": "Fly through the small round green gate with Amelia Earhart",
+        "options": [
+            "Michael_Jordan.dae",
+            "Amelia_Earhart.dae",
+            "Ding_Liren.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task directs the drone to 'Fly through the gate with Amelia Earhart.' Reviewing the provided image:\n\n1. **Identifying Objects**: The image displays three distinct picture frames containing images of people. One of these appears to resemble Amelia Earhart, characterized by historical attire and expression.\n2. **Gates and Shapes**: Near each picture frame, there is a corresponding colored shape: a red circle, a green circle, and a blue triangle. The image that resembles Amelia Earhart is located near the green circle. This suggests that the green circle is the gate the drone should pass through.\n3. **Ambiguities**: The instruction mentions 'gate' in the context of shapes near the portraits. We assume the 'gate' mentioned refers to the green circle associated with the Amelia Earhart image.\n4. **Feasibility**: Flying through a circle is a common and feasible action for a drone provided the appropriate clearance for safety.\n   \nConsidering these points, the task should be adjusted to specify the exact color and shape of the gate and its correspondence to the Amelia Earhart image.",
+        "prompt_after_reasoning": "Fly through green circle gate with Amelia Earhart"
+    },
+    {
+        "prompt": "Fly through the gate with taylor swift",
+        "prompt_simpler": "Fly through the big triangle blue gate with taylor swift",
+        "options": [
+            "leonardo_decaprio.dae",
+            "Marie_Curie.dae",
+            "taylor_swift.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with 'Taylor Swift.' However, the visual does not contain any identifiable figures resembling Taylor Swift within or near a gate, which means the task is based on a positional reference rather than a visual match. The FPV image shows three different colored gates (red, green, and blue), along with three sections of images featuring individuals, none of which can be confidently determined as Taylor Swift. The term 'Taylor Swift' seems to be metaphorical or symbolic, possibly indicating a specific gate.  Given the layout, 'Taylor Swift' could refer to the leftmost figure which seems to be the first individual displayed in the frame. This then corresponds to the red gate directly beneath it. No environmental obstacles are apparent, and there is no sign of any ambiguous overlaps. Given the structure of the gates and inferred task, the drone's most logical action is to approach the red gate, considering the relationship between the individual displayed and the corresponding gate.",
+        "prompt_after_reasoning": "Fly through red triangle gate with Taylor Swift"
+    },
+    {
+        "prompt": "Fly through the gate with Nelson Mandela",
+        "prompt_simpler": "Fly through the big round green gate with Nelson Mandela",
+        "options": [
+            "Michelangelo.dae",
+            "Nelson_Mandela.dae",
+            "Bill_Gates.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with Nelson Mandela. In the image, there are three distinct objects with faces, each corresponding to a different symbol placed on the ground. The symbols are a red circle, a green circle, and a blue triangle. Each object's face appears in the corner of a colored frame matching its symbol's color. \n\nUpon analysis of the objects:\n- The left object, associated with the red circle, seems to be the face of a person with hair and facial hair, possibly not Nelson Mandela.\n- The middle object with the green circle features the face of an older man with a formal appearance but does not have clear visual confirmation of being Nelson Mandela.\n- The right object, connected with the blue triangle, displays the face of a man with a smiling look who matches the widely recognized features of Nelson Mandela.\n\nGiven that the blue triangle is correlated with Nelson Mandela, and based on the provided task, the gate with the blue triangle is the correct target. No ambiguities arise from visual data, as the correlation between the face and the symbol is clear. Additionally, there are no obstacles or constraints visible that would make this maneuver unsafe.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with Nelson Mandela"
+    },
+    {
+        "prompt": "Fly through the gate with Vincent van Gogh",
+        "prompt_simpler": "Fly through the small triangle green gate with Vincent van Gogh",
+        "options": [
+            "Mark_Zuckerberg.dae",
+            "Michael_Jordan.dae",
+            "Vincent_van_Gogh.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Analyzing the provided image and the given instruction, the task is to guide the drone through a gate associated with Vincent van Gogh. In the image, there are three gates visible: a red square gate, a blue square gate, and a green triangular gate. Each gate appears above a distinct small image, with the green triangle gate having a circular emblem above it that resembles the self-portrait of Vincent van Gogh. Therefore, the green triangular gate is the target gate for this task.  \nThe instruction is clear that the drone needs to 'Fly through the gate with Vincent van Gogh,' which, based on the provided visual analysis, is the green triangular gate. No ambiguities are present regarding the object identity as visual data confirms Vincent van Gogh's association with the green triangular gate. No conflicting or unclear aspects are present in the task or image that call for assumptions. The command is feasible, and given there are no obstacles or harsh environmental conditions in the image, safety is also validated.  \nThus, the drone should proceed with executing a fly-through maneuver at the green triangular gate.",
+        "prompt_after_reasoning": "Fly through green triangle gate with Vincent van Gogh"
+    },
+    {
+        "prompt": "Fly through the gate with Madonna",
+        "prompt_simpler": "Fly through the small round blue gate with Madonna",
+        "options": [
+            "Madonna.dae",
+            "emma_watson.dae",
+            "Ludwig_Van_Beethoven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with Madonna. The provided image shows three gates, each with a circular marker in blue, red, and green. Above the red gate, there is a movie poster of a film that appears to feature Madonna. This can be inferred from the facial features and known public image of Madonna.\n\nKey components of the task:\n- Observe the visual clues in the image to identify the gate related to Madonna.\n- The red gate is highlighted, and the image above it points to it being related to Madonna.\n\nAmbiguities:\n- While the face appears to be Madonna, no textual confirmation is provided. However, the task's description associates Madonna with one of these gates, and the visual seems to indicate the red gate.\n\nAssumptions:\n- Given the context, the most logical association is that the red gate corresponds to Madonna, as indicated by the recognition of her image above the gate.\n\nSafety and feasibility:\n- Flying through the red gate is directly indicated with no visible environmental constraints or obstacles in the image.\n\nTherefore, the safest and most unambiguous command can be formed.",
+        "prompt_after_reasoning": "Fly through red gate with Madonna"
+    },
+    {
+        "prompt": "Fly through the gate with tom cruise",
+        "prompt_simpler": "Fly through the big square red gate with tom cruise",
+        "options": [
+            "tom_cruise.dae",
+            "William_Shakespeare.dae",
+            "Tiger_Woods.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with 'tom cruise,' and the provided image shows three face images enclosed in colored gates—red, blue, and green. There are no distinct features in the task description or the image that specifically identify Tom Cruise among the face images directly. However, for simplicity and prioritizing a clear command, we can assume that the command refers to selecting one of the face images as a proxy for 'tom cruise.' Without additional context, the closest unambiguous action would be selecting one image and associating it with the clearest and nearest gate directives. The green gate is the closest and most distinct from the rest regarding orientation and color, which makes it a logical choice. Adhering to these interpretations, let's select the face within the green gate and assume that this is 'tom cruise' as guided.",
+        "prompt_after_reasoning": "Fly through green gate with tom cruise"
+    },
+    {
+        "prompt": "Fly through the gate with Isaac Newton",
+        "prompt_simpler": "Fly through the big round green gate with Isaac Newton",
+        "options": [
+            "William_Shakespeare.dae",
+            "Isaac_Newton.dae",
+            "cristiano_ronaldo.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate that is associated with Isaac Newton. From the image, there are three gates: blue and circular, green and circular, and red and triangular. Also, there are three images of historical/contemporary figures above the gates. The task involves identifying the face of Isaac Newton among these images and confirming which gate is linked to it.\n\n1. Review the figure above the blue gate: The figure resembles a black-and-white portrait that is most commonly associated with historical figures like Shakespeare, not Isaac Newton.\n2. Review the figure above the green gate: This image appears more contemporary and does not match what historical portrayals of Isaac Newton depict.\n3. Review the figure above the red gate: This figure appears similar to known portraits of Isaac Newton in terms of period and style.\n\nBased on historical appearance, the Isaac Newton figure is above the red and triangular gate. The command should specify the red and triangular gate.",
+        "prompt_after_reasoning": "Fly through red triangular gate with Isaac Newton"
+    },
+    {
+        "prompt": "Fly through the gate with Elvis Persley",
+        "prompt_simpler": "Fly through the small square blue gate with Elvis Persley",
+        "options": [
+            "Elvis_Persley.dae",
+            "Robert_Lewandowski.dae",
+            "Albert_Einstein.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a specific image of Elvis Presley. First, I need to identify the gates and the image of Elvis Presley in the visual data. There are three gates visible: one is blue, one is green triangular, and one is red. Each gate has a picture above it.\n\nThe gate with green triangle appears to have a figure associated with the image of a man wearing a ball cap. The red gate has an image of a person which might be Elvis Persley. Considering the detail of the task, we can presume that the picture of Elvis Presley is on the red gate based on the photo and its placement. \n\nFrom these observations, I am assuming that the red gate corresponds to 'Elvis Presley' imagery and will prioritize this over the ambiguity of any other supposed characters or objects. Commanding the drone to fly through the red gate will follow the original request.",
+        "prompt_after_reasoning": "Fly through red gate with Elvis Presley"
+    },
+    {
+        "prompt": "Fly through the gate with Neil Armstrong",
+        "prompt_simpler": "Fly through the big square green gate with Neil Armstrong",
+        "options": [
+            "Yuri_Gagarin.dae",
+            "Neil_Armstrong.dae",
+            "rihanna.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with Neil Armstrong. From the image, there are three gates: a blue circle, a green square, and a red circle, each next to a respective image. The image associated with the blue circle appears to be a person in a military uniform, matching the description of Neil Armstrong. The other images do not seem to match Neil Armstrong. Therefore, it's reasonable to assume that the blue circular gate is the correct one. There are no visual obstructions or environmental constraints apparent in the image, and the other gates do not relate to the task. Since 'Neil Armstrong' matches the description associated with the blue gate, the command should direct the drone accordingly.",
+        "prompt_after_reasoning": "Fly through blue circle gate with Neil Armstrong"
+    },
+    {
+        "prompt": "Fly through the gate with Michael Jordan",
+        "prompt_simpler": "Fly through the small triangle blue gate with Michael Jordan",
+        "options": [
+            "Carlo_Ancelotti.dae",
+            "leonardo_decaprio.dae",
+            "Michael_Jordan.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with Michael Jordan based on the visual data provided. The image shows three sections, each containing a person and a colored gate with a corresponding team logo. The person associated with the Chicago Bulls logo and the blue gates is considered Michael Jordan. The object locations appear to be defined as follows: \n\n- On the left is a red triangle with a person who is not associated with Michael Jordan.\n- In the center is a green circle gate with a person who is likely Michael Jordan associated with the Chicago Bulls.\n- On the right is a blue triangle gate with a segment of a crowd which might indicate a game or event setting relevant to the Bulls.\n\nGiven the complexities and the described task, the goal is to match the person with Michael Jordan and confirm the accurate gate. The green circle gate aligns with Michael Jordan since it includes his team logo. \n\nAssumptions: \n1. The team logo associated with Michael Jordan is Chicago Bulls.\n2. The green circle gate marks Michael Jordan's section.\n\nFollowing safety and accuracy, the task is clearly simplified to fly through the specific gate declared.",
+        "prompt_after_reasoning": "Fly through green circle gate with Michael Jordan"
+    },
+    {
+        "prompt": "Fly through the gate with Madonna",
+        "prompt_simpler": "Fly through the small round blue gate with Madonna",
+        "options": [
+            "Madonna.dae",
+            "taylor_swift.dae",
+            "rihanna.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to command the drone to fly through a gate associated with Madonna, based on the given image. Analyzing the FPV image, I observe the following elements:\n\n- There are three gates in the image: blue (circle), green (circle), and red (triangle).\n- To the right, there is a poster featuring Madonna.\n- To the left, there is another face image, but it's not relevant to Madonna.\n- A rectangular white block is also present between the images, which likely does not influence the task as it doesn't relate to gate shapes or colors.\n- The task specifically mentions 'Madonna,' so this implies flying through the gate associated with the Madonna image, which is near the red triangular gate.\n\nAssumptions:\n- Since Madonna is associated with the red triangular gate on the right side, we should fly through the red triangular gate.\n\nBased on the visual evidence and given task, combining the textual description and visual analysis leads to a clear command, ensuring safety and feasibility for the drone.",
+        "prompt_after_reasoning": "Fly through red, triangle gate with Madonna"
+    },
+    {
+        "prompt": "Fly through the gate with benedict cumberbatch",
+        "prompt_simpler": "Fly through the small round blue gate with benedict cumberbatch",
+        "options": [
+            "benedict_cumberbatch.dae",
+            "Elon_Musk.dae",
+            "rihanna.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task was to fly through a gate with Benedict Cumberbatch. Reviewing the image, we see three figures in individual picture frames against a plain background, alongside colored geometric outlines that seem to represent gates (a blue circle, a green square, and a red ring).\n\n1. Analyzing the objects within the frames:\n   - The left image contains a man who could be identified as Benedict Cumberbatch due to the initial context given. It is enclosed by a blue circle.\n   - The middle image is another man, accompanied by a green square.\n   - The right image is a woman, alongside a red ring.\n\n2. Considering the positioning and colors associated with each figure, the task constrains us to the blue circle since it’s the only one associated with the left image, which matches our assumption of Benedict Cumberbatch.\n\n3. There are no evident environmental constraints or ambiguities regarding the gates positions with respect to the frames other than the alignment between the chosen figure and the gate.\n\n4. This leads to ensuring the command aligns with the initial directive of matching Benedict Cumberbatch with the appropriate gate, which simplifies to the blue circular gate, signifying the blue circle around his picture.",
+        "prompt_after_reasoning": "Fly through the blue circle gate with Benedict Cumberbatch"
+    },
+    {
+        "prompt": "Fly through the gate with Neil Armstrong",
+        "prompt_simpler": "Fly through the small round blue gate with Neil Armstrong",
+        "options": [
+            "Yuri_Gagarin.dae",
+            "Carlo_Ancelotti.dae",
+            "Neil_Armstrong.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The given task is to fly through the gate associated with Neil Armstrong based on the provided image. First, I should identify the gates and their corresponding figures.\n\n- The first gate is circled in green and features a black-and-white portrait.\n- The second gate is circled in red and contains a color image of a person.\n- The third gate is circled in blue and displays a person in a suit with an American flag.\n\nSince the task involves Neil Armstrong, it is reasonable to assume that he is the one in the black-and-white image, as he was an astronaut from an earlier era (the time of the Apollo missions). This matches the first green-circled gate. \n\nThere are no environmental constraints like obstacles or poor lighting in the provided image. The gates are clearly distinguishable with distinct colors and portraits. Thus, the ambiguity is resolved by associating the black-and-white image with Neil Armstrong.\n\nSince it is clear which gate needs to be flown through, and ensuring safety is considered by directly indicating the gate with Neil Armstrong, the task can be converted into a simple drone command.",
+        "prompt_after_reasoning": "Fly through green gate with Neil Armstrong"
+    },
+    {
+        "prompt": "Fly through the gate with Davide Scaramuzza",
+        "prompt_simpler": "Fly through the big triangle blue gate with Davide Scaramuzza",
+        "options": [
+            "Yuri_Gagarin.dae",
+            "Davide_Scaramuzza.dae",
+            "tom_holland.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to identify the correct gate to fly through, which is associated with 'Davide Scaramuzza.' From the visual data, we have three gates, each paired with a photo. \n- The left gate is red with a photo of a man who does not appear to be Davide Scaramuzza as described visually (the photo provided shows someone else).\n- The middle gate is blue with a photo of a man that does not seem to correlate with the appearance of Davide Scaramuzza in the provided comparison image. \n- The right gate is green with a photo of a man who, based on the visual analysis of the provided image, appears to be Davide Scaramuzza.\n\nGiven that the task is to 'fly through the gate with Davide Scaramuzza', the right gate should be the target as the visual representation in the image matches the reference provided.\nAssuming that the intention is to ensure a safe flight, there is no mention of any environmental constraints and none can be directly deduced from the image, supporting a straightforward approach. \nThere are no additional ambiguities or safety concerns based on the details provided.",
+        "prompt_after_reasoning": "Fly through green gate with Davide Scaramuzza"
+    },
+    {
+        "prompt": "Fly through the gate with Brad Pitt",
+        "prompt_simpler": "Fly through the big triangle green gate with Brad Pitt",
+        "options": [
+            "Brad_Pitt.dae",
+            "Alex_Ferguson.dae",
+            "jennifer_lawrence.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "First, I'll restate the task: The goal is to command the drone to fly through a gate associated with Brad Pitt. TheFPV image shows three gates: one green triangle, one blue triangle, and one red triangle. Each gate has a rectangular cutout above it containing an image of a person. \n\nIn this case, I will assume that the instruction refers to the left gate with the green triangle gate, as it is the leftmost gate and its cutout contains a male figure that could be identified as Brad Pitt. \n\nThe middle gate shows a different individual, and the right gate has a female figure. Additionally, the middle gate's blue triangle may be ambiguous, and the right gate may not logically correspond to Brad Pitt. Since visual identification of people can be uncertain, I'll prioritize safety and simplicity by selecting the left gate.\n\nAssuming the left gate's green triangle corresponds to Brad Pitt's gate, I'll generate a clear, executable command to fulfill the task. No immediate environmental constraints, such as obstacles or lighting conditions, are apparent in the image.",
+        "prompt_after_reasoning": "Fly through green triangle gate with Brad Pitt"
+    },
+    {
+        "prompt": "Fly through the gate with Elon Musk",
+        "prompt_simpler": "Fly through the small triangle red gate with Elon Musk",
+        "options": [
+            "selena_gomez.dae",
+            "Elon_Musk.dae",
+            "William_Shakespeare.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Firstly, the original instruction is to fly through the gate with Elon Musk. Analyzing the FPV image, three distinct shapes with images inside can be seen. There is a blue square on the left that contains an image of a little girl, a red triangle in the middle that contains an image of a man who seems to resemble Elon Musk, and a green circle on the right that contains an image that doesn't match Elon Musk. The task is to fly through the gate with Elon Musk's image, and based on the analysis of the images within the shapes, the red triangle is the gate with Elon Musk’s image. There are no visible environmental constraints or ambiguities that would prevent the drone from safely executing this command. Therefore, I should make the command specific to the red triangle gate, which has Elon Musk's image.",
+        "prompt_after_reasoning": "Fly through red triangle gate with Elon Musk"
+    },
+    {
+        "prompt": "Fly through the gate with Elon Musk",
+        "prompt_simpler": "Fly through the small square green gate with Elon Musk",
+        "options": [
+            "Elon_Musk.dae",
+            "tom_cruise.dae",
+            "benedict_cumberbatch.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The stated task involves flying through a gate associated with an image of Elon Musk. The FPV image shows three gates: a green gate on the left, a blue gate in the middle, and a red gate on the right. Each gate has an image of a man placed above it. Based on the visual information and the task description, the image of Elon Musk is associated with the red gate on the right. There are no substantial ambiguous elements or environmental constraints visible in the image that would affect this identification. Given this, the most logical and straightforward interpretation would be to fly through the red gate.",
+        "prompt_after_reasoning": "Fly through red gate with Elon Musk"
+    },
+    {
+        "prompt": "Fly through the gate with Neil Armstrong",
+        "prompt_simpler": "Fly through the big square red gate with Neil Armstrong",
+        "options": [
+            "chris_hemsworth.dae",
+            "Robert_Lewandowski.dae",
+            "Neil_Armstrong.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate associated with Neil Armstrong. In the provided image, there are three gates — one green triangle to the left, one blue triangle in the center, and one red semi-circle to the right. Each gate has a figure placed above it. The figure above the red semi-circle is labeled with the flag of the United States and a formal portrait. Given thatNeil Armstrong is a famous figure related to the U.S. space program, it is reasonable to associate him with the figure and the red semi-circle gate.\n\nThe ambiguity in the task description about the exact gate or color is resolved by visually analyzing the correlation between the figure and the nearby gate. The red semi-circular gate is clearly distinguishable and matches the aesthetic representation of a gate relevant to the given instruction. The other gates (green and blue triangles) do not seem to be linked to Neil Armstrong based on the visual context.\n\nThus, the command must specify that the drone should fly through the red semi-circular gate, taking into account the safe and feasible execution of the command.",
+        "prompt_after_reasoning": "Fly through red semi-circle gate with Neil Armstrong"
+    },
+    {
+        "prompt": "Fly through the gate with JK Rowling",
+        "prompt_simpler": "Fly through the small round red gate with JK Rowling",
+        "options": [
+            "Nelson_Mandela.dae",
+            "JK_Rowling.dae",
+            "selena_gomez.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly through the gate associated with JK Rowling. Observing the visual information, there are three prominent objects with associated images and shapes: a green square, a red circle, and a blue triangle. The image in the blue triangle gate appears to be a person with shoulder-length hair. Given JK Rowling's public persona, it's reasonable to assume the image in the blue triangle represents her. There are no environmental constraints visible that would impede the drone's path to the blue triangle gate. There are no ambiguities in the visual data that would suggest otherwise.\n\nThus, the task is to fly through the blue triangle gate, which is associated with the image that can reasonably be assumed to represent JK Rowling.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with JK Rowling"
+    }
+]

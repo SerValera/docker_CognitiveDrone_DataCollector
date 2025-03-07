@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square green gate with healthy food",
+    "options": [
+        "Healthy/healthy_8.dae",
+        "Unhealthy/unhealthy_12.dae",
+        "Unhealthy/unhealthy_13.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to a gate associated with healthy food. Analyzing the visual information in the provided image:\n\n1. Identify gates: There are three gates visible in the image. They are distinguished by color and shape: a green gate, a red gate, and a blue gate.\n2. Identify objects: The images associated with each gate show food items, and a judgment on 'healthy food' must be made:\n   - The green gate shows a bowl of cranberries and a plate of broccoli. These are widely considered healthy foods.\n   - The red gate shows a plate with oysters. While oysters have health benefits, they might not be as universally regarded as cranberries and broccoli as healthy foods.\n   - The blue gate shows a dish with cheese and what appears to be a baguette or similar bread, which are not typically categorized as health foods.\n3. Determine the most likely 'healthy food' option: The green gate with cranberries and broccoli appears to represent the healthiest food option out of the three.\n4. Safety and simplicity: There are no visible obstacles, and the gates are distinct. It’s safe and straightforward to proceed with the assumed healthiest food as the focus.\n   \nGiven the analysis, the task is clear: The drone should target the green gate as it aligns with the description of ‘healthy food.’”",
+    "prompt_after_reasoning": "Fly through green gate with healthy food"
+}

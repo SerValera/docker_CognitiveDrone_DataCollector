@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with one",
+    "prompt_simpler": "Fly through the small round green gate with one",
+    "options": [
+        "six.dae",
+        "ten.dae",
+        "one.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through the gate with the number 1. Analyzing the FPV image, there are three distinct gates:\n- A red gate with the number 6, outlined by a triangle.\n- A blue and red gate with the number 1, outlined by a circle.\n- A red and white gate with the number 10, outlined by a square.\n\nThe gate that corresponds to the number 1, as specified in the original task, is the blue and red gate outlined in a circle. The other gates have either the wrong number or different distinguishing shapes, which do not match the task instruction.\n\nSince there are no ambiguities or additional constraints mentioned about safety or the environment in the image shown, the next step is to simplify the command for the drone.",
+    "prompt_after_reasoning": "Fly through the blue and red circular gate with 1"
+}

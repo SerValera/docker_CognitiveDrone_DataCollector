@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small round blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_9.dae",
+        "Healthy/healthy_11.dae",
+        "Unhealthy/unhealthy_19.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to navigate to a gate associated with healthy food. The image shows three gates of different shapes and colors: a green circle, a blue circle, and a red triangle. Each gate is linked to a corresponding image: grilled meat, fish fillets, and fried chicken, respectively. \n\n- Grilled meat (linked to the green circle gate) may not qualify as healthy food because while it can be part of a balanced diet, it also depends on its preparation and whether it is lean or processed.\n- Fish fillets (linked to the blue circle gate) are generally considered healthy due to their high protein and omega-3 content, making this a strong candidate.\n- Fried chicken (linked to the red triangle gate) is typically considered unhealthy because of its high fat content and preparation method.\n\nBased on these observations, the blue circle gate with fish fillets is the most appropriate choice linked to healthy food. There are no environmental constraints or unclear visual data affecting this decision. Therefore, my reasonable assumption and focus on healthy food options lead me to choose the blue circle gate.",
+    "prompt_after_reasoning": "Fly through blue circle gate with healthy fish"
+}

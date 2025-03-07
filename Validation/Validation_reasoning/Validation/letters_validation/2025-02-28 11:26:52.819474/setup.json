@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a letter T",
+    "prompt_simpler": "Fly through the big round blue gate with a letter T",
+    "options": [
+        "T.dae",
+        "D.dae",
+        "Y.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

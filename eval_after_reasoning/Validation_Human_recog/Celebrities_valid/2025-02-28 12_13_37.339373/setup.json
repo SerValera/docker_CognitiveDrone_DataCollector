@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Elvis Persley",
+    "prompt_simpler": "Fly through the small square blue gate with Elvis Persley",
+    "options": [
+        "Elvis_Persley.dae",
+        "Robert_Lewandowski.dae",
+        "Albert_Einstein.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a specific image of Elvis Presley. First, I need to identify the gates and the image of Elvis Presley in the visual data. There are three gates visible: one is blue, one is green triangular, and one is red. Each gate has a picture above it.\n\nThe gate with green triangle appears to have a figure associated with the image of a man wearing a ball cap. The red gate has an image of a person which might be Elvis Persley. Considering the detail of the task, we can presume that the picture of Elvis Presley is on the red gate based on the photo and its placement. \n\nFrom these observations, I am assuming that the red gate corresponds to 'Elvis Presley' imagery and will prioritize this over the ambiguity of any other supposed characters or objects. Commanding the drone to fly through the red gate will follow the original request.",
+    "prompt_after_reasoning": "Fly through red gate with Elvis Presley"
+}

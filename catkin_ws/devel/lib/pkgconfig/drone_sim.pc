@@ -1,0 +1,8 @@
+prefix=/home/sim/ardupilot_docker/catkin_ws/devel
+
+Name: drone_sim
+Description: Description of drone_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

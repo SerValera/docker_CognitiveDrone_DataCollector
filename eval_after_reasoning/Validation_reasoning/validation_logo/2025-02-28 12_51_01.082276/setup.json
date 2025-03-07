@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with instagram",
+    "prompt_simpler": "Fly through the big triangle red gate with instagram",
+    "options": [
+        "fedex.dae",
+        "redbull.dae",
+        "instagram.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate identified with the Instagram logo. From the image, the following observations can be made: \n- There are three gates: a green triangle on the left, a blue circle in the center, and a red triangle on the right.\n- Above the green triangle, there's a FedEx logo, above the blue circle, there's the Amazon logo, and above the red triangle, there's the Instagram logo.\n- The Instagram logo is clearly visible and corresponds to the red triangle.\n- The task is to proceed through the gate marked by the Instagram logo, which matches the red triangle gate in the image.\n\nSince the command to 'Fly through the gate with Instagram' is clear and the corresponding gate is unambiguous, no adjustments are needed. Safety and feasibility are considered, as there are no visible obstacles directly involved with this command in the provided image.",
+    "prompt_after_reasoning": "Fly through red triangle gate with Instagram"
+}

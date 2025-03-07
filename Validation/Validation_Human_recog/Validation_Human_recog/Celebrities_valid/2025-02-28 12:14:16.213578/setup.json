@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Isaac Newton",
+    "prompt_simpler": "Fly through the big round green gate with Isaac Newton",
+    "options": [
+        "William_Shakespeare.dae",
+        "Isaac_Newton.dae",
+        "cristiano_ronaldo.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

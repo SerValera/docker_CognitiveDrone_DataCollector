@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with ibm",
+    "prompt_simpler": "Fly through the small triangle red gate with ibm",
+    "options": [
+        "hp.dae",
+        "apple.dae",
+        "ibm.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

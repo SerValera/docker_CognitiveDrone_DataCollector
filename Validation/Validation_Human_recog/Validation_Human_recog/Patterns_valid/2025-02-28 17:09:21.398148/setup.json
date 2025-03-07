@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with tall height",
+    "prompt_simpler": "Fly through the big round green gate with a person with tall height",
+    "options": [
+        "tall_height.dae",
+        "a_coat.dae",
+        "a_piercing.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

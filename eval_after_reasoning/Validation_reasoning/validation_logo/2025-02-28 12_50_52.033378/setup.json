@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with adidas",
+    "prompt_simpler": "Fly through the small round green gate with adidas",
+    "options": [
+        "starbucks.dae",
+        "google.dae",
+        "adidas.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with the Adidas brand, as specified by the command. Analyzing the image provided, there are three brands visible: Starbucks, Google, and Adidas. Each brand is associated with a shape and color: the Starbucks brand has a red circle gate, the Google brand has a blue triangle gate, and Adidas has a green circle gate. The task specifies 'Adidas,' which corresponds to the green circle gate.\n\nNo explicit environmental constraints or obstacles are evident in the image for this task. To execute the command safely and efficiently, the appropriate action is to navigate through the specific gate associated with the Adidas logo.\n\nThe command is clear and aligns with the visual data, as the green circle gate is distinctly associated with Adidas. There are no ambiguities to resolve since the task directly links the brand (Adidas) to the appropriate gate (green circle). The single action required is to fly through the specified gate.",
+    "prompt_after_reasoning": "Fly through green circle gate with Adidas"
+}

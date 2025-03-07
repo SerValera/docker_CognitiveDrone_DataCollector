@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a zebra",
+    "prompt_simpler": "Fly through the big round green gate with a zebra",
+    "options": [
+        "zebra.dae",
+        "turtle.dae",
+        "rat.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Analyzing the provided image and instructions:\n1. The task involves flying through a gate associated with a zebra.\n2. The image shows three distinct animals (a zebra, a pig, and another pig) within separate colored outlines.\n3. The zebra is associated with the green circle.\n4. The phrasing 'fly through the gate with a zebra' should refer to the zebra's associated gate, which, accordingly, is the green circle.\n5. The phrase 'gate' here likely translates to the circle visual shape surrounding the respective images.\n6. Hence, the action should involve the drone moving through the green circle gate while targeting the area with the zebra.\n\nGiven these observations, the command should emphasize flying through the green circle gate linked to the zebra and ensure no obstructions or adverse movements exist in this course of action. No safety hazards are implied in the instruction or visual data shown.",
+    "prompt_after_reasoning": "Fly through green circle gate with zebra"
+}

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with adidas",
+    "prompt_simpler": "Fly through the small round green gate with adidas",
+    "options": [
+        "starbucks.dae",
+        "google.dae",
+        "adidas.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 5+3",
+    "prompt_simpler": "Fly through the big round red gate with 8",
+    "options": [
+        "four.dae",
+        "six.dae",
+        "eight.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task asks the drone to fly through a gate with a number equal to 5+3, which calculates to 8. Analyzing the visual data, I can identify the following objects in the image: a blue triangle with the number 4, a green square with the number 6, and a red circle with the number 8. The task specifies a gate with the number 8, which corresponds to the red circle in the image. The gate is a red circle, and the number 8 is clearly visible within this circle. There are no overlapping objects or ambiguities, and the task is straightforward.\n\nGiven this analysis, the command can be simplified to instruct the drone to fly through the red circle gate with the number 8, which satisfies the condition of flying through the gate with a number equal to 5+3.\n\nAssumptions:\n- The red circle with the number 8 is interpreted as the gate mentioned in the task.\n- The task does not involve any spatial relationships or other constraints, so the focus is solely on identifying the correct gate by its number.",
+    "prompt_after_reasoning": "Fly through red circle gate with number 8"
+}

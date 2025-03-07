@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with pinterest",
+    "prompt_simpler": "Fly through the big square red gate with pinterest",
+    "options": [
+        "amazon.dae",
+        "pinterest.dae",
+        "nikon.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with Pinterest. The visual information in the FPV image shows a Pinterest logo, accompanied by a red rectangular shape directly below it. This red shape is likely the gate referred to in the task. The presence of other shapes and logos (a blue triangle under Amazon and a green triangle under Nike) rules out these as the gate in question. There are no significant environmental constraints visible in the image that could impede flying through the Pinterest gate. The command must therefore focus on targeting the red rectangular gate beneath the Pinterest logo, as this aligns with the task description.",
+    "prompt_after_reasoning": "Fly through red rectangular gate with Pinterest"
+}

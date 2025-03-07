@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with four",
+    "prompt_simpler": "Fly through the big triangle red gate with four",
+    "options": [
+        "six.dae",
+        "four.dae",
+        "nine.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to navigate and guide the drone to fly through a gate associated with the number '4.' From the provided image, there is a red triangle-shaped object labeled with the number '4,' a green circle linked with the number '5,' and a blue square related to the number '9.' The red triangle is indeed the gate we need to work with based on the instruction 'Fly through the gate with four.' There are no apparent spatial constraints, environmental conditions like lighting, or overlapping objects that would complicate the task. The visual analysis matches the given task, thereby allowing us to focus solely on flying through the red triangle linked to the number '4'.",
+    "prompt_after_reasoning": "Fly through red triangle gate with number 4"
+}

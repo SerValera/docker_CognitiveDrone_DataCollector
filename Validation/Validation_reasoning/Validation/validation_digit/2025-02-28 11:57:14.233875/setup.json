@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with six",
+    "prompt_simpler": "Fly through the big triangle red gate with six",
+    "options": [
+        "six.dae",
+        "five.dae",
+        "nine.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

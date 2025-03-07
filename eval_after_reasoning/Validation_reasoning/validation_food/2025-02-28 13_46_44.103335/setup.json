@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big round red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_2.dae",
+        "Healthy/healthy_20.dae",
+        "Unhealthy/unhealthy_9.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate with healthy food. The FPV image shows three gates, each associated with distinct food images: \n1. French fries on the left associated with the green triangle.\n2. Peanuts on the right-bodied area associated with the red circle.\n3. Cake on the right associated with the blue square.\n  \nAmong these, peanuts are generally considered healthy food compared to french fries (high in processed carbs and oil) and cake (high in sugar). The red circle gate is therefore associated with the healthy food option.\n\nNo environmental constraints like obstacles or lighting conditions are apparent from the image. The task is assumed to prioritize the healthy option presented. Thus flying to the red circle gate with the peanuts is the most appropriate.",
+    "prompt_after_reasoning": "Fly through red circle gate with peanuts"
+}

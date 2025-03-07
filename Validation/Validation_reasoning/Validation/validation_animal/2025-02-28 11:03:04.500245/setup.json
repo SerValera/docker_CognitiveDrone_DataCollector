@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a fox",
+    "prompt_simpler": "Fly through the big triangle blue gate with a fox",
+    "options": [
+        "fox.dae",
+        "turtle.dae",
+        "rat.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

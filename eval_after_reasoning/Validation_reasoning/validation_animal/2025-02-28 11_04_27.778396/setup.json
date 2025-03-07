@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a camel",
+    "prompt_simpler": "Fly through the big square blue gate with a camel",
+    "options": [
+        "crocodile.dae",
+        "camel.dae",
+        "dog.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to 'Fly through the gate with a camel.' Analyzing the visual data:\n\n- There are three objects visible in the image, each framed by a distinct gate: a green gate with a bird picture, a blue gate with a camel picture, and a red gate with a dog picture. \n- The task specifies a camel, which matches the image in the blue gate. \n- There are no environmental constraints or obstacles visible in the image that would affect flight safety. \n- The sky is clear, and the gates are positioned at a safe distance from one another.\n- There are no ambiguities related to color, shape, or object identity since the images are clear and distinct.\n\nSimplifying the task:\nSince the task explicitly states 'Fly through the gate with a camel' and the camel is associated with the blue gate, the command needs no adjustment. The program does not mandate any further action other than executing the fly-through.",
+    "prompt_after_reasoning": "Fly through blue square gate with camel"
+}

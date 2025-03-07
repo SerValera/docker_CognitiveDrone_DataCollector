@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a letter H",
+    "prompt_simpler": "Fly through the small round green gate with a letter H",
+    "options": [
+        "M.dae",
+        "H.dae",
+        "S.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

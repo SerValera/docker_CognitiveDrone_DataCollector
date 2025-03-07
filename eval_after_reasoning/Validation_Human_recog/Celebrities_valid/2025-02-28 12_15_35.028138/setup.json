@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with JK Rowling",
+    "prompt_simpler": "Fly through the small round red gate with JK Rowling",
+    "options": [
+        "Nelson_Mandela.dae",
+        "JK_Rowling.dae",
+        "selena_gomez.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly through the gate associated with JK Rowling. Observing the visual information, there are three prominent objects with associated images and shapes: a green square, a red circle, and a blue triangle. The image in the blue triangle gate appears to be a person with shoulder-length hair. Given JK Rowling's public persona, it's reasonable to assume the image in the blue triangle represents her. There are no environmental constraints visible that would impede the drone's path to the blue triangle gate. There are no ambiguities in the visual data that would suggest otherwise.\n\nThus, the task is to fly through the blue triangle gate, which is associated with the image that can reasonably be assumed to represent JK Rowling.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with JK Rowling"
+}

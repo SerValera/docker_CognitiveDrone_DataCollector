@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter R",
+    "prompt_simpler": "Fly through the small triangle green gate with a letter R",
+    "options": [
+        "W.dae",
+        "L.dae",
+        "R.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with the letter 'R' based on the FPV image and textual instructions.\n\n1. **Objects Identified**:\n   - A red triangle is visible on the left.\n   - A white letter 'L' appears in the middle.\n   - A blue circle is below the letter 'L'.\n   - A green triangle is on the right.\n   - A white letter 'R' is shown above and slightly to the right of the green triangle.\n\n2. **Spatial Relationships**:\n   - The 'R' is positioned above and to the right of the green triangle.\n   - The objects are arranged in a linear fashion from left to right: red triangle, white 'L' with a blue circle, and green triangle with 'R'.\n\n3. **Ambiguities**:\n   - The term 'gate' is not visually clear, but it is reasonable to infer that the 'R' and green triangle together form the 'gate' target as they seem to stand out among the other shapes.\n\n4. **Resolving Ambiguities**:\n   - The 'R' stands out as the target due to its uniqueness relative to the white 'L'. The green triangle likely acts as the 'gate' structure.\n   - No environmental constraints or obstacles appear to impede flight.\n\n5. **Simplified Command**:\n   - Given the visual and textual information, the safest and most logical approach is for the drone to fly through the 'gate' composed of the 'R' and green triangle. This action both adheres to the task and ensures safety.",
+    "prompt_after_reasoning": "Fly through green gate with letter R"
+}

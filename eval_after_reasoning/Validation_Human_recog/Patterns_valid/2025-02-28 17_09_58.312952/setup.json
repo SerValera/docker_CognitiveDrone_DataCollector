@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a watch on their wrist",
+    "prompt_simpler": "Fly through the big round blue gate with a person with a watch on their wrist",
+    "options": [
+        "a_hat.dae",
+        "sneakers.dae",
+        "a_watch_on_their_wrist.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with a person wearing a watch on their wrist. From the visual data provided, we see three distinct frames with three individuals. \n\n1. The first image contains a person jogging with no visible watch.\n2. The second image shows a person who might be holding something, but no clear watch is visible on the wrist.\n3. The third image clearly shows a person wearing a watch on their wrist.\n\nAdditionally, each figure has a corresponding gateway in front of them:\n   - The first person has a green circular gate.\n   - The second person has a red triangular gate.\n   - The third person has a blue hoop gate.\n\nGiven our goal, the third person, who is clearly wearing a watch, is the individual we are supposed to focus on; thus, our target gate is the blue hoop gate in front of this person. \n\nThere appear to be no major environmental constraints from the images provided. Therefore, the task is clear: navigate through the blue hoop gate. All visual and textual information align to confirm this conclusion.",
+    "prompt_after_reasoning": "Fly through the blue hoop gate with the person wearing a watch"
+}

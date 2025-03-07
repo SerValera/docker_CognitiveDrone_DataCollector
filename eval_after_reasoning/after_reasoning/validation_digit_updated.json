@@ -1,0 +1,872 @@
+[
+    {
+        "prompt": "Fly through the gate with four",
+        "prompt_simpler": "Fly through the big triangle red gate with four",
+        "options": [
+            "six.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to navigate and guide the drone to fly through a gate associated with the number '4.' From the provided image, there is a red triangle-shaped object labeled with the number '4,' a green circle linked with the number '5,' and a blue square related to the number '9.' The red triangle is indeed the gate we need to work with based on the instruction 'Fly through the gate with four.' There are no apparent spatial constraints, environmental conditions like lighting, or overlapping objects that would complicate the task. The visual analysis matches the given task, thereby allowing us to focus solely on flying through the red triangle linked to the number '4'.",
+        "prompt_after_reasoning": "Fly through red triangle gate with number 4"
+    },
+    {
+        "prompt": "Fly through the gate with three",
+        "prompt_simpler": "Fly through the big round blue gate with three",
+        "options": [
+            "two.dae",
+            "three.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Translation and Visual Analysis of the Task: The initial task is to 'Fly through the gate with three', which refers to an object associated with the number 3.\n\nKey Identification and Analysis of Elements:\n- The image displays three numerals, namely 2, 3 and 4. Each numeral is associated with a distinct color and a corresponding shape beneath it.\n- Number 2 is coupled with a red square.\n- Number 3 is coupled with a blue circle. \n- Number 4 is paired with a green triangle.\n\nSpatial relationships and environmental constraints:\n- Shapes represent gates in the context of this task, interpreting the output within a drone operation framework. \n- Numbers positioned directly above the shapes indicate a potential route/destination for the drone.\n- No visual ambiguities are present, such as overlapping or unclear shapes or numbers.\n\nResolving Ambiguities:\n- The 'gate with three' is explicitly the blue circle beneath the numeral 3. \n- Assumptions are not needed regarding visual ambiguity.\n\nSimplification and Command Generation:\n- Based on the visual analysis and object association, the command can be correctly simplified for drone operation without unsafe nuances.\n- The command is explicitly asking to fly through a specified gate, so creating an unambiguous and safe command is necessary.",
+        "prompt_after_reasoning": "Fly through blue circle gate with three"
+    },
+    {
+        "prompt": "Fly through the gate with one",
+        "prompt_simpler": "Fly through the big square green gate with one",
+        "options": [
+            "eight.dae",
+            "three.dae",
+            "one.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task requires me to make the drone fly through a gate with the number 'one'. From the image, I observe three gates. Each gate has a number associated with it, and they are distinguished by numbers inside squares and preceding shapes of different colors:  \n1. A red triangle is associated with the number '8'.  \n2. A blue triangle is associated with the number '3'.  \n3. A green triangle is associated with the number '1', which fits the description in the task.  \n\nThe task mentions 'gate with one', and visually, the gate linked to the number '1' is the green triangle gate. There are no environmental constraints apparent in the image that would impede the drone's ability to fly through this gate. The task is clear, and there are no ambiguities. The assumption here is that 'gate with one' refers to the number '1' on the gate, which is supported by the visual evidence.",
+        "prompt_after_reasoning": "Fly through the green triangle gate with one"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the small round red gate with two",
+        "options": [
+            "one.dae",
+            "two.dae",
+            "six.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with the number '2'. In the image, I observe three distinct objects: a green triangle with the number '1', a red circle with the number '2', and a green triangle with the number '6'. Each object is situated within or near a respective geometric shape gate: a green triangle, a red circle, and another green triangle, respectively. The red circle gate is specifically associated with the number '2'. The instruction necessitates flying through the gate connected to the number '2'. No environmental constraints like obstacles or lighting issues are immediately discernible. Thus, the red circular gate is the target for the operation.",
+        "prompt_after_reasoning": "Fly through red circle gate with two"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the big square red gate with six",
+        "options": [
+            "ten.dae",
+            "three.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The textual instruction states 'Fly through the gate with six,' and the visual data shows three gates, each associated with a number. The red gate is clearly marked with a '6', fulfilling the task of matching the number to the gate. The blue gate is marked with a '10', and the green gate with a '3'. Since the visual data confirms that the red gate corresponds with the number six, targeting it is the correct interpretation. There are no overlapping objects or unclear colors to cause ambiguity; thus, the visual analysis supports the initial instruction. There are no obstacles or environmental constraints in the visual data that would affect the execution of this command.",
+        "prompt_after_reasoning": "Fly through the red gate with six"
+    },
+    {
+        "prompt": "Fly through the gate with five",
+        "prompt_simpler": "Fly through the small triangle red gate with five",
+        "options": [
+            "six.dae",
+            "five.dae",
+            "eight.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to navigate through a 'gate with five.' In the FPV image, there are three elements present: numbers 6, 5, and 8, each associated with a color-coded triangle or a set of circles. Specifically, the number 5 is above a red triangle. Based on the description of the task, the 'gate with five' likely refers to this red triangle, as the number 5 is directly connected visually to this red triangle.\n\nGiven the options, only one gate matches the task: the red triangle below the number 5. The command must be simple for the drone's operation while ensuring the indicated gate is accurately described.\n\nNo environmental constraints, such as obstacles, are immediately visible, and the lighting condition seems sufficient for the task. There are no visible ambiguities relevant to this analysis—meaning the positioning of the gate and the associated number are unambiguous.\n\nGiven the structure and requirements presented, the most appropriate and safe command is aligned with flying through the red triangle labeled with five.",
+        "prompt_after_reasoning": "Fly through red triangle gate with five"
+    },
+    {
+        "prompt": "Fly through the gate with five",
+        "prompt_simpler": "Fly through the big square green gate with five",
+        "options": [
+            "five.dae",
+            "six.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with five. Based on the image provided, we observe three numbered objects: '5', '6', and '2'. Each number appears to have a border or gate around it, which seems to represent potential gates that the drone can fly through – specifically the green gate associated with '5', the blue gate associated with '6', and the red gate associated with '2'. The '5' is within a green rectangular gate. \n\nRegarding the spatial relationships, each number-gate pair appears relatively isolated from each other, ensuring there's no ambiguity in associating the number with the gate. Assuming the environment does not have more layers of complication not shown in the image, the visual data is clear and there are no overlapping objects or unclear colors which would cause confusion. \n\nGiven that the task is to fly through the gate with five and there is a distinct green rectangular gate around the number '5', the appropriate command will be to navigate the drone towards the green gate associated with the number five.",
+        "prompt_after_reasoning": "Fly through green rectangular gate with number 5"
+    },
+    {
+        "prompt": "Fly through the gate with four",
+        "prompt_simpler": "Fly through the small square blue gate with four",
+        "options": [
+            "four.dae",
+            "six.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task asks to 'Fly through the gate with four'. From the FPV image, we see three distinct gates, each associated with a number: the blue square gate with '4', the red triangle gate with '6', and the green triangle gate with '2'. The task explicitly mentions 'four,' so the relevant gate is the blue square gate with the number 4. There are no ambiguities in identifying the correct gate since the numbers are clear, and visual cues like shape and color help confirm the selections. No environmental constraints or hazards appear in the provided image, but standard safety precautions remain in place for the drone flight. Based on these observations, the command can be adjusted to specifically fly through the blue square gate with the number four.",
+        "prompt_after_reasoning": "Fly through blue square gate with four"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the big round green gate with six",
+        "options": [
+            "nine.dae",
+            "three.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to interpret the command 'Fly through the gate with six' while analyzing the provided image. The task suggests the drone needs to perform an action (flying through a gate) related to the number 'six'. \n\nFrom the image, we see:\n1. A number '9' above a triangle with a blue and red watermarked top-left.\n2. A number '3' above a square within a red boundary.\n3. A number '1' above a triangle (oriented right-side-up) with a blue and green outline.\n\nNone of these gates directly includes a 'six'. However, the task might imply that the operation requires identifying and flying through a gate without a clear 'six', or it could be that the third option, the '1', is the closest to 'six' as there may have been a mistake or symbol correlated in the instruction. Since there is no attribute directly relating to 'six', we must choose the gate which most nearly implies its value or sequence.\n\nAssuming the task implied any triangular gate, the image depicts the only triangle with the number '1' above it. Additionally, the '1' gate has a blue and green outline, which doesn't conflict with other attributes shown. Given that the triangle represents the most logical 'six' correlation without a direct six mark, and assuming a sort of numerical sequence or similarity, it appears reasonable to conclude this assumption.\n\nThe gate itself is triangular with a oriented '1' which now becomes the correct final target for the command.",
+        "prompt_after_reasoning": "Fly through the blue, green triangle gate with 1"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the big square red gate with two",
+        "options": [
+            "one.dae",
+            "two.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate labeled 'two'. Analyzing the image:\n\n1. The visual data includes three numbered gates: 1, 2, and 3. \n2. Gate '1' is aligned with a red boundary and a smaller red square within it, positioned behind a triangular shape.\n3. Gate '2' is directly represented as the central figure in the image with a red square around it.\n4. Gate '3' is more complex, appearing behind overlapping circles of blue, green, and purple, with no direct visual obstruction similar to '1'.\n5. There are no immediate or visible environmental constraints like obstacles or lighting conditions that would impact the task.\n6. The task specifies gate 'two', hence prioritizing '2', avoiding ambiguity.\n\nBased on the visual analysis and given task, the command needs to be simplified to ensure the drone acts on the correct gate.\n\nAssuming the drone’s current position aligns with the appropriate vector towards gate '2' to ensure safe passage.",
+        "prompt_after_reasoning": "Fly through red square gate with two"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the big square blue gate with two",
+        "options": [
+            "six.dae",
+            "two.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with the number 2. Looking at the FPV image, there are three objects: a number '6' associated with a red square, a number '2' associated with a blue square, and a number '3' associated with a green and blue circular gate. Based on the task 'Fly through the gate with two', the relevant gate is the blue square associated with the number 2. There are no visible obstacles in the pathway to the blue square, and all objects are clearly distinguishable. The task seems unambiguous, and the blue gate with the number 2 is the most relevant to the command.",
+        "prompt_after_reasoning": "Fly through blue square gate with 2"
+    },
+    {
+        "prompt": "Fly through the gate with three",
+        "prompt_simpler": "Fly through the small triangle blue gate with three",
+        "options": [
+            "three.dae",
+            "eight.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to interpret the instruction 'Fly through the gate with three' and align it with the visual data provided in the image. The image shows three numbered signs with corresponding shapes underneath: a '3' with a red triangle, an '8' with a red circle, and a '9' with a green triangle. \n\nAnalyzing the task and the visual data:\n- The phrase 'gate with three' suggests navigating through a gate with the number '3'.\n- The red triangle beneath the '3' sign is likely the intended gate as it is specifically aligned with the '3' sign.\n- The red triangle gate appears unobstructed and does not present safety concerns.\n\nConsidering these factors:\n- The red triangle should be identified as the 'gate with three'.\n- The command should specify the color and shape of the gate as per the rules.\n\nAssumptions:\n- The 'gate' is represented by the shape beneath each number, as it is the most reasonable interpretation of 'gate' given the visual data.\n- There are no visible environmental constraints preventing the drone from safely flying through the red triangle.\n- Given the context and the image, the command can be safely and effectively aligned.\n\nFollowing the specific format required for the command, the most suitable and clear command would direct the drone to fly through the red triangle gate with the number '3'.",
+        "prompt_after_reasoning": "Fly through red triangle gate with number 3"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the small triangle green gate with six",
+        "options": [
+            "three.dae",
+            "nine.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task involves flying through a gate specifically associated with the number '6'. Analyzing the image, three numbers are present: '3', '9', and '6', each associated with a different colored and shaped gate. The number '6' is shown on a white sign along with a green triangle inside a blue circle. This is the relevant gate for the task.\nNo environmental constraints like obstacles are visible, and there are no indications of unsafe conditions. The gates are distinct enough from one another that there is no ambiguity regarding which gate is meant. The visual data clearly aligns with the task. Therefore, I will create a clear and simple steering command focused on flying through the '6' gate.",
+        "prompt_after_reasoning": "Fly through green triangle gate with 6"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the big round red gate with two",
+        "options": [
+            "four.dae",
+            "five.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate associated with the number two. From the visual provided, three distinct objects with numbers are visible: '4', '5', and '2'. The '2' is accompanied by a blue circular outline with a green triangle, resembling a gate. This correlates directly with the task description. The red and green circular outlines adjacent to the numbers '4' and '5' do not resemble gates and are thus ruled out. There are no overlapping objects or unclear colors that could cause ambiguity. The gate associated with the number two is clearly the intended target.",
+        "prompt_after_reasoning": "Fly through blue circular gate with two"
+    },
+    {
+        "prompt": "Fly through the gate with eight",
+        "prompt_simpler": "Fly through the small square green gate with eight",
+        "options": [
+            "five.dae",
+            "eight.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to interpret the command 'Fly through the gate with eight' and adjust it based on visual data provided. From the provided image, there are three gates with numbers: a red gate marked with '5', a green gate marked with '8', and a blue gate marked with '2'. The correct gate can be identified because '8' is explicitly mentioned in the task. The green gate with the number '8' clearly matches the task description. Since the task and visual data are clear, there are no ambiguities to resolve. \n\nThe environment appears to be safe with no visible obstacles near the gates. Considering the task's simplicity and direct visual confirmation, generating a command that combines the task with the visual observation ensures the drone executes the correct action.",
+        "prompt_after_reasoning": "Fly through green gate with eight"
+    },
+    {
+        "prompt": "Fly through the gate with ten",
+        "prompt_simpler": "Fly through the small triangle green gate with ten",
+        "options": [
+            "four.dae",
+            "ten.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate associated with the number ten. From the given image, I observe three cube-shaped objects, each corresponding with a number and a differently colored gate underneath. The numbers 4, 10, and 3 are attached to blue, green, and red gates, respectively. To execute the command 'Fly through the gate with ten,' I must focus on the green gate under the cube with the number 10 on it. The command is clear and there are no ambiguities since each cube clearly associates with a distinct gate near it. Based on the setup in the FPV image and the associated textual command, the drone needs to fly through the green gate.",
+        "prompt_after_reasoning": "Fly through the green gate with ten"
+    },
+    {
+        "prompt": "Fly through the gate with ten",
+        "prompt_simpler": "Fly through the big triangle red gate with ten",
+        "options": [
+            "five.dae",
+            "ten.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task given is 'Fly through the gate with ten.' Considering the provided FPV image and the task, here’s the analysis:\n- The image shows three colored triangles (red, blue, and green) with numbers 5, 10, and 9 respective to their colors.\n- The number 10 is associated with the red triangle, indicating the specific gate we should target for the task.\n- There are no visual signs of obstructions or complex spatial relationships making the task straightforward.\n- The 'gate with ten' matches the red triangle with the number 10 which is clearly visible and unambiguous.\n- The phrase 'gate' is being used for the triangles in this context, and the red triangle is the only one that matches the given number 10.\n\nSince the task is to fly through the gate with ten and the analysis matches exactly with the red triangle, the command should be adjusted accordingly.",
+        "prompt_after_reasoning": "Fly through red triangle gate with ten"
+    },
+    {
+        "prompt": "Fly through the gate with one",
+        "prompt_simpler": "Fly through the small round green gate with one",
+        "options": [
+            "six.dae",
+            "ten.dae",
+            "one.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through the gate with the number 1. Analyzing the FPV image, there are three distinct gates:\n- A red gate with the number 6, outlined by a triangle.\n- A blue and red gate with the number 1, outlined by a circle.\n- A red and white gate with the number 10, outlined by a square.\n\nThe gate that corresponds to the number 1, as specified in the original task, is the blue and red gate outlined in a circle. The other gates have either the wrong number or different distinguishing shapes, which do not match the task instruction.\n\nSince there are no ambiguities or additional constraints mentioned about safety or the environment in the image shown, the next step is to simplify the command for the drone.",
+        "prompt_after_reasoning": "Fly through the blue and red circular gate with 1"
+    },
+    {
+        "prompt": "Fly through the gate with three",
+        "prompt_simpler": "Fly through the big square green gate with three",
+        "options": [
+            "eight.dae",
+            "three.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to adjust the command 'Fly through the gate with three' based on the visual information from the FPV image.  \n1. **Objects and Constraints**:  \n   - The image contains numbers (8, 3, 9) and associated shapes.  \n   - The number '3' is associated with a green square.  \n   - The number '8' is associated with a red circle.  \n   - The number '9' is associated with a combination of a light blue circle inside a green triangle.  \n   - The command specifies the number '3'.  \n\n2. **Spatial Relationships**:  \n   - The number '3' and its associated green square are centrally positioned in the image.  \n   - There is no visible 'gate' in the definition of barriers or paths. The 'gate' likely refers to the shapes connected with the numbers.  \n\n3. **Visual Analysis and Resolution of Ambiguities**:  \n   - 'Gate' probably refers to the shape linked with each number, as it conveys the meaning of a passable path.  \n   - The 'gate with three' then suggests the green square connected with '3'.  \n   - The image does not show any overlapping or confusing objects that obstruct visual clarity.  \n\n4. **Final Inference and Command Formation**:  \n   The most straightforward interpretation of \"gate with three\" requires the drone to navigate through the green square linked with the number '3'. The visual data corroborates this interpretation.  \n\nSimplification ensures the command adheres to task guidelines and remains unambiguous and safe for the drone executable format.",
+        "prompt_after_reasoning": "Fly through green square gate with 3"
+    },
+    {
+        "prompt": "Fly through the gate with five",
+        "prompt_simpler": "Fly through the small triangle green gate with five",
+        "options": [
+            "ten.dae",
+            "five.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through the gate with number '5'. The visual data provides three gates: a red square with the number '3', a green triangle with the number '5', and a blue triangle with the number '1'. The gate with number '5' is the green triangle. Considering the requirements, there are no environmental constraints or obstacles in the image, and the task is clear with no ambiguities. The drone should be instructed to fly through the green triangle gate labeled with '5'.",
+        "prompt_after_reasoning": "Fly through green triangle gate with five"
+    },
+    {
+        "prompt": "Fly through the gate with ten",
+        "prompt_simpler": "Fly through the small round blue gate with ten",
+        "options": [
+            "one.dae",
+            "ten.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly the drone through the gate associated with the number '10'. From the visual data provided, I can see three numbers presented in a scene with shapes beneath them: a '1' with a red square, a '10' with a blue circle, and a '4' with a green triangle. Since the instruction specifies the number '10', and it is associated with the blue circle shape, the task involves flying through the blue circular gate linked to the number '10'. There are no environmental constraints such as obstacles or lighting conditions affecting this operation, and the visual data is clear and unambiguous. Thus, the command should focus strictly on flying through the appropriate gate.",
+        "prompt_after_reasoning": "Fly through blue circle gate with number 10"
+    },
+    {
+        "prompt": "Fly through the gate with eight",
+        "prompt_simpler": "Fly through the big triangle green gate with eight",
+        "options": [
+            "two.dae",
+            "ten.dae",
+            "eight.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Analyzing the visual data from the FPV image:\n- There are three main objects with numerical values: 2, 10, and 8.\n- Next to each number is a distinct shape: a red circle with the number 2, a blue square with the number 10, and a green triangle with the number 8.\n- The instruction is to 'Fly through the gate with eight,' which implies flying through the area associated with the number 8.\n- The 'gate' with number 8 appears to be the green triangle, as 'gate' in drone operations usually implies an opening or passageway to navigate through.\n- There are no visible obstacles or complex spatial relationships that would preclude a straightforward flight towards the green triangle.\n- Safety-wise, considering only visual input and the given objects, there are no apparent conflicts for flying towards the green triangle.\n\nGiven these observations, the task involves flying towards and through the area associated with the number 8.",
+        "prompt_after_reasoning": "Fly through the green triangle gate with 8"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the big square blue gate with six",
+        "options": [
+            "six.dae",
+            "four.dae",
+            "ten.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to analyze the given FPV image and adjust the command 'Fly through the gate with six' accordingly. Upon examining the visual information supplied by the drone's camera:\n- There are three large numerical displays visible: '6', '4', and '10'.\n- Each number is associated with a distinct shape: '6' is paired with a square, '4' with a triangle, and '10' with a circle.\n- The shapes are outlined in different colors: the square (associated with '6') is outlined in blue and red, the triangle (associated with '4') is red, and the circle (associated with '10') is blue and green.\n- The task indicates flying through the gate with 'six', so the gate in question should be the square shape with the number '6'.\n\nNo ambiguities are present with this particular task since the visual representation directly links the number six to the square. The focus is purely on matching the number to the shape. Hence, the task involves flying through the gate represented by the square shape.\n\nConsidering all the elements and the safety of the command, the given FPV image fully confirms the logical path: the drone should navigate through the square-shaped gate associated with the number '6'.",
+        "prompt_after_reasoning": "Fly through blue and red square gate with number 6"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the big round blue gate with two",
+        "options": [
+            "six.dae",
+            "five.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The given task is to fly through the gate associated with the number '2'. The image shows three gates, each paired with a number. Breakdown of analysis based on the image:\n\n- The red gate is paired with the number '6'.\n- The green gate is paired with the number '9'.\n- The blue gate is shaped like a triangle and paired with the number '2'.\n\nThe focus of the task is the number '2'. The blue triangular gate is clearly associated with this number. No ambiguities arise in this context; the configuration of thee objects in the image is clear and distinct, with no overlapping or unclear colors. \n\nFor safety, the command should specify the color and shape of the gate, as well as the number.\n\nSimplifying this task into a single, clear command for drone operation:",
+        "prompt_after_reasoning": "Fly through blue triangular gate with two"
+    },
+    {
+        "prompt": "Fly through the gate with nine",
+        "prompt_simpler": "Fly through the big square blue gate with nine",
+        "options": [
+            "nine.dae",
+            "three.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate associated with the number '9'. From the image:\n\n- The first object at the left features the number '9', which is enclosed in a red square with a blue rectangular base, suggesting a gate-like structure.\n- The middle object displays the number '3', bordered by a green circle, without a gate-like appearance.\n- The third object presents the number '8', bordered by a circle with a green triangle and a blue circle concentrically, also not indicating a gate-like structure for '9'.\n\nSince the task specifies 'gate with nine', and the visual data supports that the number '9' is indeed associated with the gate-like structure, no adjustments are needed to the original task.\nExamining the image assures there are no ambiguous elements or obstacles that could impede safe flight.",
+        "prompt_after_reasoning": "Fly through the red square gate with 9"
+    },
+    {
+        "prompt": "Fly through the gate with two",
+        "prompt_simpler": "Fly through the small round blue gate with two",
+        "options": [
+            "three.dae",
+            "two.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly through the gate with 'two'. From the visual input, there are three gates: a red square gate with the number '3', a blue circular gate with the number '2', and a green triangular gate with the number '1'. The blue circular gate is the only one that matches the criteria of having the number '2'. There appear to be no environmental constraints or ambiguities in this visual data. The task is clear and safe as the blue gate is distinctly visible and separated from the other objects, minimizing the risk of collision. Based on these observations, the gate associated with the number '2' is the blue circular gate in the center. Therefore, the command should involve flying through this specific gate.",
+        "prompt_after_reasoning": "Fly through blue circle gate with two"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the small round green gate with six",
+        "options": [
+            "eight.dae",
+            "six.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to 'Fly through the gate with six.' Based on the visual information from the image:\n- The number '6' is centered in the image, which implies it’s the primary focus.\n- A green circle is below the number '6', which could represent a gate based on the task's instruction (using the number '6').\n- There are no other gates in the image, but the green circle's position and relation to the number '6' suggest this is the gate through which the drone should fly.\n- Given the image composition and the singular understanding of what is considered a 'gate,' the green circle directly under '6' should qualify for this task.  \n- No ambiguity arises since the command seems straightforward with the image supporting this context. Thus, the command stays focused on this interpretation.",
+        "prompt_after_reasoning": "Fly through green circle gate with 6"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the small triangle green gate with six",
+        "options": [
+            "three.dae",
+            "six.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to 'Fly through the gate with six.' From the provided image and description, there are three gates that are visually identifiable. Each gate is characterized by a number, a shape, and a color combination:\n\n1. The leftmost gate has '3' above it, a triangular shape with a red outline and a smaller red inner shape. This is not the correct gate.\n2. The gate in the center has '6' above it, is a triangular shape with a green outline, and it matches the description given in the task. This gate will be the target.\n3. The rightmost gate has '5' above it, a triangular shape with a blue outline, and it is not relevant to the task.\n\nBased on the clear visual identification of the gate with number '6' and the task description, the correct action is to fly through the center gate. There are no apparent environmental constraints such as obstacles from the given image that encounter this operation, ensuring the action is safe and feasible.\n\nThere are no ambiguities in the task description or visual data regarding the shape, color, or identification of the gate. The task can be executed with the provided information.",
+        "prompt_after_reasoning": "Fly through the green triangular gate with six"
+    },
+    {
+        "prompt": "Fly through the gate with six",
+        "prompt_simpler": "Fly through the big triangle red gate with six",
+        "options": [
+            "six.dae",
+            "five.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task asks to 'Fly through the gate with six.' The FPV image shows three distinct objects with numbers — a red triangular object with the number 6, a blue triangular object with the number 5, and a green circular object with the number 9. The object with the number 6 is the red triangular object. Since the command is clear and visually confirmed by the FPV image, no adjustments are needed. I will ensure the command is in the appropriate format. There are no environmental constraints or ambiguities in this specific task.",
+        "prompt_after_reasoning": "Fly through red triangle gate with number 6"
+    }
+]

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 8-8",
+    "prompt_simpler": "Fly through the big square blue gate with 0",
+    "options": [
+        "zero.dae",
+        "four.dae",
+        "nine.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Analyzing the given task and image:  \nThe task mentions 'Fly through the gate with number equal 8-8'. However, the image does not include any object labeled with '8-8'. Instead, the image shows the following objects:  \n- A blue, open-shaped square.  \n- The number '4' inside a white square (not matching the '8-8' mentioned).  \n- The number '9' inside a white square along with a green triangle near it.  \n- A red circle.  \n\nGiven these inconsistencies:  \n1. There is no landmark in the image that has the number '8-8'.  \n2. The task seems to reference an object correctly, but the object isn't in the FPV image. Therefore, the gate involving '8-8' is nonexistent based on the visual data.  \n\nTo resolve the ambiguity while adhering to safety and feasible command execution, I should simplify it. Since the number '4' is present and a gate-like structure (blue square) is available, we can associate this with a reasonable assumption.  \n\nAssuming the intent was to find a gate near the shown numbers and shapes, the blue square resembles a gate. Thus, a logical command would lead to this blue square.  \n\nThe final command should reflect the blue square while matching actionable format:",
+    "prompt_after_reasoning": "Fly through the blue square gate with the number 4"
+}

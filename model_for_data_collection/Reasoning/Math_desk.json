@@ -1,0 +1,5480 @@
+[
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle red gate with 9",
+        "task": {
+            "d1": "1",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "nine.dae",
+            "seven.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 1",
+        "task": {
+            "d1": "4",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "one.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 0",
+        "task": {
+            "d1": "8",
+            "d2": "8",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "six.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle red gate with 1",
+        "task": {
+            "d1": "1",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "seven.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 9",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "two.dae",
+            "nine.dae",
+            "zero.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "1",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "one.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 5",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "zero.dae",
+            "four.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 1",
+        "task": {
+            "d1": "7",
+            "d2": "6",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "one.dae",
+            "seven.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 9",
+        "task": {
+            "d1": "6",
+            "d2": "3",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "two.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 1",
+        "task": {
+            "d1": "5",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "six.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "6",
+            "operator": "*"
+        },
+        "options": [
+            "one.dae",
+            "zero.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 3",
+        "task": {
+            "d1": "3",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "four.dae",
+            "one.dae",
+            "three.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 6",
+        "task": {
+            "d1": "1",
+            "d2": "6",
+            "operator": "*"
+        },
+        "options": [
+            "six.dae",
+            "five.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 0",
+        "task": {
+            "d1": "8",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "nine.dae",
+            "zero.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 8",
+        "task": {
+            "d1": "7",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "one.dae",
+            "zero.dae",
+            "eight.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 4",
+        "task": {
+            "d1": "8",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "four.dae",
+            "eight.dae",
+            "three.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 3",
+        "task": {
+            "d1": "4",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "six.dae",
+            "three.dae",
+            "seven.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 9",
+        "task": {
+            "d1": "3",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "eight.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 1",
+        "task": {
+            "d1": "1",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "six.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "6",
+            "d2": "6",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "zero.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "three.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 6",
+        "task": {
+            "d1": "6",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "six.dae",
+            "four.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 1",
+        "task": {
+            "d1": "3",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "one.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 4",
+        "task": {
+            "d1": "4",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "three.dae",
+            "eight.dae",
+            "four.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 4",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "four.dae",
+            "nine.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 0",
+        "task": {
+            "d1": "3",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "zero.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "six.dae",
+            "two.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 1",
+        "task": {
+            "d1": "2",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 4",
+        "task": {
+            "d1": "6",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "four.dae",
+            "zero.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 2",
+        "task": {
+            "d1": "5",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "six.dae",
+            "eight.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "seven.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 0",
+        "task": {
+            "d1": "3",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "zero.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 7",
+        "task": {
+            "d1": "1",
+            "d2": "7",
+            "operator": "*"
+        },
+        "options": [
+            "three.dae",
+            "zero.dae",
+            "seven.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "5",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "three.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round blue gate with 0",
+        "task": {
+            "d1": "4",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "seven.dae",
+            "zero.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle blue gate with 6",
+        "task": {
+            "d1": "2",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "five.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 1",
+        "task": {
+            "d1": "7",
+            "d2": "6",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "three.dae",
+            "zero.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round blue gate with 4",
+        "task": {
+            "d1": "4",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "eight.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 9",
+        "task": {
+            "d1": "6",
+            "d2": "3",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "seven.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 3",
+        "task": {
+            "d1": "2",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "seven.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "zero.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 2",
+        "task": {
+            "d1": "6",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "zero.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 7",
+        "task": {
+            "d1": "9",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "nine.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "zero.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 4",
+        "task": {
+            "d1": "1",
+            "d2": "4",
+            "operator": "*"
+        },
+        "options": [
+            "seven.dae",
+            "one.dae",
+            "four.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 4",
+        "task": {
+            "d1": "0",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "four.dae",
+            "zero.dae",
+            "five.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 5",
+        "task": {
+            "d1": "4",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "five.dae",
+            "six.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle blue gate with 9",
+        "task": {
+            "d1": "6",
+            "d2": "3",
+            "operator": "+"
+        },
+        "options": [
+            "four.dae",
+            "three.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 8",
+        "task": {
+            "d1": "7",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "eight.dae",
+            "seven.dae",
+            "four.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 3",
+        "task": {
+            "d1": "6",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "three.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "three.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 3",
+        "task": {
+            "d1": "4",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "seven.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 8",
+        "task": {
+            "d1": "8",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 3",
+        "task": {
+            "d1": "8",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "four.dae",
+            "seven.dae",
+            "three.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 3",
+        "task": {
+            "d1": "7",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "nine.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 4",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "six.dae",
+            "four.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 8",
+        "task": {
+            "d1": "2",
+            "d2": "4",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "nine.dae",
+            "eight.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 9",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "two.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 0",
+        "task": {
+            "d1": "4",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "zero.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 0",
+        "task": {
+            "d1": "1",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "one.dae",
+            "six.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 4",
+        "task": {
+            "d1": "4",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "four.dae",
+            "five.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "nine.dae",
+            "eight.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 2",
+        "task": {
+            "d1": "7",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "one.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "three.dae",
+            "four.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 3",
+        "task": {
+            "d1": "3",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "three.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 3",
+        "task": {
+            "d1": "3",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "four.dae",
+            "zero.dae",
+            "three.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 6",
+        "task": {
+            "d1": "4",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "six.dae",
+            "eight.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "8",
+            "d2": "8",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "zero.dae",
+            "seven.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round blue gate with 9",
+        "task": {
+            "d1": "5",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "five.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 9",
+        "task": {
+            "d1": "5",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "six.dae",
+            "four.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 9",
+        "task": {
+            "d1": "1",
+            "d2": "8",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "nine.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 2",
+        "task": {
+            "d1": "4",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "six.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "six.dae",
+            "five.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 9",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "zero.dae",
+            "nine.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 6",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "one.dae",
+            "seven.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "seven.dae",
+            "five.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 1",
+        "task": {
+            "d1": "7",
+            "d2": "6",
+            "operator": "-"
+        },
+        "options": [
+            "six.dae",
+            "one.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 0",
+        "task": {
+            "d1": "1",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "four.dae",
+            "two.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 7",
+        "task": {
+            "d1": "3",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "nine.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 2",
+        "task": {
+            "d1": "7",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "two.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 0",
+        "task": {
+            "d1": "3",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "four.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "four.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 0",
+        "task": {
+            "d1": "4",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "seven.dae",
+            "zero.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 7",
+        "task": {
+            "d1": "1",
+            "d2": "6",
+            "operator": "+"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "seven.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 5",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "nine.dae",
+            "zero.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 4",
+        "task": {
+            "d1": "2",
+            "d2": "2",
+            "operator": "*"
+        },
+        "options": [
+            "one.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 8",
+        "task": {
+            "d1": "8",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "six.dae",
+            "seven.dae",
+            "eight.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 6",
+        "task": {
+            "d1": "6",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "six.dae",
+            "two.dae",
+            "three.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 9",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "nine.dae",
+            "eight.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 2",
+        "task": {
+            "d1": "1",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "four.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "five.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 4",
+        "task": {
+            "d1": "4",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "nine.dae",
+            "four.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 3",
+        "task": {
+            "d1": "1",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "nine.dae",
+            "eight.dae",
+            "three.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 1",
+        "task": {
+            "d1": "0",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "one.dae",
+            "zero.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 8",
+        "task": {
+            "d1": "4",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "two.dae",
+            "eight.dae",
+            "six.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 0",
+        "task": {
+            "d1": "3",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "one.dae",
+            "five.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "4",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "six.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 6",
+        "task": {
+            "d1": "1",
+            "d2": "6",
+            "operator": "*"
+        },
+        "options": [
+            "four.dae",
+            "six.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "eight.dae",
+            "five.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "four.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "zero.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 4",
+        "task": {
+            "d1": "8",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "eight.dae",
+            "zero.dae",
+            "four.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 7",
+        "task": {
+            "d1": "0",
+            "d2": "7",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 3",
+        "task": {
+            "d1": "1",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "seven.dae",
+            "three.dae",
+            "six.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 2",
+        "task": {
+            "d1": "2",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "zero.dae",
+            "two.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "4",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "one.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 1",
+        "task": {
+            "d1": "4",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "one.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "four.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 0",
+        "task": {
+            "d1": "5",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 6",
+        "task": {
+            "d1": "0",
+            "d2": "6",
+            "operator": "+"
+        },
+        "options": [
+            "zero.dae",
+            "six.dae",
+            "one.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 6",
+        "task": {
+            "d1": "2",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "zero.dae",
+            "one.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle blue gate with 2",
+        "task": {
+            "d1": "2",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "four.dae",
+            "zero.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "8",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "zero.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 7",
+        "task": {
+            "d1": "7",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "five.dae",
+            "two.dae",
+            "seven.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 9",
+        "task": {
+            "d1": "0",
+            "d2": "9",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "six.dae",
+            "five.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 8",
+        "task": {
+            "d1": "8",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "eight.dae",
+            "seven.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round red gate with 9",
+        "task": {
+            "d1": "1",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "eight.dae",
+            "two.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 5",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "four.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 1",
+        "task": {
+            "d1": "6",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "one.dae",
+            "five.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 1",
+        "task": {
+            "d1": "5",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "seven.dae",
+            "one.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 0",
+        "task": {
+            "d1": "3",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 8",
+        "task": {
+            "d1": "3",
+            "d2": "5",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "eight.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle red gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "three.dae",
+            "two.dae",
+            "nine.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 1",
+        "task": {
+            "d1": "2",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "two.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 4",
+        "task": {
+            "d1": "0",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "six.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "9",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "four.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle green gate with 1",
+        "task": {
+            "d1": "4",
+            "d2": "3",
+            "operator": "-"
+        },
+        "options": [
+            "nine.dae",
+            "one.dae",
+            "three.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 6",
+        "task": {
+            "d1": "7",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "eight.dae",
+            "three.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "five.dae",
+            "six.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 4",
+        "task": {
+            "d1": "2",
+            "d2": "2",
+            "operator": "*"
+        },
+        "options": [
+            "five.dae",
+            "four.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 3",
+        "task": {
+            "d1": "0",
+            "d2": "3",
+            "operator": "+"
+        },
+        "options": [
+            "eight.dae",
+            "five.dae",
+            "three.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round blue gate with 3",
+        "task": {
+            "d1": "7",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "seven.dae",
+            "two.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 7",
+        "task": {
+            "d1": "5",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "six.dae",
+            "seven.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 6",
+        "task": {
+            "d1": "2",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "three.dae",
+            "one.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle blue gate with 3",
+        "task": {
+            "d1": "1",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "three.dae",
+            "six.dae",
+            "zero.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 1",
+        "task": {
+            "d1": "5",
+            "d2": "4",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "one.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 6",
+        "task": {
+            "d1": "7",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "zero.dae",
+            "four.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round green gate with 2",
+        "task": {
+            "d1": "3",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "three.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 8",
+        "task": {
+            "d1": "2",
+            "d2": "4",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "eight.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 4",
+        "task": {
+            "d1": "5",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "one.dae",
+            "four.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square blue gate with 6",
+        "task": {
+            "d1": "6",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "six.dae",
+            "five.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 0",
+        "task": {
+            "d1": "2",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "nine.dae",
+            "zero.dae",
+            "six.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square blue gate with 6",
+        "task": {
+            "d1": "6",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "five.dae",
+            "three.dae",
+            "six.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 9",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "+"
+        },
+        "options": [
+            "nine.dae",
+            "two.dae",
+            "zero.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 6",
+        "task": {
+            "d1": "2",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "one.dae",
+            "six.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 0",
+        "task": {
+            "d1": "5",
+            "d2": "5",
+            "operator": "-"
+        },
+        "options": [
+            "three.dae",
+            "seven.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle red gate with 2",
+        "task": {
+            "d1": "3",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "four.dae",
+            "five.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle green gate with 9",
+        "task": {
+            "d1": "8",
+            "d2": "1",
+            "operator": "+"
+        },
+        "options": [
+            "six.dae",
+            "nine.dae",
+            "two.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 0",
+        "task": {
+            "d1": "2",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "one.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 0",
+        "task": {
+            "d1": "7",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "zero.dae",
+            "five.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 0",
+        "task": {
+            "d1": "2",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "one.dae",
+            "zero.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 8",
+        "task": {
+            "d1": "4",
+            "d2": "4",
+            "operator": "+"
+        },
+        "options": [
+            "two.dae",
+            "six.dae",
+            "eight.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round red gate with 8",
+        "task": {
+            "d1": "8",
+            "d2": "0",
+            "operator": "-"
+        },
+        "options": [
+            "eight.dae",
+            "three.dae",
+            "one.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 1",
+        "task": {
+            "d1": "2",
+            "d2": "1",
+            "operator": "-"
+        },
+        "options": [
+            "four.dae",
+            "one.dae",
+            "zero.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square red gate with 7",
+        "task": {
+            "d1": "1",
+            "d2": "6",
+            "operator": "+"
+        },
+        "options": [
+            "six.dae",
+            "three.dae",
+            "seven.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 5",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "two.dae",
+            "eight.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small triangle red gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "0",
+            "operator": "+"
+        },
+        "options": [
+            "seven.dae",
+            "nine.dae",
+            "four.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "0",
+            "operator": "*"
+        },
+        "options": [
+            "six.dae",
+            "seven.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big square green gate with 5",
+        "task": {
+            "d1": "7",
+            "d2": "2",
+            "operator": "-"
+        },
+        "options": [
+            "five.dae",
+            "four.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square green gate with 6",
+        "task": {
+            "d1": "2",
+            "d2": "3",
+            "operator": "*"
+        },
+        "options": [
+            "three.dae",
+            "six.dae",
+            "nine.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big round blue gate with 0",
+        "task": {
+            "d1": "0",
+            "d2": "8",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "six.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round green gate with 4",
+        "task": {
+            "d1": "2",
+            "d2": "2",
+            "operator": "*"
+        },
+        "options": [
+            "four.dae",
+            "zero.dae",
+            "seven.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the big triangle blue gate with 9",
+        "task": {
+            "d1": "9",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "two.dae",
+            "nine.dae",
+            "zero.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small square red gate with 0",
+        "task": {
+            "d1": "9",
+            "d2": "9",
+            "operator": "-"
+        },
+        "options": [
+            "two.dae",
+            "eight.dae",
+            "zero.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room"
+    },
+    {
+        "prompt": "Fly through the gate with correct answer",
+        "prompt_simpler": "Fly through the small round blue gate with 8",
+        "task": {
+            "d1": "8",
+            "d2": "1",
+            "operator": "*"
+        },
+        "options": [
+            "eight.dae",
+            "zero.dae",
+            "nine.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room"
+    }
+]

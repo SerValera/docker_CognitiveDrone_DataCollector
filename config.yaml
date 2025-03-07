@@ -1,0 +1,4 @@
+DATA_SET_TO_RECORD_PATH: "/home/sim/ardupilot_docker/model_for_data_collection"
+CATEGORY: "Reasoning"
+TYPE: "Animals"
+IS_MATH: False

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with glasses on their head",
+    "prompt_simpler": "Fly through the small round blue gate with a person with glasses on their head",
+    "options": [
+        "headphones.dae",
+        "a_beard.dae",
+        "glasses_on_their_head.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the big round red gate with two",
+    "options": [
+        "four.dae",
+        "five.dae",
+        "two.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the number two. From the visual provided, three distinct objects with numbers are visible: '4', '5', and '2'. The '2' is accompanied by a blue circular outline with a green triangle, resembling a gate. This correlates directly with the task description. The red and green circular outlines adjacent to the numbers '4' and '5' do not resemble gates and are thus ruled out. There are no overlapping objects or unclear colors that could cause ambiguity. The gate associated with the number two is clearly the intended target.",
+    "prompt_after_reasoning": "Fly through blue circular gate with two"
+}

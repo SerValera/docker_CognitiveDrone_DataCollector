@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 1-1",
+    "prompt_simpler": "Fly through the big round red gate with 0",
+    "options": [
+        "nine.dae",
+        "six.dae",
+        "zero.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task asks the drone to fly through a gate with a number equal to 1-1. The FPV image shows a collection of objects including a green triangle, a red-ring circle, a square containing the number 6, and a tilted rectangular box with the number 0. There are no gates directly visible in the image that the drone can fly through. However, there is a blue square that could potentially be interpreted as a 'different type' of gate given its distinct color and shape. The numbers visible on the objects are 6 and 0 which do not equate to 1 when computed as 1-1 = 0. \n\nConsidering the number 0 is present on one of the objects (the tilted rectangular box) and aligning with the context of the task (flying through a gate associated to a number), a reasonable assumption is to relate the command with the object having the number 0 on it, even though it's not a traditional 'gate'. Since the task requires the number 1-1 (which is zero), and the environment contains no dedicated gates and a box with the number 0, I'll treat the box with 0 as the target for the command to obey the task's number condition.\n\nThus, I'll adjust the original command to create an analogy that most closely fits the current visual context, still ensuring the command is logical and executable for the VLM-drone system. Out of all objects only the box with 0 can be most relevantly used as a substitute for 'gate'. The effective command will be metaphorical based on this constrained scenario.",
+    "prompt_after_reasoning": "Go to box with 0"
+}

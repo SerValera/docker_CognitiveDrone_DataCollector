@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with taylor swift",
+    "prompt_simpler": "Fly through the big triangle blue gate with taylor swift",
+    "options": [
+        "leonardo_decaprio.dae",
+        "Marie_Curie.dae",
+        "taylor_swift.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with 'Taylor Swift.' However, the visual does not contain any identifiable figures resembling Taylor Swift within or near a gate, which means the task is based on a positional reference rather than a visual match. The FPV image shows three different colored gates (red, green, and blue), along with three sections of images featuring individuals, none of which can be confidently determined as Taylor Swift. The term 'Taylor Swift' seems to be metaphorical or symbolic, possibly indicating a specific gate.  Given the layout, 'Taylor Swift' could refer to the leftmost figure which seems to be the first individual displayed in the frame. This then corresponds to the red gate directly beneath it. No environmental obstacles are apparent, and there is no sign of any ambiguous overlaps. Given the structure of the gates and inferred task, the drone's most logical action is to approach the red gate, considering the relationship between the individual displayed and the corresponding gate.",
+    "prompt_after_reasoning": "Fly through red triangle gate with Taylor Swift"
+}

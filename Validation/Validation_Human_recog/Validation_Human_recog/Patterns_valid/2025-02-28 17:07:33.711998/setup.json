@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with a ring on their finger",
+    "prompt_simpler": "Fly through the big triangle red gate with a person with a ring on their finger",
+    "options": [
+        "a_sweater.dae",
+        "thick_eyebrows.dae",
+        "a_ring_on_their_finger.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

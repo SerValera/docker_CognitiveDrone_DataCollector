@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 8+0",
+    "prompt_simpler": "Fly through the small square red gate with 8",
+    "options": [
+        "zero.dae",
+        "eight.dae",
+        "two.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requests the drone to fly through a gate that corresponds to the number equal to '8 + 0.' Analyzing the provided image and task, the numerical objects (0, 8, and 2) are presented with distinct graphical elements below them: a blue circle, red square, and green triangle. The arithmetic calculation '8 + 0' equals 8. The number 8 is visually connected to the red square.\n\nAfter confirming the task's arithmetic derivation and its corresponding visual symbol, the drone needs instructions to locate and interact with this gate (red square). Since the gate is described by its corresponding shape and color, it will be a red square gate.\n\nThere are no ambiguities in terms of identifying the correct number and its visual representation in the image. The constraint for the command format best matches 'Fly through <color, shape> gate with <max simplified name of object>.'",
+    "prompt_after_reasoning": "Fly through red square gate with '8'"
+}

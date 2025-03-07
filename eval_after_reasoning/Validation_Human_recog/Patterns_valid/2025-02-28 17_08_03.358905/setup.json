@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with long nails",
+    "prompt_simpler": "Fly through the small triangle red gate with a person with long nails",
+    "options": [
+        "slippers.dae",
+        "long_nails.dae",
+        "short_nails.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying the drone through a gate associated with a 'person with long nails.' In the image, there are three objectsindrone viewports a man in casual clothing, a smaller indistinct figure with a possibly unclear context (perhaps an animal or a portrait), and a woman holding her hand near her face in a manner that allows one to infer she has long nails. For the gate, there is a blue square, a red triangle, and a green circle. None seem to match a literal gate but interpret them as symbolic references. Since the task specifies 'long nails,' focusing on the woman's image makes sense. Thus, the green circle is the most likely symbol to indicate the 'gate' because it is positioned to the right of the image near the woman’s portrait.\n\nAssuming the person with long nails is the woman whose image is placed closest to the green circle, the task becomes clear. Given the context of visually symbolic gates, the subsequent certain action is 'Fly through the green circle gate.'\n\nNo environmental constraints or direct safety issues are visible, but standard caution regarding object proximity and accurate visual recognition ensures safety.",
+    "prompt_after_reasoning": "Fly through the green circle gate with the woman with long nails"
+}

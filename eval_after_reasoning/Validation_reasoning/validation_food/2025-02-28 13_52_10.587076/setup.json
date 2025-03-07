@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_16.dae",
+        "Healthy/healthy_2.dae",
+        "Unhealthy/unhealthy_7.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate associated with healthy food. From the visual data provided, we have three objects: a plate of waffles (not typically considered a healthy food), a cucumber (considered healthy), and a bottle of soda (not considered healthy). These objects are associated with gates colored and shaped distinctively: a green circle, a red square, and a blue triangle, respectively. \n\nGiven the context of 'healthy food,' the most appropriate association is the cucumber with the red square gate. The waffles and soda can be discounted as they do not align with the requirement of being healthy. The spatial environment does not show any significant constraints, and the objects are not blurred or ambiguous, ensuring the drone can easily target the correct gate.\n\nNo safety hazards from the image are apparent, so flying toward the red square gate with the cucumber as the target is both safe and accomplishes the task. The other two gates are not relevant based on the criteria of healthy food.",
+    "prompt_after_reasoning": "Fly through red square gate with healthy food"
+}

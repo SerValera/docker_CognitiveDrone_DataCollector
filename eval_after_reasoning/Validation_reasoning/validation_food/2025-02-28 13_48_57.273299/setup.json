@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square blue gate with healthy food",
+    "options": [
+        "Healthy/healthy_18.dae",
+        "Unhealthy/unhealthy_14.dae",
+        "Unhealthy/unhealthy_16.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves determining the 'gate with healthy food'. From the image:\n\n1. Three visual sections contain food-related images/themes:\n   - A blue gate on the left shows a large crate of strawberries.\n   - A red gate in the middle contains what appears to be a bowl of strawberries, presented as a smaller, often associated snack or dish.\n   - A green gate on the right depicts pancakes with syrup on a plate, suggesting a dessert or breakfast dish.\n\n2. Among these options, strawberries are considered a healthier choice than pancakes, which contain higher amounts of sugars and fats. The crate in the blue gate is also clearly labeled and identifiable as strawberries.\n\n3. There’s a need to consider which object is most direct in representing 'healthy food'. Both the crate and the bowl of strawberries qualify as healthy, but the crate visually represents a greater quantity and is more distinctly categorized as an unprocessed food.\n\n4. The command must be clear and safe. The blue gate is distinct and dominant, reducing the chances of ambiguity.\n\nBased on the analysis, flying through the blue gate with strawberries (the crate) is both safe and meets the criteria of the 'healthy food' description.",
+    "prompt_after_reasoning": "Fly through blue gate with strawberries"
+}

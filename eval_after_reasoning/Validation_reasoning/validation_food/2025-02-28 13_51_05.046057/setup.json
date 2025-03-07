@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_15.dae",
+        "Healthy/healthy_20.dae",
+        "Unhealthy/unhealthy_20.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate with healthy food, and this demands analyzing the image for relevant objects. The visual data depicts three gates colored red, green, and blue. Inside these gates are images of items likely representing different types of food: a bowl of corn kernel (orange tin), a pine cone, and what seems to be cauliflower. Given common knowledge, corn kernels and cauliflower are generally considered healthier food options compared to pine cones which typically are not food. Based on their visual appearances, the yellow/orange tin through the green gate likely represents corn kernels and the white image through the blue gate appears to be cauliflower. As both corn kernel and cauliflower are healthy foods, there's a slight ambiguity. However, since caulifliflower is more widely recognized as a vegetable related to typical healthy foods, hence assuming cauliflower to be the 'healthiest' among options, the blue gate can be picked as the target. The red gate is dismissed considering the pine cone and the subsequent unhealthiness. Thus, the visual and conceptual analysis points toward: the blue gate for healthy food. No immediate hazards or unsafe conditions are noted based on visual information.",
+    "prompt_after_reasoning": "Fly through blue gate with cauliflower"
+}

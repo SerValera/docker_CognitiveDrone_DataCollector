@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a tattoo",
+    "prompt_simpler": "Fly through the small triangle red gate with a person with a tattoo",
+    "options": [
+        "a_tattoo.dae",
+        "shorts.dae",
+        "glasses_on_their_head.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to 'fly through the gate with a person with a tattoo.' Analyzing the image, there are three figures and three shapes in front of them that serve as gates: a red triangle, a blue triangle, and a green circle. The figures associated are a person on the left (appears to have darker patches resembling tattoos), a person on the right (no visible tattoos), and a figure in the center (no visible tattoos). To determine the correct gate, I'll need to combine textual information and visual confirmation. The only figure with visible markings resembling a tattoo is the leftmost figure. This person is in front of the red triangle. Hence, the correct command involves flying through the red triangle gate and not the blue triangle or green circle. There are no visible environmental constraints in this image, such as obstacles or lighting issues. The task is clearly defined and unambiguous based on the visual evidence. Therefore, the final command should focus on the red triangle gate.",
+    "prompt_after_reasoning": "Fly through the red triangle gate with the person with tattoos"
+}

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with android_1",
+    "prompt_simpler": "Fly through the small triangle green gate with android_1",
+    "options": [
+        "coca_cola.dae",
+        "starbucks.dae",
+        "android_1.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

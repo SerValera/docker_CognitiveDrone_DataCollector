@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 2+6",
+    "prompt_simpler": "Fly through the small round green gate with 8",
+    "options": [
+        "nine.dae",
+        "two.dae",
+        "eight.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate corresponding to the number '2+6'. This implies the gate matches number 8, since 2 + 6 = 8. From analyzing the visual data, we see three prominent objects labeled with the numbers 9, 2, and 8. Each number is associated with a colored gate:\n- The number '9' is associated with a red, rectangular gate.\n- The number '2' is associated with a blue, triangular gate.\n- The number '8' is associated with a green, circular gate.\n\nGiven this analysis, the gate to fly through must be the green circular gate, as it is linked to the number '8'. Since there are no apparent environmental constraints or obstacles mentioned or visible in the image, the task is straightforward. So, the appropriate action is to formulate a clear and executable command instructing the drone to fly through the green circular gate associated with number 8.",
+    "prompt_after_reasoning": "Fly through the green circular gate with number 8"
+}

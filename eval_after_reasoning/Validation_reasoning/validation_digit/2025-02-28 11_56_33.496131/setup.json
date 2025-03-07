@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the small round blue gate with two",
+    "options": [
+        "three.dae",
+        "two.dae",
+        "one.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly through the gate with 'two'. From the visual input, there are three gates: a red square gate with the number '3', a blue circular gate with the number '2', and a green triangular gate with the number '1'. The blue circular gate is the only one that matches the criteria of having the number '2'. There appear to be no environmental constraints or ambiguities in this visual data. The task is clear and safe as the blue gate is distinctly visible and separated from the other objects, minimizing the risk of collision. Based on these observations, the gate associated with the number '2' is the blue circular gate in the center. Therefore, the command should involve flying through this specific gate.",
+    "prompt_after_reasoning": "Fly through blue circle gate with two"
+}

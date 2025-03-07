@@ -1,0 +1,662 @@
+[
+    {
+        "prompt": "Fly through the gate with adidas",
+        "prompt_simpler": "Fly through the small round green gate with adidas",
+        "options": [
+            "starbucks.dae",
+            "google.dae",
+            "adidas.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with the Adidas brand, as specified by the command. Analyzing the image provided, there are three brands visible: Starbucks, Google, and Adidas. Each brand is associated with a shape and color: the Starbucks brand has a red circle gate, the Google brand has a blue triangle gate, and Adidas has a green circle gate. The task specifies 'Adidas,' which corresponds to the green circle gate.\n\nNo explicit environmental constraints or obstacles are evident in the image for this task. To execute the command safely and efficiently, the appropriate action is to navigate through the specific gate associated with the Adidas logo.\n\nThe command is clear and aligns with the visual data, as the green circle gate is distinctly associated with Adidas. There are no ambiguities to resolve since the task directly links the brand (Adidas) to the appropriate gate (green circle). The single action required is to fly through the specified gate.",
+        "prompt_after_reasoning": "Fly through green circle gate with Adidas"
+    },
+    {
+        "prompt": "Fly through the gate with mcdonalds",
+        "prompt_simpler": "Fly through the small square green gate with mcdonalds",
+        "options": [
+            "xiaomi.dae",
+            "amazon.dae",
+            "mcdonalds.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to guide the drone through a gate associated with the McDonald's logo. From the visual data:\n- The McDonald's logo is clearly visible on the right side, with a red and yellow color scheme, and the text 'McDonald's' is legible.\n- Near the McDonald's logo, there is a green rectangle positioned to resemble a gate.\n- The red and blue squares associated with 'mi' and 'amazon' are present but are not relevant to the McDonald's task.\n- Spatial relationships show that the green rectangle is directly under the McDonald's logo, implying that this is the appropriate gate for the drone to fly through.\n\nConsidering these observations and adhering to the constraints and guidelines:\n- It's safe to assume the green square is the 'gate' the command refers to.\n- There are no visible obstructions, and the image's lighting is clear, allowing for a straightforward and safe flight path.\n- The command should directly reference the visual object measles with McDonald's.",
+        "prompt_after_reasoning": "Fly through green square gate with McDonald's"
+    },
+    {
+        "prompt": "Fly through the gate with instagram",
+        "prompt_simpler": "Fly through the big triangle red gate with instagram",
+        "options": [
+            "fedex.dae",
+            "redbull.dae",
+            "instagram.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate identified with the Instagram logo. From the image, the following observations can be made: \n- There are three gates: a green triangle on the left, a blue circle in the center, and a red triangle on the right.\n- Above the green triangle, there's a FedEx logo, above the blue circle, there's the Amazon logo, and above the red triangle, there's the Instagram logo.\n- The Instagram logo is clearly visible and corresponds to the red triangle.\n- The task is to proceed through the gate marked by the Instagram logo, which matches the red triangle gate in the image.\n\nSince the command to 'Fly through the gate with Instagram' is clear and the corresponding gate is unambiguous, no adjustments are needed. Safety and feasibility are considered, as there are no visible obstacles directly involved with this command in the provided image.",
+        "prompt_after_reasoning": "Fly through red triangle gate with Instagram"
+    },
+    {
+        "prompt": "Fly through the gate with ibm",
+        "prompt_simpler": "Fly through the small triangle red gate with ibm",
+        "options": [
+            "hp.dae",
+            "apple.dae",
+            "ibm.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original instruction is 'Fly through the gate with ibm'. The image shows a visual representation with several elements:\n- An HP logo on the left, a red triangle labeled IBM, a green circle, and a darker square with a white apple logo in the middle.\n- The 'IBM' text is accompanied by a red triangle, which can be interpreted as a gate.\n- The colors and shapes associated with IBM are red, white text, and a triangular shape.\n\nBased on the image and the task, the target is to interact with the IBM-related element, which is the red triangle in this context.\nConsidering the task and visual evidence indicates a 'gate' operation is needed and the red triangle fits this role. Therefore, the need is clarified as flying through the red triangle gate associated with IBM.\n \nNo visible ambiguities in the image affect this conclusion, and all necessary components are clearly identifiable in the image. The operation can be simplified directly from this analysis.",
+        "prompt_after_reasoning": "Fly through red triangle gate with IBM"
+    },
+    {
+        "prompt": "Fly through the gate with android_1",
+        "prompt_simpler": "Fly through the small triangle green gate with android_1",
+        "options": [
+            "coca_cola.dae",
+            "starbucks.dae",
+            "android_1.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Restating the task with the given image's context: The指令 is to navigate through a gate related to an 'android_1'. Visually, there are multiple objects: red Coca-Cola, green Starbucks, a green Android figure (android_1), and a few gates—blue triangle, red square, and green triangle. To resolve the ambiguity: \n1. The 'android_1' is in the context of the green Android figure.\n2. There is a green triangle close to the Android figure, which logically should be the gate related to the 'android_1'.\n3. The other gates have no direct connection to the Android figure. \n4. The task requires the drone to interact with specific gates associated with objects.\n5. No safety hazards are directly visible in the image with respect to gates.\n\nTherefore, the task should be adjusted to focus on the green triangle gate linked with the Android figure.",
+        "prompt_after_reasoning": "Fly through green triangle gate with android_1"
+    },
+    {
+        "prompt": "Fly through the gate with starbucks",
+        "prompt_simpler": "Fly through the big round green gate with starbucks",
+        "options": [
+            "starbucks.dae",
+            "facebook.dae",
+            "mercedes.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "Given the task 'Fly through the gate with Starbucks', I analyzed the provided image to determine relevant objects and their relationships. In the image, there are three logos: Starbucks (top left), Infinity (top middle), and Mercedes-Benz (top right). Below these logos are corresponding colored shapes: a green circle, a red circle, and a blue triangle. The Starbucks logo is positioned above the green circle, which could signify a gate based on its circular shape. \n\nThe task's wording, 'Fly through the gate with Starbucks,' suggests that the green circle is intended to be the gate for the Starbucks logo. The green circle is distinct and clearly visible in the image, with no apparent environmental constraints or obstructions.\n\nNo ambiguities are present regarding the Starbucks logo or the green circular gate. It's clear and safe to proceed with the task as specified.\n\nGiven these observations and the task requirements, the command should instruct the drone to fly through the green circular gate associated with the Starbucks logo.",
+        "prompt_after_reasoning": "Fly through green circle gate with Starbucks"
+    },
+    {
+        "prompt": "Fly through the gate with redbull",
+        "prompt_simpler": "Fly through the small triangle blue gate with redbull",
+        "options": [
+            "panasonic.dae",
+            "redbull.dae",
+            "adidas.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Based on the task 'Fly through the gate with redbull', we need to identify relevant visual elements. The image shows several symbols and gates:\n\n1. A red square gate is in the bottom left of the image.\n2. A red bull logo appears next to the red square gate.\n3. A blue triangle and a green triangle are also present, but they do not match the description.\n4. The Adidas logo and file icon are irrelevant to the gate command.\n\nFrom the visual analysis:  \n- The red bull logo is adjacent to the red square gate.  \n- The task specifies 'with redbull', which means the red gate must be the target.\n\nGiven these observations, the task can be accurately adjusted to include the correct gate and associated logo. There are no visible ambiguities or contradictions.\n\nThe most appropriate command is to focus on flying through the red gate associated with the redbull logo.",
+        "prompt_after_reasoning": "Fly through the red square gate with redbull"
+    },
+    {
+        "prompt": "Fly through the gate with lego",
+        "prompt_simpler": "Fly through the small round green gate with lego",
+        "options": [
+            "lego.dae",
+            "netflix.dae",
+            "luminova.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone through a gate associated with a LEGO object. Upon analyzing the visual data, there are several objects and gates available. The relevant objects include:\n- A LEGO logo with a red color and distinct shape.\n- A Netflix logo with a black and red rectangular shape.\n- A set of colorful rectangles resembling a DJI logo.\n\nThe gates associated with these objects are colored circles and triangles positioned in front of them:\n- A green circular gate in front of the LEGO logo.\n- A blue triangular gate in front of the Netflix logo.\n- A red triangular gate in front of the colorful rectangles (DJI logo).\n\nGiven the instruction to fly through the gate with LEGO, the correct gate is the green circular one. There are no environmental constraints or overlapping objects that would complicate this task. The association between the LEGO logo and the green gate is straightforward.",
+        "prompt_after_reasoning": "Fly through green circular gate with LEGO"
+    },
+    {
+        "prompt": "Fly through the gate with tesla",
+        "prompt_simpler": "Fly through the small square blue gate with tesla",
+        "options": [
+            "tesla.dae",
+            "netflix.dae",
+            "nexora.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to navigate the drone through a gate associated with Tesla. From the FPV image:\n- Three distinct branded panels are visible: Tesla (with the red logo aspect), Netflix, and Neutora.\n- Each panel is associated with a gate: a blue rectangular gate linked to Tesla, a red rectangular gate linked to Netflix, and a green circular gate linked to Neutora.\n- The blue rectangular gate is the gate associated with Tesla as per the image's visual cues.\n  \nAmbiguities:\n- There is no mention of other gates' colors or shapes in the command; thus, visual confirmation is critical.\n  \nSafety and execution: \n- The blue rectangular gate needs to be passed through safely and efficiently, ensuring the drone has enough clearance.\n  \nAssumptions:\n- The visual association between Tesla and the blue rectangular gate will guide the drone to the correct target without conflicting brands or visual clutter.",
+        "prompt_after_reasoning": "Fly through blue rectangular gate with Tesla"
+    },
+    {
+        "prompt": "Fly through the gate with facebook",
+        "prompt_simpler": "Fly through the small round red gate with facebook",
+        "options": [
+            "hp.dae",
+            "facebook.dae",
+            "mcdonalds.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The command suggests navigating through a 'gate with facebook.' However, there are no visible Facebook logos in the FPV image. The image contains several identifiable elements: an HP logo, a McDonald's logo, a recognizable Windows infinity symbol, a red circle, and two triangles – one green and one blue. None of these align with a Facebook logo. Given the lack of a Facebook logo, the task misaligns with the provided visual data, rendering the command invalid as is. Assuming the task may involve flying through one of the shapes acting as a 'gate,' the closest equivalent to the size and prominence of the 'Facebook' theme might be the blue triangle, which stands out similarly. It’s also adjacent to the prominent McDonald’s logo, a well-known brand similar to Facebook. Thus, it’s safest and most feasible to execute a simplified variant where the drone flies through the blue triangle 'gate'. This assumption aligns with safety and feasibility by selecting a prominent shape as a target, though the 'Facebook' part is disregarded.",
+        "prompt_after_reasoning": "Fly through blue triangle gate"
+    },
+    {
+        "prompt": "Fly through the gate with samsung",
+        "prompt_simpler": "Fly through the big square red gate with samsung",
+        "options": [
+            "samsung.dae",
+            "spotify.dae",
+            "instagram.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Based on the task description 'Fly through the gate with samsung', my initial step is to identify the 'samsung' object within the image. Visually, the image seems to show four gates, each with a differently shaped cutout, and logos inside them. None clearly show the samsung logo. However, the object above the green gate seems to most closely match the Samsung-style font with its clean and minimalist design. In this context, I interpret the 'Samsung' reference as pointing towards this unknown blue sign.\n\nThe next step involves identifying the corresponding gate. Given the current instructions and observation, the green gate is directly associated with the logo that seems most 'Samsung' like. \n\nFrom this, one can reasonably deduce that the task is instructing to fly through the green gate associated with the object that visually resembles the Samsung logo. No apparent obstacles are visible around the green gate, and it looks navigable for the drone. This approach also meets the command format guideline and adheres to safety considerations by selecting a clear and presumably unobstructed path.\n\nThere's a slight ambiguity due to unclear textual and visual input on identifying the 'samsung' object. However, making a logical assumption based on the visual recognition of the fonts and logos, I match it with our Samsung-like object.",
+        "prompt_after_reasoning": "Fly through green gate with Samsung-like object"
+    },
+    {
+        "prompt": "Fly through the gate with dhl",
+        "prompt_simpler": "Fly through the small round blue gate with dhl",
+        "options": [
+            "disney.dae",
+            "android_1.dae",
+            "dhl.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with dhl'. Based on the FPV image:\n- The DHL logo is visible attached to a large green surface on the right-hand side of the image.\n- The image shows three circular objects of distinct colors (red, green, blue) that likely represent gates.\n- There is no immediate visual evidence of these objects being labeled with 'dhl'.\n- However, the DHL logo's presence could imply that the drone needs to approach this surface as part of the task.\n- The green circular object/gate is closest in alignment with the DHL logo, suggesting it might be the intended gate.\n- Since there’s no direct connection between the gates and the DHL logo shown within the image, I will need to make a reasonable assumption.\n- A safe and feasible action would be to align the drone with the DHL logo and fly towards the associated green gate.\n- I’m assuming the green gate is the one intended for the task due to its proximity to the DHL logo, as there is no other direct link between DHL and the red/blue gates.",
+        "prompt_after_reasoning": "Fly through green gate with DHL logo"
+    },
+    {
+        "prompt": "Fly through the gate with aurora",
+        "prompt_simpler": "Fly through the small triangle red gate with aurora",
+        "options": [
+            "tiktok.dae",
+            "aurora.dae",
+            "panasonic.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The given task involves flying the drone through a gate associated with 'aurora'. The text specifically mentions 'gate with aurora'. Observing the FPV image:\n\n1. There are several objects visible in the image, including a TikTok logo, an object with an 'aurora' label, a screen with a flowery display text, and shapes such as a circle, triangle, and diamond at the base of objects.\n\n2. The object labeled 'aurora' is the one with a flowery display screen. This suggests that the intended gate is directly linked to this object.\n\n3. The term 'gate' typically implies an entryway or opening, but visually, there is no apparent arch-like or standard gate formation. However, the diamond shape could serve as a gate-like entry as it's positioned at the base, aligning with the aurora object.\n\n4. Despite the missing arch-like structure, the diamond position can be logically implied as a virtual gate ensuring safety and the least ambiguity. It’s priority aligned with the associated object and visual hint.\n\nA reasonable assumption is that the command intends maneuvering through a virtual gate emphasized by the diamond shape in front of the aurora object.",
+        "prompt_after_reasoning": "Fly through white diamond gate with aurora"
+    },
+    {
+        "prompt": "Fly through the gate with dhl",
+        "prompt_simpler": "Fly through the small triangle red gate with dhl",
+        "options": [
+            "dhl.dae",
+            "disney.dae",
+            "uber.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task suggests flying through a gate related to DHL. Upon analyzing the visual data from the FPV image:\n- There are three triangular gates, each near a rectangular object.\n- The rectangular objects have different logos: one displays 'DHL', another is blank (indicating potential interference or lack of logo), and the third displays 'UBER'.\n- The red triangular gate is aligned with the 'DHL' logo, suggesting a strong association between this gate and the instruction.\n- The 'DHL' text is clearly visible and matches the task description.\n- The other gates, as indicated by their distance and associated logos, do not correspond to the specified task.\n\nGiven the visual data and the task instruction, it is accurate to infer that the red triangular gate near the 'DHL' logo is the gate the drone should fly through. There are no apparent environmental constraints, such as obstacles, that interfere with this action.\n\nAssuming the colors in the task description align with the colors in the image, the red gate directly correlates with the DHL. Therefore, the command simplifies correctly into a clear and safe action for the drone, following the mentioned formatting constraints.",
+        "prompt_after_reasoning": "Fly through the red triangular gate with DHL"
+    },
+    {
+        "prompt": "Fly through the gate with volkswagen",
+        "prompt_simpler": "Fly through the big round green gate with volkswagen",
+        "options": [
+            "volkswagen.dae",
+            "pixar.dae",
+            "fedex.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "Analyzing the task, the goal is to fly the drone through a gate while carrying the \"Volkswagen\" logo. From the FPV image, we see several shapes and logos: a green circular shape, a blue triangular shape, and a red triangular shape. The requested logo, 'Volkswagen,' is visible on the left, and a gate is not directly depicted as a traditional 'gate' structure. However, the shapes on the ground are likely symbolic gates for this task.\n\nWithout a clear physical gate, the shapes function as potential gate options. Since the color and shape of the gate aren't specified, I interpret the closest geometric shape to the Volkswagen logo using reasonable proximity and color contrast. The green circular shape is closest to the Volkswagen logo and thus seems to be the logical choice.\n\nAssuming the green circle represents the intended gate, the task would then involve flying the drone through this green circular 'gate' while secured to the Volkswagen logo.\n\nNo visible environmental constraints such as obstacles or lighting conditions appear to interfere with this operation. In this task, we can safely conclude the appropriate gate based on proximity and visual distinctiveness.",
+        "prompt_after_reasoning": "Fly through green, circular gate with Volkswagen"
+    },
+    {
+        "prompt": "Fly through the gate with airbnb",
+        "prompt_simpler": "Fly through the big square red gate with airbnb",
+        "options": [
+            "mercedes.dae",
+            "microsoft.dae",
+            "airbnb.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to adjust the command 'Fly through the gate with airbnb' based on the visual and textual information from the provided image. \n\nAnalyzing the image:\n- There are several logos visible: a black Mercedes logo, Microsoft logo boxes, and the Airbnb logo.\n- The task specifies flying through a 'gate' with an Airbnb reference.\n\nIn the image:\n- The Airbnb logo is prominently located and is the only object associated with a recognizable 'gate' or passage-like shape represented by the red surrounding box.\n- No direct obstacle or actual gate structures are visible, but the Airbnb logo is in a rectangular position that can be interpreted as a gate.\n- There are other shapes like triangles and colorful blocks in the scene, but they are unrelated to the task's focus on Airbnb.\n\nAmbiguities:\n- There is no physical 'gate' but the rectangular lines framing the Airbnb logo can reasonably be considered the 'gate'.\n- The task should focus on flying towards the Airbnb target since this matches the command context.\n\nConsidering safety and simplicity:\n- Since this is an FPV operation, the rectangular frame around the Airbnb logo can be treated as a virtual gate.\n- The target should be the highlighted Airbnb logo to ensure the command is unambiguous and aligned.\n\nThus, given the command and analysis of the visual data:",
+        "prompt_after_reasoning": "Fly through red rectangular gate with Airbnb logo"
+    },
+    {
+        "prompt": "Fly through the gate with linkedin",
+        "prompt_simpler": "Fly through the big round red gate with linkedin",
+        "options": [
+            "linkedin.dae",
+            "pixar.dae",
+            "airbnb.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "Restating the task: The original instruction is to fly through the gate with LinkedIn. Observing the visual data from the drone’s FPV image, there are three distinct gates: a red circle, a green triangle, and a blue triangle. These gates are associated with different branding logos which could be used as identifiers or 'gates'. The 'LinkedIn' logo is next to the red circle gate.\n\nKey components and constraints:\n- Objects: The three gates (red circle, green triangle, blue triangle) are the primary objects.\n- Colors and Shapes: The gates are distinctly different by color and shape - red circle, green triangle, blue triangle. \n- Spatial Relationships: The LinkedIn logo is clearly placed beside the red circle gate.\n- Ambiguities: The term 'gate' might imply a pass-through, so a clear direction for which gate correlates with 'LinkedIn' is necessary.\n\nResolving ambiguities:\n- Visual Analysis: The red circle gate is visibly paired with the LinkedIn logo, which makes it reasonable to assume that this is the LinkedIn 'gate'.\n- Reasonable Assumptions: Given that the task involves flying 'through the gate', the 'gate' in this context is the red circle.\n\nSimplifying the task: \nGiven the analysis, the operation is simplified to flying through the red circle gate as it is associated with LinkedIn.",
+        "prompt_after_reasoning": "Fly through red circle gate with LinkedIn"
+    },
+    {
+        "prompt": "Fly through the gate with hp",
+        "prompt_simpler": "Fly through the big square green gate with hp",
+        "options": [
+            "nikon.dae",
+            "volkswagen.dae",
+            "hp.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a specific gate associated with the 'hp' logo. Analyzing the visual image provided, there are three gates of different colors: blue, red, and green, each with a box label under a corresponding logo. The 'hp' logo is associated with the green gate. The 'go to' and 'fly through' commands seem the most suitable for this scenario. Considering the environmental constraints, such as the assumption that these gates could represent different routes or obstacles, the closest and most intuitive match for the task based on the image is to fly through the green gate with the 'hp' logo. Additionally, there are no obstacles or peculiarities noticeable in the image that would prevent safe passage through the gate. Thus, we choose the 'Fly through' action as the main command. The visual analysis confirms the green gate's association with the 'hp' logo.",
+        "prompt_after_reasoning": "Fly through green gate with hp"
+    },
+    {
+        "prompt": "Fly through the gate with volkswagen",
+        "prompt_simpler": "Fly through the big round red gate with volkswagen",
+        "options": [
+            "lego.dae",
+            "microsoft.dae",
+            "volkswagen.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The image displays various logos and shapes, including a red gate with a LEGO logo, a colored quadrilateral resembling a Windows logo, and a red circle with a Volkswagen logo. The task is to fly through the gate with the Volkswagen logo, but the gate shape here appears to be interpreted as the red circle associated with the Volkswagen logo. There are other shapes and logos present, but they are not relevant to the task of flying through a 'gate' associated with the Volkswagen URI. The red circle is not physically a gate, but since the instruction specifies 'gate with Volkswagen,' it can be assumed the red circle serves as the 'gate' in this context. There are no visible environmental constraints like obstacles or lighting conditions that would affect the task. Hence, based on the provided visual image data and the task, the most clear and applicable command under the given format would relate to this circle.",
+        "prompt_after_reasoning": "Fly through red circle gate with Volkswagen"
+    },
+    {
+        "prompt": "Fly through the gate with redbull",
+        "prompt_simpler": "Fly through the small round green gate with redbull",
+        "options": [
+            "microsoft.dae",
+            "redbull.dae",
+            "facebook.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a Red Bull logo. From the FPV image, I can identify three rectangular shapes with colorful borders that seem like potential gates. The red circle on the left of the image likely indicates the drone's current orientation. The central image features a Red Bull logo surrounded by a green circle, which is the gate associated with Red Bull. There is a red bull-branded logo above the green circle, directly aligning with the task's description. The blue square on the right is part of a different gate. Based on the task and image, my objective is to guide the drone through the green-circled gate as it contains the Red Bull branding. I have to ensure the command is clear and feasible, aligning it with the available 'Fly through' command format. There are no significant environmental constraints visible in the image.",
+        "prompt_after_reasoning": "Fly through green circle gate with Red Bull"
+    },
+    {
+        "prompt": "Fly through the gate with fedex",
+        "prompt_simpler": "Fly through the big round green gate with fedex",
+        "options": [
+            "fedex.dae",
+            "android_1.dae",
+            "stellaris.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone through a gate associated with FedEx. However, there isn't a clear gate in the image associated directly with 'FedEx.' Instead, the image shows the FedEx logo logo to the left, close to a green horizontal ellipse. Also, there are other gates, including a red circular one and a blue triangular one. The instruction seems to imply gate association visually rather than literally creating a gate; the green horizontal ellipse could be considered the 'gate' since it's near the FedEx logo. \n\nEven though the exact arrangement is somewhat ambiguous, focusing on the effective command—there's no explicit gate—but the green ellipse near the FedEx logo could symbolically represent it. To simplify, and given the context and image, the realistic and safest action would be to interpret it as flying through the green ellipse.\n\nAssumptions: \n- The green horizontal ellipse is interpreted as the 'gate' associated with the FedEx logo due to proximity.\n- It's the most logical visual association with the phrase “gate with fedex.”\n\nGiven the constraints and ensuring the command is feasible and clear for drone operation, we can form the command accordingly.",
+        "prompt_after_reasoning": "Fly through green gate with FedEx logo"
+    },
+    {
+        "prompt": "Fly through the gate with pinterest",
+        "prompt_simpler": "Fly through the big square red gate with pinterest",
+        "options": [
+            "amazon.dae",
+            "pinterest.dae",
+            "nikon.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate associated with Pinterest. The visual information in the FPV image shows a Pinterest logo, accompanied by a red rectangular shape directly below it. This red shape is likely the gate referred to in the task. The presence of other shapes and logos (a blue triangle under Amazon and a green triangle under Nike) rules out these as the gate in question. There are no significant environmental constraints visible in the image that could impede flying through the Pinterest gate. The command must therefore focus on targeting the red rectangular gate beneath the Pinterest logo, as this aligns with the task description.",
+        "prompt_after_reasoning": "Fly through red rectangular gate with Pinterest"
+    }
+]

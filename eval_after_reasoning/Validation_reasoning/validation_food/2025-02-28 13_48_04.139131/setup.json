@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square red gate with healthy food",
+    "options": [
+        "Healthy/healthy_10.dae",
+        "Unhealthy/unhealthy_12.dae",
+        "Unhealthy/unhealthy_9.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task instructs the drone to fly to a gate associated with 'healthy food.' Observing the FPV image, there are three gates: a red square gate, a blue triangle gate, and a green triangle gate. Also present are three types of food or food-like items:\n\n1. An assortment of what appears to be eggs and small yellow containers or jars (common, minimally processed food which could be deemed 'healthy').\n2. A dish with some type of cooked meat or protein and garnishes (also seems relatively healthy, given its unprocessed nature).\n3. A platter with some candied or processed-looking pastries (these are likely less healthy).\n\nConsidering the task's intent to go for 'healthy food,' the first option (eggs and containers) seems most likely theoptimal choice. This aligns with a common understanding of what is 'healthy.'\n\nAmong the three gates, there are shape and color variations. Since the food on the left correspond to the red gate, the association is made that the healthy food relates to this red square gate. There are no conflicts or environmental constraints visible within the image such as obstacles near the gate.\n\nThe task can thus be conceived as flying the drone through the red square gate, given the logical correlation between the healthy food and the red gate on the left side.",
+    "prompt_after_reasoning": "Fly through red square gate with healthy food"
+}

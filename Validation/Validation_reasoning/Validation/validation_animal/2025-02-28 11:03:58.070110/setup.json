@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a whale",
+    "prompt_simpler": "Fly through the big round red gate with a whale",
+    "options": [
+        "whale.dae",
+        "kangaroo.dae",
+        "cheetah.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter E",
+    "prompt_simpler": "Fly through the small square red gate with a letter E",
+    "options": [
+        "E.dae",
+        "T.dae",
+        "U.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with the letter 'E'. From the image, I can observe three letters: E, T, and U. Letter E is clearly identifiable on the left side of the image, and there's a red rectangular outline near it, which appears to represent a gate.\"\n\n\"Analyzing the spatial relationships, the red rectangular gate is positioned directly below the letter E, which confirms this is the 'gate with a letter E'. No ambiguities or conflicting landmarks are observed that would divert the drone's path to another gate. The environment appears clear, with no visible obstacles in the immediate vicinity of the gate.\"\n\n\"Given the straightforward nature of the task and the absence of obstacles, the objective can be achieved by instructing the drone to fly through the red gate associated with the letter E.\"\n\n\"Assuming the red gate can be safely navigated, the final command can be set without concerns for overlapping objects or unclear visual cues.",
+    "prompt_after_reasoning": "Fly through red rectangular gate with letter E"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Bill Gates",
+    "prompt_simpler": "Fly through the small round red gate with Bill Gates",
+    "options": [
+        "rihanna.dae",
+        "Bill_Gates.dae",
+        "benedict_cumberbatch.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with Bill Gates. From the image provided, three rectangular figures are shown with corresponding colored gates in the lower part of the image: a green gate on the left, a red gate in the middle, and a blue gate on the right. Each figure resembles a person, but there is no explicit indication of which figure is Bill Gates. Based on the typical layout and the rightmost position of the blue gate, I'll assume the individual on the right corresponds to Bill Gates. \n\nGiven that the command suggests flying through a gate with a specific person, the image and task imply aligning with the individual on the right. Thus, we must associate the command with the blue gate as it is placed below the figure that logically might be intended for this purpose.\n\nThere appear to be no immediate obstacles or ambient constraints visible in the image, making this gate a safe choice for drone flight. Thus, the command should logically be adjusted to specify the blue gate.",
+    "prompt_after_reasoning": "Fly through blue gate with Bill Gates"
+}

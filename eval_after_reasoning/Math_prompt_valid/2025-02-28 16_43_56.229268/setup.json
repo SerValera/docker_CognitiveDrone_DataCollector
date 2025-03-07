@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 8+1",
+    "prompt_simpler": "Fly through the small round green gate with 9",
+    "options": [
+        "one.dae",
+        "nine.dae",
+        "five.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying the drone through a specific gate that corresponds to the number 8+1, which equals 9. From the FPV image, we observe three distinct regions with numbers and colored shapes underneath: a red 1 with a red square, a red 9 with a green circle, and a white 5 with a blue triangle. There is a direct association between '9' and the mathematical sum indicated in the task description. The instruction is clear, with the number 9 gate identified by a green circle. There are no visible overlaps or ambiguities in this representation. Hence, the requirement is to fly through the green gate associated with number 9 to satisfy the task goal.",
+    "prompt_after_reasoning": "Fly through green circle gate with number 9"
+}

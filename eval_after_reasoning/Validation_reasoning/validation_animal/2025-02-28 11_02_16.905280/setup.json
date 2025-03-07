@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a tiger",
+    "prompt_simpler": "Fly through the big round blue gate with a tiger",
+    "options": [
+        "tiger.dae",
+        "flamingo.dae",
+        "dog_1.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Starting with the original task 'Fly through the gate with a tiger,' and using the FPV image for analysis:\n\n1. Analyze objects and visual information: \n   - There are three doors with pictures related to animals and nature.\n   - The left door has a tiger image.\n   - The middle door has a bird image.\n   - The right door has a dog image.\n   - There are gates in front of each door: blue, red, and green from left to right.\n\n2. Identify key components related to 'gate with a tiger':\n   - The task needs the gate with a tiger. \n   - The left door is associated with a tiger and a blue gate.\n   \n3. Determine actionable command:\n   - There is a blue gate and a tiger image on the left door. So, this must be the intended target.\n\n4. Simplify the command for drone operation:\n   - 'Fly through blue gate with a tiger.' \n\n5. Addressing safety and feasibility:\n   - The target is clear and visually distinct. No other contradictions or overlapping objects are found. Thus, the simplified command addresses the task correctly in a straightforward manner while ensuring safety.",
+    "prompt_after_reasoning": "Fly through blue gate with tiger"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter V",
+    "prompt_simpler": "Fly through the big triangle red gate with a letter V",
+    "options": [
+        "H.dae",
+        "V.dae",
+        "N.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task given is to 'Fly through the gate with a letter V.' From the visual data, I observe three triangles in the image: a blue one on the left, a red one in the center, and a green one on the right. Two letters are visible: a 'V' is placed above the red triangle and an 'N' is placed above the green triangle. There is no discernible gate structure aside from these triangle markers. The red triangle with the letter 'V' matches the task's requirement as it contains the letter 'V'. There are no environmental constraints visible in the image that would affect the drone's flight in this task. Hence, I assume the intention is to fly through the area indicated by the red triangle with the letter 'V'.  There is no ambiguity in the task as the letter 'V' is clearly associated with the red triangle.",
+    "prompt_after_reasoning": "Fly through red triangle gate with letter V"
+}

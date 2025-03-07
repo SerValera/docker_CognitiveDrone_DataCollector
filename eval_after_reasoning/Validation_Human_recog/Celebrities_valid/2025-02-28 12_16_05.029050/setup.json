@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Davide Scaramuzza",
+    "prompt_simpler": "Fly through the big triangle blue gate with Davide Scaramuzza",
+    "options": [
+        "Yuri_Gagarin.dae",
+        "Davide_Scaramuzza.dae",
+        "tom_holland.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to identify the correct gate to fly through, which is associated with 'Davide Scaramuzza.' From the visual data, we have three gates, each paired with a photo. \n- The left gate is red with a photo of a man who does not appear to be Davide Scaramuzza as described visually (the photo provided shows someone else).\n- The middle gate is blue with a photo of a man that does not seem to correlate with the appearance of Davide Scaramuzza in the provided comparison image. \n- The right gate is green with a photo of a man who, based on the visual analysis of the provided image, appears to be Davide Scaramuzza.\n\nGiven that the task is to 'fly through the gate with Davide Scaramuzza', the right gate should be the target as the visual representation in the image matches the reference provided.\nAssuming that the intention is to ensure a safe flight, there is no mention of any environmental constraints and none can be directly deduced from the image, supporting a straightforward approach. \nThere are no additional ambiguities or safety concerns based on the details provided.",
+    "prompt_after_reasoning": "Fly through green gate with Davide Scaramuzza"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a unibrow",
+    "prompt_simpler": "Fly through the small round red gate with a person with a unibrow",
+    "options": [
+        "a_unibrow.dae",
+        "a_dress.dae",
+        "headphones.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves identifying a gate and a person with a unibrow, then instructing the drone to navigate through the gate. From the provided image:\n\n1. **Identifying Gate Features**: The image displays a blue triangle, a red circle, and a green square. These shapes are likely to represent gates. There is no explicit numerical or descriptive label indicating which is the intended gate for the current task.\n\n2. **Identifying Individuals**: \n   - There are three individuals depicted: one in the top left corner, another within the red circle, and a third behind a green square.\n   - None of the individuals clearly exhibit a visible 'unibrow,' which is a connected shape formed by eyebrows appearing as a single arch over the eyes. This may require assumptions about which figure is most likely described.\n   - The figure near the green square appears to have features that could be interpreted as having a unibrow based on visual guesswork since unibrows can be subtle.\n\n3. **Spatial Relationships and Ambiguities**: Without explicit information about which specific individual is described, I'll assume the person behind the green square fits the description based on the way their image is presented and partially obscured.\n\n4. **Task Safety and Execution**: \n   - To provide a feasible command without ambiguity, I must focus on the person behind the green square associated with the green square gate.\n   - This aligns with standard operational safety while maintaining clear, executable instructions.\n\nThus, resolving interpretive ambiguity, the command will direct the drone to fly through the green square gate in relation to this identified individual.",
+    "prompt_after_reasoning": "Fly through green square gate with person behind green square"
+}

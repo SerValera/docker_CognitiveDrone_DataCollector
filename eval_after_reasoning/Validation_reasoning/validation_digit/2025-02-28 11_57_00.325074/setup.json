@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the big square red gate with two",
+    "options": [
+        "one.dae",
+        "two.dae",
+        "three.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate labeled 'two'. Analyzing the image:\n\n1. The visual data includes three numbered gates: 1, 2, and 3. \n2. Gate '1' is aligned with a red boundary and a smaller red square within it, positioned behind a triangular shape.\n3. Gate '2' is directly represented as the central figure in the image with a red square around it.\n4. Gate '3' is more complex, appearing behind overlapping circles of blue, green, and purple, with no direct visual obstruction similar to '1'.\n5. There are no immediate or visible environmental constraints like obstacles or lighting conditions that would impact the task.\n6. The task specifies gate 'two', hence prioritizing '2', avoiding ambiguity.\n\nBased on the visual analysis and given task, the command needs to be simplified to ensure the drone acts on the correct gate.\n\nAssuming the drone’s current position aligns with the appropriate vector towards gate '2' to ensure safe passage.",
+    "prompt_after_reasoning": "Fly through red square gate with two"
+}

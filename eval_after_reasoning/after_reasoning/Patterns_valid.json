@@ -1,0 +1,992 @@
+[
+    {
+        "prompt": "Fly through the gate with a person with glasses on their head",
+        "prompt_simpler": "Fly through the small round blue gate with a person with glasses on their head",
+        "options": [
+            "headphones.dae",
+            "a_beard.dae",
+            "glasses_on_their_head.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a person wearing glasses. In the provided image, there are three gates: a green triangle, a red circle, and a blue circle. Also, there are three people, each pictured above one of the gates.\n\n1. **Identifying the person wearing glasses:** Among the three people shown, the person associated with the green triangle is the one wearing headphones, not glasses. The person associated with the red circle does not seem to have glasses either. The person associated with the blue circle is the only one wearing glasses.\n\n2. **Determining the correct gate:** Since we need a person with glasses on their head, we align this with the images above. The individual with glasses is above the blue circle, associating this person with the blue gate.\n\n3. **Safety and feasibility:** The task is straightforward with no visible environmental obstacles within the immediate vicinity of the gates.\n\n4. **Resolving ambiguities:** There is no ambiguity; the person with glasses is clearly above the blue gate.\n\nGiven this analysis, the task simplifies to flying through the blue gate.",
+        "prompt_after_reasoning": "Fly through blue circle gate with person with glasses"
+    },
+    {
+        "prompt": "Fly through the gate with a person with sneakers",
+        "prompt_simpler": "Fly through the small square red gate with a person with sneakers",
+        "options": [
+            "sneakers.dae",
+            "a_unibrow.dae",
+            "a_scarf_around_their_neck.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to interpret the command 'Fly through the gate with a person with sneakers.' Looking at the provided image, there are three gates with distinct shapes and colors: red (rectangle), blue (triangle), and green (triangle). Additionally, there are three human figures associated with these gates. \n\nTo determine which gate the command refers to based on the criteria of a person with sneakers:\n- The figure near the red rectangle (left) isn’t visible clearly enough to confirm footwear.\n- The figure near the blue triangle seems to wear darker patterns in their legs that could be interpreted as sneakers based on color contrast.\n- The figure near the green triangle (right) has a less clear indication of旗下 what appears to be sneakers.\n\nGiven these observations with visual clearest confirmation of sneakers linked to the person near the blue triangle.\n\nBy focusing on safety and simplicity, I'll proceed with the blue triangle, assuming it will fulfill the condition of a person with sneakers.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with person with sneakers."
+    },
+    {
+        "prompt": "Fly through the gate with a person with a unibrow",
+        "prompt_simpler": "Fly through the big square green gate with a person with a unibrow",
+        "options": [
+            "a_t-short.dae",
+            "a_beard.dae",
+            "a_unibrow.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a person who has a unibrow. From the FPV image, there are three distinct sections: a person doing a karate move on the left, a face with a beard in the center, and a face with a unibrow on the right. The blue circle at the center of the image appears to function as a gate.\n\nThere is no ambiguity in identifying the individual with a unibrow as they are clearly distinguishable on the right. The central spatial relationship seems to link the blue circle as the gate. Regarding environmental constraints, there seem to be no obstacles beyond what is displayed, and the lighting is clear, making all objects visible.\n\nFor safety and command feasibility, the chosen path must avoid nearby individuals or stationary objects. Given these assumptions, the visual analysis confirms the blue circle as the target gate and the individual with the unibrow as the reference person.",
+        "prompt_after_reasoning": "Fly through blue circle gate with unibrow person"
+    },
+    {
+        "prompt": "Fly through the gate with a person with braids",
+        "prompt_simpler": "Fly through the small round green gate with a person with braids",
+        "options": [
+            "a_backpack.dae",
+            "braids.dae",
+            "an_umbrella.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate that is associated with a person with braids. Looking at the visual information:\n\n1. Three gates are visible: a red gate, a green gate, and a blue gate.\n2. There are pictures of people near each gate. The red gate has a picture of a person who appears to have braids, the green gate has a picture of a person looking straight ahead, and the blue gate has a picture of a person holding an umbrella.\n3. The red gate is the only one associated with a person who seems to have braids, matching the criteria in the text.\n\nThere are no visible environmental constraints like obstacles or adverse lighting conditions, and the gates are clearly distinguishable by color and shape. Given the clear match between the textual instruction and the visual data, the appropriate command can be issued directly.",
+        "prompt_after_reasoning": "Fly through red gate with person with braids"
+    },
+    {
+        "prompt": "Fly through the gate with a person with earrings",
+        "prompt_simpler": "Fly through the big triangle green gate with a person with earrings",
+        "options": [
+            "sneakers.dae",
+            "earrings.dae",
+            "a_skirt.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to 'Fly through the gate with a person with earrings.' Analyzing the image, there are three rectangular areas representing potential gates, each containing a person. The person within the blue triangular area (left) is lying down, and no earrings are clearly visible. In the green triangular area (center), the person standing appears to have earrings, as one can observe small, distinct shapes near the ears. The red triangular area (right) contains a person who seems to be wearing a white dress, but no earrings are clearly visible.\n\nKey components and constraints:\n- Objects: Three gates (blue, green, and red triangles) with associated individuals.\n- Colors: Red, green, and blue.\n- Shapes: Triangles symbolizing gates.\n- Spatial relationships: The gates are lined up side by side.\n- Visual ambiguity: Earrings are not clearly identifiable due to image resolution and angles, but the person in the green gate is a feasible candidate based on the visible shapes near the ears.\n\nResolution of ambiguity:\n- Assuming the person in the central green gate has earrings based on small shapes near the ears. \n- This assumption is made for this task while ensuring it aligns with safety and simplicity.\n\nSimplifying the command:\nBased on these observations and assumptions, the task is executed by focusing on the green gate with the person who appears to have earrings.\n\n",
+        "prompt_after_reasoning": "Fly through green triangle gate with person with earrings"
+    },
+    {
+        "prompt": "Fly through the gate with a person with long nails",
+        "prompt_simpler": "Fly through the small triangle red gate with a person with long nails",
+        "options": [
+            "slippers.dae",
+            "long_nails.dae",
+            "short_nails.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task involves flying the drone through a gate associated with a 'person with long nails.' In the image, there are three objectsindrone viewports a man in casual clothing, a smaller indistinct figure with a possibly unclear context (perhaps an animal or a portrait), and a woman holding her hand near her face in a manner that allows one to infer she has long nails. For the gate, there is a blue square, a red triangle, and a green circle. None seem to match a literal gate but interpret them as symbolic references. Since the task specifies 'long nails,' focusing on the woman's image makes sense. Thus, the green circle is the most likely symbol to indicate the 'gate' because it is positioned to the right of the image near the woman’s portrait.\n\nAssuming the person with long nails is the woman whose image is placed closest to the green circle, the task becomes clear. Given the context of visually symbolic gates, the subsequent certain action is 'Fly through the green circle gate.'\n\nNo environmental constraints or direct safety issues are visible, but standard caution regarding object proximity and accurate visual recognition ensures safety.",
+        "prompt_after_reasoning": "Fly through the green circle gate with the woman with long nails"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a dress",
+        "prompt_simpler": "Fly through the small square blue gate with a person with a dress",
+        "options": [
+            "gray_hair.dae",
+            "a_tattoo.dae",
+            "a_dress.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with a person with a dress.' From the image, there are three circular markers associated with three people in different positions. The person in the dress is indicated by a blue square over the image of a person in a red dress on the right side of the frame. The task is requesting the drone to fly through a gate with the associated person. However, the gates specified in the image are green, red, and blue circles. For this specific task, safety and simplicity are prioritized, so I will assume the gate's color corresponds with the square color (blue) surrounding the person in a dress. Thus, the command should direct the drone to fly through the blue circle gate corresponding to the person in the dress.",
+        "prompt_after_reasoning": "Fly through blue gate with person in dress"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a watch on their wrist",
+        "prompt_simpler": "Fly through the big triangle red gate with a person with a watch on their wrist",
+        "options": [
+            "a_long_beard.dae",
+            "a_watch_on_their_wrist.dae",
+            "a_t-short.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "First, restating the task: The goal is to fly through a gate associated with a person who is wearing a watch. There are three gates in the FPV image: a green circular gate, a red triangular gate, and a blue circular gate. Three people are also visible in the image within separate rectangles near each gate.\n- The person near the green gate is partially obscured and it's not clearly visible whether they wear a watch.\n- The person near the red gate has their wrist visible and seems to be wearing a watch, which appears as a band around their wrist.\n- The person near the blue gate is facing away, and their wrist is not visible, making it impossible to confirm the presence of a watch.\n\nAnalyzing spatial relationships, none of the gates are obstructed by obstacles in the image, allowing for safe flight. The task’s focus on a 'person with a watch' points to the individual near the red gate as the most appropriate target. There are no environmental constraints visible. Based on the visual analysis, the red triangular gate is associated with the person wearing a watch.\n\nTo keep the command safe and unambiguous, I'll choose the red gate based on the more evident presence of a watch on the person’s wrist.\n\nGiven these observations, simplifying the task into a single, clear command involves flying through the red gate, ensuring it matches the person-wearing-a-watch criterion.",
+        "prompt_after_reasoning": "Fly through red triangular gate with person wearing watch"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a hat",
+        "prompt_simpler": "Fly through the small round green gate with a person with a hat",
+        "options": [
+            "a_hat.dae",
+            "a_ring_on_their_finger.dae",
+            "tall_height.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task asks the drone to fly through a gate that has a person with a hat. From the provided image:  \n- There are three gates, each with a different shape (circle, square, circle) and color (green, red, blue).  \n- In the left and right sections, two individuals, one with a hat and one without, are partially shown behind each gate.  \n- The middle gate with the red square has the person without a hat in the image.  \n- The left gate with the green circle has the person with a hat. The right gate with the blue circle also has the person with a hat.  \n- Since two gates are associated with individuals wearing hats, a choice must be made. Given that the left gate's green circle is closer to the center compared to the blue circle on the right, it seems more prominent in the field of view.  \n- Assuming that the closest and most visible gate with a person wearing a hat should be prioritized for the task. \n\nTo resolve any ambiguity, the left gate with the green circle and the person with the hat is selected as it demonstrates a clear focal point within the image and adheres to probable task execution.",
+        "prompt_after_reasoning": "Fly through the green circle gate with the person with a hat"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a hat",
+        "prompt_simpler": "Fly through the big triangle red gate with a person with a hat",
+        "options": [
+            "gloves.dae",
+            "short_nails.dae",
+            "a_hat.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "First, let's analyze the providedFPV image and the given task. The task is to 'Fly through the gate with a person with a hat'. Now, considering the visual data:\n\n1. There are three gates的颜色为绿色、蓝色和红色的三角形结构，符合任务所需的“gate”条件。 \n\n2. 视觉信息中没有任何人物佩戴帽子。因此，这个任务描述中存在一定的不一致。假设任务描述中的“person with a hat”是要接近一个显示有戴着帽子的人物的屏幕，那么我们可以确定每个屏幕上显示的人物。绿色三角形后面的屏幕显示一个穿着绿色衣服的人物，蓝色三角形后面的屏幕显示一个拿着手的女子，红色三角形后面的屏幕显示一个人带着帽子。因此，可以合理假设红色三角形的门是与“person with a hat”相关的门。\n\n3. 没有环境约束或障碍需要特别注意，而且没有提到具体的飞行路径或速度要求。\n\n4. 综上所述，综合任务要求和视觉数据，任务是要穿过与“戴着帽子的人物”的屏幕相关的红色三角形门。\n\n",
+        "prompt_after_reasoning": "Fly through red triangle gate with person with a hat"
+    },
+    {
+        "prompt": "Fly through the gate with a person with tall height",
+        "prompt_simpler": "Fly through the small triangle red gate with a person with tall height",
+        "options": [
+            "a_ring_on_their_finger.dae",
+            "sneakers.dae",
+            "tall_height.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with a person with tall height.' However, there is no clear indication of a 'gate' associated with people of any height in the provided FPV image. Instead, the image shows three distinct objects: a green circle, a blue triangle, and a red triangle, none of which are gates. Additionally, there are three images of people, but the task only specifies 'a person with tall height.' The person on the far right appears taller compared to the others in the image due to their relative position and size. Since none of the visible shapes are gates, but we have to still derive a command, I will reasonably infer that the red triangle might be the highlighted area since it shares the color of the tall person image. Therefore, I'll create a command to fly through the red triangle associated with the tallest person for consistency.",
+        "prompt_after_reasoning": "Fly through red triangle gate with tallest person image"
+    },
+    {
+        "prompt": "Fly through the gate with a person with long nails",
+        "prompt_simpler": "Fly through the big round red gate with a person with long nails",
+        "options": [
+            "long_nails.dae",
+            "boots.dae",
+            "a_t-short.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a person with long nails. From the visual image, there are three gates: a red oval, a green square, and a blue circle. There are also three people, each in the vicinity of one of these gates. \n\n- The person near the red oval gate appears to be pointing, but their nails are not clearly visible; other features suggest they may not have long nails.\n- The person near the green square gate is smaller and further away, making it difficult to discern details like nail length; this is a less certain option.\n- The person near the blue circular gate has their arms in a position that could suggest nail visibility; they are also the clearest of the three figures, and their hand positioning seems consistent with the possibility of long nails.\n\nGiven the need to ensure safety and clarity, the blue circular gate is the best option as it seems the most certain that the person nearby could have long nails, based on the assumption that their hand positioning aligns with the visibility of long nails. There are no evident environmental constraints like obstacles or lighting issues.",
+        "prompt_after_reasoning": "Fly through blue, circular gate with person with long nails."
+    },
+    {
+        "prompt": "Fly through the gate with a person with glasses on their head",
+        "prompt_simpler": "Fly through the small square blue gate with a person with glasses on their head",
+        "options": [
+            "long_eyelashes.dae",
+            "glasses_on_their_head.dae",
+            "an_umbrella.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate with a reference to a person with glasses presented in a headshot. The visual analysis involves interpreting the given image to identify relevant objects, gates, and connections to the person referred to.\n\n1. **Analysis of Visuals and Person Reference**:\n   - The images presented include headshots of individuals. One headshot shows a person with what appear to be glasses on their head.\n   - Since this individual is the reference for the gate, we need to identify their corresponding gate.\n\n2. **Gate Identification and Color Matching**:\n   - Gates are color-coded: green, blue, and red.\n   - Linking the person with glasses to the correct gate: The image with the person wearing glasses is in the foreground and adjacent to the green gate. This implies a potential association between the person and the green gate.\n\n3. **Task Feasibility and Safety**:\n   - Focusing on the green gate, the task appears straightforward and collision-free. The drone is required to fly through the gate, aligning with the task objective.\n\n4. **Finalizing the Command**:\n   - Following the observation, the drone should be instructed to fly through the green gate as it correlates with the image of the person with glasses.\n\nThus, the command to the drone is derived from the image and task details to be clear and executable.",
+        "prompt_after_reasoning": "Fly through green square gate with person with glasses"
+    },
+    {
+        "prompt": "Fly through the gate with a person with long nails",
+        "prompt_simpler": "Fly through the small round red gate with a person with long nails",
+        "options": [
+            "long_nails.dae",
+            "a_sweater.dae",
+            "a_long_beard.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original command is to 'Fly through the gate with a person with long nails.' However, the image does not directly show a person with long nails. Instead, it features three photographs of people held up in the environment and three gates of different shapes and colors: a red circle, a green triangle, and a blue square. Since the people in the photos are not physically present and the command mentions a gate, a logical assumption would be to interpret the command as flying through a gate that is associated with one of the people in the photograph. \n\nAmong the three people in the photos, none of them distinctly show long nails; however, the woman on the left appears to have visible nails that could be perceived as relatively longer. Associating her with the nearby red circular gate is a logical assumption.\n\nTo resolve ambiguities and ensure command feasibility: \n- Identify the most relevant gate. The red circle is closest to the woman's photo, fulfilling the implicit association.\n- Since the phrase 'with a person with long nails' cannot be literally executed (as people are in images, not present), interpreting it as proximity association is the most practical solution.\n  \nTherefore, the simplified command involves safely executing a fly-through maneuver focused on a discernible gate.",
+        "prompt_after_reasoning": "Fly through the red circular gate with the left woman photo"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a tattoo",
+        "prompt_simpler": "Fly through the small triangle red gate with a person with a tattoo",
+        "options": [
+            "a_tattoo.dae",
+            "shorts.dae",
+            "glasses_on_their_head.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to 'fly through the gate with a person with a tattoo.' Analyzing the image, there are three figures and three shapes in front of them that serve as gates: a red triangle, a blue triangle, and a green circle. The figures associated are a person on the left (appears to have darker patches resembling tattoos), a person on the right (no visible tattoos), and a figure in the center (no visible tattoos). To determine the correct gate, I'll need to combine textual information and visual confirmation. The only figure with visible markings resembling a tattoo is the leftmost figure. This person is in front of the red triangle. Hence, the correct command involves flying through the red triangle gate and not the blue triangle or green circle. There are no visible environmental constraints in this image, such as obstacles or lighting issues. The task is clearly defined and unambiguous based on the visual evidence. Therefore, the final command should focus on the red triangle gate.",
+        "prompt_after_reasoning": "Fly through the red triangle gate with the person with tattoos"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a watch on their wrist",
+        "prompt_simpler": "Fly through the big triangle red gate with a person with a watch on their wrist",
+        "options": [
+            "a_crossbody_bag.dae",
+            "a_watch_on_their_wrist.dae",
+            "an_umbrella.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate with a person who has a watch on their wrist. First, I analyze the FPV image to identify gates and any people. There are three photo frames, each with a colored gate (green square, red triangle, and blue triangle). Each frame shows a person. \n\nThe person in the green square frame is wearing a watch on their wrist. The person in the red triangle frame is not wearing a watch, and the person in the blue triangle frame is not wearing a watch and is holding an umbrella. \n\nBased on this analysis, the correct gate is the green square gate. No ambiguities are present as the watch is clearly visible on the person in the green square frame. Safety and feasibility are ensured as no obstacles are present around the green square gate, and the task is straightforward.",
+        "prompt_after_reasoning": "Fly through green square gate with person with watch"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a watch on their wrist",
+        "prompt_simpler": "Fly through the big round blue gate with a person with a watch on their wrist",
+        "options": [
+            "a_hat.dae",
+            "sneakers.dae",
+            "a_watch_on_their_wrist.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a person wearing a watch on their wrist. From the visual data provided, we see three distinct frames with three individuals. \n\n1. The first image contains a person jogging with no visible watch.\n2. The second image shows a person who might be holding something, but no clear watch is visible on the wrist.\n3. The third image clearly shows a person wearing a watch on their wrist.\n\nAdditionally, each figure has a corresponding gateway in front of them:\n   - The first person has a green circular gate.\n   - The second person has a red triangular gate.\n   - The third person has a blue hoop gate.\n\nGiven our goal, the third person, who is clearly wearing a watch, is the individual we are supposed to focus on; thus, our target gate is the blue hoop gate in front of this person. \n\nThere appear to be no major environmental constraints from the images provided. Therefore, the task is clear: navigate through the blue hoop gate. All visual and textual information align to confirm this conclusion.",
+        "prompt_after_reasoning": "Fly through the blue hoop gate with the person wearing a watch"
+    },
+    {
+        "prompt": "Fly through the gate with a person with braces",
+        "prompt_simpler": "Fly through the small square blue gate with a person with braces",
+        "options": [
+            "a_dress.dae",
+            "dyed_hair.dae",
+            "braces.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task initially asks the drone to 'Fly through the gate with a person with braces'. From the provided FPV image, we analyze visual elements:\n\n1. **Objects and Landmarks Identification**:\n   - Three characters are depicted above three colored gates (green circle, red circle with intra-shape, blue rectangle). \n   - None of the characters explicitly display visible braces. We can assume based on the proximity that 'a person with braces' may be the individual related to the blue rectangle gate, as braces are a condition possibly intending a visual hint of 'thumbs up with clear enthusiasm'.\n\n2. **Spatial and Shape Analysis**:\n   - The gates are distinguished in color and shape uniquely.\n   - The blue rectangle gate is positioned on the far right, associated with a person giving a thumbs-up, likely indicating positivity and possibly aligning with the inference 'the person with braces'.\n\n3. **Task Adjustments**:\n   - As the 'person with braces' cannot be visually confirmed, making a reasonable assumption based on the visual data likely aligns the task with the person of 'thumbs up' linked to the blue gate.\n\nGiven the visual and instructional constraints, this simplifies our action: We must navigate the drone through the blue rectangular gate.",
+        "prompt_after_reasoning": "Fly through blue rectangular gate with person giving thumbs up"
+    },
+    {
+        "prompt": "Fly through the gate with a person with gray hair",
+        "prompt_simpler": "Fly through the small round green gate with a person with gray hair",
+        "options": [
+            "gray_hair.dae",
+            "an_umbrella.dae",
+            "glasses_on_their_head.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to guide the drone through a gate associated with a person who has gray hair. Analyzing the FPV image:\n- The person with gray hair is located on the left, indicated by the green circled area and their distinct hairstyle and clothing.\n- The gates in the image are colored green, blue, and red, respectively from left to right.\n- The green gate aligns with the image of the person with gray hair, suggesting it is the one the drone should pass through.\n- There are no environmental constraints like obstacles in the immediate vicinity of the gates. \n- There are no ambiguities related to the person with gray hair or the corresponding gate since the person and the associated gate are both clearly marked and visible.\n\nGiven these observations, the appropriate command is simplified to having the drone fly through the green gate, associated with the person with gray hair.",
+        "prompt_after_reasoning": "Fly through green gate with person with gray hair"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a bald head",
+        "prompt_simpler": "Fly through the small square green gate with a person with a bald head",
+        "options": [
+            "a_tattoo.dae",
+            "a_bald_head.dae",
+            "a_t-short.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate associated with a person having a bald head. From the image:\n- There are three gates: a blue square, a green square, and a red triangle.\n- There is one person with a bald head located near the green square.\n- There is another person with visible hair near the red triangle and a person with obscured hair types behind the blue square.\n- Based on spatial relationships, the person with the bald head is closest to and aligned with the green square.\n- There are no environmental constraints or obstacles near the green square.\n- Thus, the green square is the target gate associated with the person with a bald head.\n\nThe command needs to clearly specify 'fly through' the green square gate associated with the 'person with a bald head'. As per the task's constraints, the command will be simplified accordingly.",
+        "prompt_after_reasoning": "Fly through green square gate with bald person"
+    },
+    {
+        "prompt": "Fly through the gate with a person with long nails",
+        "prompt_simpler": "Fly through the small square green gate with a person with long nails",
+        "options": [
+            "long_eyelashes.dae",
+            "an_umbrella.dae",
+            "long_nails.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to instruct the drone to fly through a gate with a person who has long nails. However, the visual information provided does not directly show a person with long nails. Instead, the image shows three people framed within different colored gates: blue, red, and green. Each person is depicted in various poses and clothing but no clear sign of long nails is visible. \n\nFor the command, let's make a reasonable assumption based on the visual data. Since each person is embedded within a colored gate and there's no visual evidence of long nails, we should choose a gate associated with a person for safety and simplicity.\n\nThe blue gate has a frontal view of a person, and the green gate depicts a person with recognizable details. The red gate seems to have a person with an umbrella which appears less feasible for navigating through.\n\nGiven this context, and considering safety, I'll choose the green gate as my target since the individual appears clearly and in an open stance, making it easier and safer for the drone to fly through.",
+        "prompt_after_reasoning": "Fly through green gate with person in green"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a hat",
+        "prompt_simpler": "Fly through the small square blue gate with a person with a hat",
+        "options": [
+            "a_hat.dae",
+            "sneakers.dae",
+            "long_eyelashes.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a person wearing a hat. I'll analyze the visual data to identify the correct gate and person:\n1. Visual Objects: The image shows three rectangular objects that seem like display panels. These panels do not directly indicate gates. There is also a visual of a person with a hat and another person in a different pose, but no clear gates are present.\n2. Gates Analysis: There are two circular icons in the image, one red and one green, resembling possible gates. However, neither are explicitly associated with a hat-wearing person.\n3. Person Analysis: The left panel shows a person with a hat, while the central and right panels show other individuals. \n4. Reasonable Assumptions: Given there are no explicit gates matching the task's goal, the task instruction may be referencing the closest object resembling a gate. Here, the green circle could potentially be a gate since it is distinct in both color and location compared to the red circle.\n5. Focusing on Safety and Feasibility: Flying through a circular icon in the context of this image is logical since there are no traditional gates visible. Therefore, associating the person with a hat to the green circle gate is a safe and executable decision.",
+        "prompt_after_reasoning": "Fly through green gate with person wearing a hat"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a watch on their wrist",
+        "prompt_simpler": "Fly through the big square green gate with a person with a watch on their wrist",
+        "options": [
+            "a_sweater.dae",
+            "a_blazer.dae",
+            "a_watch_on_their_wrist.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original task is to fly through a gate associated with a person wearing a watch. From the FPV image, there are three framed areas, each highlighting a person, a red square gate, a blue triangular gate, and a green square gate. The person in the rightmost frame is wearing a watch on their wrist and is positioned near the green square gate. The other two persons do not distinctly show a watch. Considering safety and task精度, flying directly through the green square gate is optimal. The other gates are not associated with the person wearing a watch, and there’s no indication of a watch on the individuals by the blue or red gates. There are no apparent environmental constraints in the image.",
+        "prompt_after_reasoning": "Fly through green square gate with person wearing a watch"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a unibrow",
+        "prompt_simpler": "Fly through the small round red gate with a person with a unibrow",
+        "options": [
+            "a_unibrow.dae",
+            "a_dress.dae",
+            "headphones.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task involves identifying a gate and a person with a unibrow, then instructing the drone to navigate through the gate. From the provided image:\n\n1. **Identifying Gate Features**: The image displays a blue triangle, a red circle, and a green square. These shapes are likely to represent gates. There is no explicit numerical or descriptive label indicating which is the intended gate for the current task.\n\n2. **Identifying Individuals**: \n   - There are three individuals depicted: one in the top left corner, another within the red circle, and a third behind a green square.\n   - None of the individuals clearly exhibit a visible 'unibrow,' which is a connected shape formed by eyebrows appearing as a single arch over the eyes. This may require assumptions about which figure is most likely described.\n   - The figure near the green square appears to have features that could be interpreted as having a unibrow based on visual guesswork since unibrows can be subtle.\n\n3. **Spatial Relationships and Ambiguities**: Without explicit information about which specific individual is described, I'll assume the person behind the green square fits the description based on the way their image is presented and partially obscured.\n\n4. **Task Safety and Execution**: \n   - To provide a feasible command without ambiguity, I must focus on the person behind the green square associated with the green square gate.\n   - This aligns with standard operational safety while maintaining clear, executable instructions.\n\nThus, resolving interpretive ambiguity, the command will direct the drone to fly through the green square gate in relation to this identified individual.",
+        "prompt_after_reasoning": "Fly through green square gate with person behind green square"
+    },
+    {
+        "prompt": "Fly through the gate with a person with freckles",
+        "prompt_simpler": "Fly through the big round blue gate with a person with freckles",
+        "options": [
+            "freckles.dae",
+            "a_watch_on_their_wrist.dae",
+            "the_sunglasses.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original task instructs the drone to fly through a gate associated with a person with freckles. From the FPV image, there are three gates: a blue circle, a red triangle, and a green triangle. Each gate is associated with a smaller picture of a person. Analyzing these people:\n\n- The person near the blue circle appears to lack visible freckles.\n- The person near the red triangle appears to lack visible freckles.\n- The person near the green triangle also seems to lack visible freckles based on the size and resolution of the image.\n\nGiven that no person in these gate-associated images clearly shows freckles, this introduces an ambiguity. A freckled person is not visibly identifiable from the provided image data. \n\nHowever, the task must still be simplified into an executable command. I have to make a decision to avoid an undefined situation. I choose the green triangle gate because people often have freckles that are not clearly visible in small or low-resolution images. It is a fair guess given the current constraints.\n\nIn conclusion, the safest handling of the ambiguous data is to assume the person near the green triangle is the one with freckles.",
+        "prompt_after_reasoning": "Fly through green triangle gate with person"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a ring on their finger",
+        "prompt_simpler": "Fly through the big triangle red gate with a person with a ring on their finger",
+        "options": [
+            "a_sweater.dae",
+            "thick_eyebrows.dae",
+            "a_ring_on_their_finger.dae"
+        ],
+        "correct": 3,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with a person with a ring on their finger.' Looking at the visual data from the FPV image, there are three gates—a blue triangle, a green circle, and a red triangle—positioned in front of three different images of individuals.\n\n- **Objects and Gates**: Each gate is paired with an image of a person. It is assumed the gate associated with the person who has a ring on their finger is the target. \n- **Visual Analysis**: Upon analyzing the individuals,\n  - The person on the left has no distinct jewelry visible.\n  - The person in the middle has no apparent ring or distinguishing jewelry either.\n  - The person on the right has a ring visible on their finger.\n- **Simplified Target**: The individual with the ring on their finger has a corresponding red triangle gate.\n\nSince the goal aligns with flying through the gate that corresponds to the person with a ring, the red triangle gate should be identified as the correct target.",
+        "prompt_after_reasoning": "Fly through red triangle gate with the person wearing a ring."
+    },
+    {
+        "prompt": "Fly through the gate with a person with a unibrow",
+        "prompt_simpler": "Fly through the small triangle green gate with a person with a unibrow",
+        "options": [
+            "freckles.dae",
+            "a_unibrow.dae",
+            "short-sleeve_shirt.dae"
+        ],
+        "correct": 2,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to 'Fly through the gate with a person with a unibrow.' Analyzing the image:\n- There are three individuals depicted with photographs above triangles and circles, symbolizing gates.\n- The individual on the left has a noticeable unibrow when analyzed from the photograph (this is assumed based on the instructions and visual representation).\n- The associated gate for this person is a red triangle.\n- The other two individuals do not match the given description (unibrow), and their gates are green and blue, respectively.\n- There are no environmental constraints visible that would prevent the drone from flying through the red triangle gate.\nAssuming the goal is to match the unibrowed person with the appropriate gate, the visual information confirms the red triangle is the gate to target.",
+        "prompt_after_reasoning": "Fly through red triangle gate with the person with a unibrow."
+    },
+    {
+        "prompt": "Fly through the gate with a person with a coat",
+        "prompt_simpler": "Fly through the small triangle red gate with a person with a coat",
+        "options": [
+            "a_coat.dae",
+            "a_sweater.dae",
+            "a_t-short.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            {
+                "gate": "3",
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a person wearing a coat. In the provided image, I observe two distinct human figures. One is positioned on the left within a smaller panel and appears to be wearing a coat, confirmed by visual analysis showing the outlines typical for a coat. The other person on the right is not wearing a coat. There are also three distinct colored gates: a red triangle, a green triangle, and a blue circle. The person wearing a coat is near the green triangle. Given the task is to fly through a gate associated with this person, the logical choice is to use the green triangle gate. There are no evident safety concerns such as obstacles or poor lighting in the immediate area. The task is clear and straightforward, requiring a single flying action.",
+        "prompt_after_reasoning": "Fly through green triangle gate with person wearing a coat"
+    },
+    {
+        "prompt": "Fly through the gate with a person with a coat",
+        "prompt_simpler": "Fly through the big square green gate with a person with a coat",
+        "options": [
+            "a_coat.dae",
+            "a_long_beard.dae",
+            "the_sunglasses.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task is to fly through a gate identified by the presence of a person wearing a coat. From the visual data, three colored gates are visible: a green rectangular one on the left, a red rectangular one in the middle, and a blue triangular one on the right. Two images of people are also shown: one is of a person in a dark coat behind the red gate, and the other is of a person wearing sunglasses (without a visible coat) behind the blue gate.\n   \n- Objects and Colors: The green, red, and blue gates are the most prominent features. The person in the coat is associated with the red gate.  \n- Spatial Relationships: The red gate with the person in a coat is situated centrally in the image.\n- Environmental Constraints: The gates appear to be located in a clear pathway, and no additional obstacles or hazardous conditions are visible.\n- Ambiguities: The blue gate has a person wearing sunglasses, but no coat is visible. Since the task specifies a person with a coat, the red gate is the correct one.\n   \nUsing visual analysis, the person wearing a coat is clearly positioned behind the red gate, confirming it as the target. This aligns with the task requirement. Safety and simplicity are maintained by choosing the clearly visible and unambiguous red gate.",
+        "prompt_after_reasoning": "Fly through red square gate with person in coat"
+    },
+    {
+        "prompt": "Fly through the gate with a person with tall height",
+        "prompt_simpler": "Fly through the big round green gate with a person with tall height",
+        "options": [
+            "tall_height.dae",
+            "a_coat.dae",
+            "a_piercing.dae"
+        ],
+        "correct": 1,
+        "gates": [
+            {
+                "gate": "1",
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            {
+                "gate": "2",
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            {
+                "gate": "3",
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        ],
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate with a person who is tall. Looking at the provided image, three different gates are visible, each distinct with a color-coded ring around them: a green ring, a blue ring, and a red ring. Each ring associates with an image that presumably represents a person or object behind the gate. \n\nTo identify the 'tall person', we need to assess the visual representation of the individuals associated with each gate. The individual in the green ring's picture seems to show a person outdoors with arched posture, possibly indicating height. The picture next to the blue ring shows a street scene without a visible person. The individual near the red ring displays a woman with red hair, but there is no clear indication of her being exceptionally tall.\n\nGiven the uncertainty of the other images, the person in the green ring, having an arched posture, can be reasonably assumed as 'tall' in this context, as posture and angle can often emphasize height. Thus, choosing the green gate as the one with the tall person is a reasonable assumption to align with the given command.",
+        "prompt_after_reasoning": "Fly through green gate with person"
+    }
+]

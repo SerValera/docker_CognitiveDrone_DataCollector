@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a peacock",
+    "prompt_simpler": "Fly through the small triangle red gate with a peacock",
+    "options": [
+        "peacock.dae",
+        "goat.dae",
+        "crocodile.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to adjust the given command 'Fly through the gate with a peacock' based on the visual information from the FPV image. Here's the breakdown:\n- The visual data shows three distinct objects: a peacock, a calf, and a bear, as well as three shapes: a red triangle, a green square, and a blue rectangle.\n- The peacock is aligned with the red triangle, suggesting a potential connection between the two.\n- Since the original task mentions a gate, we can consider each shape as a 'gate.' The red triangle can be associated with the peacock.\n- The command implies the drone needs to fly through a specific gate while focusing on the peacock.\n- However, there appears to be no mention of 'flying with the peacock' in the sense of carrying it; it likely means to focus on the peacock as a reference point during the flight.\n\nSimplifying the task under the above assumptions, the most accurate and feasible command would be to fly through the gate (the red triangle) with the peacock acting as a focal point.”",
+    "prompt_after_reasoning": "Fly through red triangle gate with peacock"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big round green gate with healthy food",
+    "options": [
+        "Healthy/healthy_1.dae",
+        "Unhealthy/unhealthy_13.dae",
+        "Unhealthy/unhealthy_18.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to direct the drone to a gate associated with healthy food. The FPV image shows three gates: a green circle gate, a blue circle gate, and a red triangle gate. Below each gate is a picture or icon possibly indicating the type of food or item related to that gate. \n\n- **Green circle gate:** Contains an image of apples, which are typically considered healthy food.\n- **Blue circle gate:** Displays a picture of a dessert, which is not often categorized as healthy.\n- **Red triangle gate:** Shows a picture of a hot dog, usually not considered healthy.\n\nGiven that the green circle gate is associated with apples (healthy food), it is reasonable to assume this is the gate the task refers to. There are no visual or environmental constraints such as obstacles or unclear shapes that would make the command unsafe or ambiguous. The triangular and circular gates are distinct and non-overlapping, and therefore, the drone can safely navigate to the green circle gate.",
+    "prompt_after_reasoning": "Fly through green circle gate with apples"
+}

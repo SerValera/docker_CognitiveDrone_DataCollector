@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a watch on their wrist",
+    "prompt_simpler": "Fly through the big triangle red gate with a person with a watch on their wrist",
+    "options": [
+        "a_long_beard.dae",
+        "a_watch_on_their_wrist.dae",
+        "a_t-short.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "First, restating the task: The goal is to fly through a gate associated with a person who is wearing a watch. There are three gates in the FPV image: a green circular gate, a red triangular gate, and a blue circular gate. Three people are also visible in the image within separate rectangles near each gate.\n- The person near the green gate is partially obscured and it's not clearly visible whether they wear a watch.\n- The person near the red gate has their wrist visible and seems to be wearing a watch, which appears as a band around their wrist.\n- The person near the blue gate is facing away, and their wrist is not visible, making it impossible to confirm the presence of a watch.\n\nAnalyzing spatial relationships, none of the gates are obstructed by obstacles in the image, allowing for safe flight. The task’s focus on a 'person with a watch' points to the individual near the red gate as the most appropriate target. There are no environmental constraints visible. Based on the visual analysis, the red triangular gate is associated with the person wearing a watch.\n\nTo keep the command safe and unambiguous, I'll choose the red gate based on the more evident presence of a watch on the person’s wrist.\n\nGiven these observations, simplifying the task into a single, clear command involves flying through the red gate, ensuring it matches the person-wearing-a-watch criterion.",
+    "prompt_after_reasoning": "Fly through red triangular gate with person wearing watch"
+}

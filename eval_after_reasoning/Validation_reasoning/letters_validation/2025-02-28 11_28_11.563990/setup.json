@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter U",
+    "prompt_simpler": "Fly through the small square blue gate with a letter U",
+    "options": [
+        "A.dae",
+        "Y.dae",
+        "U.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the letter 'U'. Observing the image, there are four distinct objects or markers featuring letters: A (red circle, on the left), Y (green triangle, in the center), and U (blue square, on the far right). Among these, the letter 'U' is clearly marked in a blue square with a square outline. Given that the task instructs the drone to fly through the gate associated with 'U', and the blue square visually identifies this gate, it is essential to incorporate the identification of the blue square outline in the command for clarity. The other letters and shapes are irrelevant to the task. Based on this analysis and ensuring the command is direct and unambiguous, the task can be simplified as required.",
+    "prompt_after_reasoning": "Fly through the blue square gate with letter U"
+}

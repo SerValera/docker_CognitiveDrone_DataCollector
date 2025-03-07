@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter J",
+    "prompt_simpler": "Fly through the big round green gate with a letter J",
+    "options": [
+        "T.dae",
+        "J.dae",
+        "M.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to execute a command that governs the drone to fly through a gate associated with the letter 'J'. From the FPV image, there are three gates represented by shapes and colors. The gates are:\n\n1. A blue circular gate next to the letter 'T' in a white box.\n2. A green circular gate next to the letter 'J' in a white box.\n3. A red triangular gate next to the letter 'M' in a white box.\n\nGiven the task goal, we focus on the second gate containing the letter 'J'. The shape of the gate is a green circle. \n\nThere are no explicit environmental constraints like obstacles or lighting mentioned; therefore, based on visual data, no immediate concerns arise regarding drone movement to the 'J' gate.\n\nThe command should reflect flying through the green circular gate associated with the 'J'. No additional advice for path alterations is apparent, ensuring it is safe and straightforward.",
+    "prompt_after_reasoning": "Fly through green circular gate with letter J"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with glasses on their head",
+    "prompt_simpler": "Fly through the small round blue gate with a person with glasses on their head",
+    "options": [
+        "headphones.dae",
+        "a_beard.dae",
+        "glasses_on_their_head.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with a person wearing glasses. In the provided image, there are three gates: a green triangle, a red circle, and a blue circle. Also, there are three people, each pictured above one of the gates.\n\n1. **Identifying the person wearing glasses:** Among the three people shown, the person associated with the green triangle is the one wearing headphones, not glasses. The person associated with the red circle does not seem to have glasses either. The person associated with the blue circle is the only one wearing glasses.\n\n2. **Determining the correct gate:** Since we need a person with glasses on their head, we align this with the images above. The individual with glasses is above the blue circle, associating this person with the blue gate.\n\n3. **Safety and feasibility:** The task is straightforward with no visible environmental obstacles within the immediate vicinity of the gates.\n\n4. **Resolving ambiguities:** There is no ambiguity; the person with glasses is clearly above the blue gate.\n\nGiven this analysis, the task simplifies to flying through the blue gate.",
+    "prompt_after_reasoning": "Fly through blue circle gate with person with glasses"
+}

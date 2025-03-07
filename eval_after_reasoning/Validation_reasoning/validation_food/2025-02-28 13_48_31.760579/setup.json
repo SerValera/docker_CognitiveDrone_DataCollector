@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_3.dae",
+        "Unhealthy/unhealthy_9.dae",
+        "Healthy/healthy_6.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate associated with healthy food. The image shows four gates, each with a distinct shape and color: a red triangle, a blue circle, a portraited cutout, and a gate with a peach image, which can be considered as healthy food. There are no ambiguities in interpreting the shapes or the peach image, which clearly aligns with the concept of healthy food. Since the context is clear and no obstacles are identified in the image, the command should prioritize the peach gate as it directly matches the instruction of 'health food.' The other gates are irrelevant to the current task criterion.",
+    "prompt_after_reasoning": "Fly through peach gate with healthy food"
+}

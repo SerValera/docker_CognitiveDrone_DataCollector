@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with braces",
+    "prompt_simpler": "Fly through the small square blue gate with a person with braces",
+    "options": [
+        "a_dress.dae",
+        "dyed_hair.dae",
+        "braces.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task initially asks the drone to 'Fly through the gate with a person with braces'. From the provided FPV image, we analyze visual elements:\n\n1. **Objects and Landmarks Identification**:\n   - Three characters are depicted above three colored gates (green circle, red circle with intra-shape, blue rectangle). \n   - None of the characters explicitly display visible braces. We can assume based on the proximity that 'a person with braces' may be the individual related to the blue rectangle gate, as braces are a condition possibly intending a visual hint of 'thumbs up with clear enthusiasm'.\n\n2. **Spatial and Shape Analysis**:\n   - The gates are distinguished in color and shape uniquely.\n   - The blue rectangle gate is positioned on the far right, associated with a person giving a thumbs-up, likely indicating positivity and possibly aligning with the inference 'the person with braces'.\n\n3. **Task Adjustments**:\n   - As the 'person with braces' cannot be visually confirmed, making a reasonable assumption based on the visual data likely aligns the task with the person of 'thumbs up' linked to the blue gate.\n\nGiven the visual and instructional constraints, this simplifies our action: We must navigate the drone through the blue rectangular gate.",
+    "prompt_after_reasoning": "Fly through blue rectangular gate with person giving thumbs up"
+}

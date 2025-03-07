@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 9-2",
+    "prompt_simpler": "Fly through the small round blue gate with 7",
+    "options": [
+        "seven.dae",
+        "one.dae",
+        "eight.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate that corresponds to a number equal to 9 - 2, which simplifies to 7. From the image, we can identify three distinct gates, each associated with a number: a blue circle with a '7', a red square with a '1', and a green triangle with an '8'. \n\nOur task focuses on the element '7', so we can directly associate the blue circular gate with the number 7, as required by the arithmetic operation. There are no ambiguities in visual data since the gates are clearly defined by shape and color, which also correlate with distinct numbers, making it easy to resolve and formulate a command. Based on the visual analysis, the command needs to guide the drone to fly through the blue circular gate.",
+    "prompt_after_reasoning": "Fly through blue circle gate with number 7"
+}

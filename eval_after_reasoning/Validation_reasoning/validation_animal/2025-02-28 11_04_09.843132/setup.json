@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a sheep",
+    "prompt_simpler": "Fly through the big triangle green gate with a sheep",
+    "options": [
+        "elephant.dae",
+        "monkey.dae",
+        "sheep.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "First, I analyze the task: the command is to fly through a gate associated with a sheep. The image contains multiple objects: a red circle, a blue triangle, a green triangle, and three pictures, one of which contains a sheep. Each gate (shapes) is associated with a picture above it. The green triangle appears to have a sheep picture above it. Given these observations:\n1. The task specifies a 'gate with a sheep', which means the object with the sheep picture must be identified. The sheep's picture maps to the green triangle.\n2. The task is clear and not ambiguous, no safety or environmental concerns are apparent in the provided visual.\n3. The visual evidence supports selecting the green triangle as the correct gate associated with the sheep. \n\nBased on the analysis, the task can be simplified into an action involving the green triangle gate.",
+    "prompt_after_reasoning": "Fly through green triangle gate with sheep"
+}

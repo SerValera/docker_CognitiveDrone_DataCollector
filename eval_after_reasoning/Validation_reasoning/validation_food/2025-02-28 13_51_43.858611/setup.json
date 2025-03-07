@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_1.dae",
+        "Healthy/healthy_15.dae",
+        "Unhealthy/unhealthy_16.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly towards a gate associated with 'healthy food.' In the provided FPV image, there are two food items shown: one appears to be pastries with visible cream, suggesting less healthiness, and the other looks like breakfast food (waffles), which has a slightly healthier connotation compared to pastries. The waffles are located above a red triangular gate, which could imply a lighter, healthier choice in this context. \n\nTherefore, the gate associated with 'healthy food' is likely represented by the red triangular gate. No explicit color is mentioned for the gate, but the environment seems clear, with no visible obstacles along a direct path to the red gate. Hence, the best interpretation is to understand the red triangle gate as the 'healthy food’ gate. Thus, it is safe and feasible for the drone to fly through this gate.",
+    "prompt_after_reasoning": "Fly through red triangle gate with healthy food"
+}

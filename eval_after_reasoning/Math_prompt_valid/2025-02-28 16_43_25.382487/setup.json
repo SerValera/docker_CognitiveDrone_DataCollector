@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 0+7",
+    "prompt_simpler": "Fly through the big round red gate with 7",
+    "options": [
+        "eight.dae",
+        "seven.dae",
+        "one.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Analyzing the FPV image, there are three numbered gates visible: number 8 with a green square, number 7 with a red circle, and number 1 with a blue triangle. The task specifies flying through the gate with the number equal to 0+7, which is 7. The FPV image clearly shows a red circle gate with number 7. Since the goal aligns with the visual data, the specified gate is the red circle. No additional complexities or ambiguities are present. The task can be executed by flying through the red circle gate.",
+    "prompt_after_reasoning": "Fly through the red circle gate with number 7"
+}

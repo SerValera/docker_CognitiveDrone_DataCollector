@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with tom cruise",
+    "prompt_simpler": "Fly through the big square red gate with tom cruise",
+    "options": [
+        "tom_cruise.dae",
+        "William_Shakespeare.dae",
+        "Tiger_Woods.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

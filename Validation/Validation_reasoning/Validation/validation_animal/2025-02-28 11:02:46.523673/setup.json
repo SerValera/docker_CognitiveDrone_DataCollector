@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a wolf",
+    "prompt_simpler": "Fly through the small square red gate with a wolf",
+    "options": [
+        "zebra.dae",
+        "peacock.dae",
+        "wolf.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 0*5",
+    "prompt_simpler": "Fly through the big round red gate with 0",
+    "options": [
+        "six.dae",
+        "zero.dae",
+        "three.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task instructs the drone to fly through a gate associated with a specific number, '0 * 5'. First, I calculate 0 * 5, which equals 0. Our goal is to find and fly through the gate related to the number 0.\n\nExamining the FPV image, there are several objects visible:\n1. A green square on the left.\n2. A red circle in the middle, accompanied by the number '0'.\n3. A blue triangle on the right, associated with the number '3'.\n\nConsidering the context of the task and the gates visible in the image, it is reasonable to infer that the red circle corresponds to the number '0', as '0' is explicitly shown adjacent to it. The red circle also resembles a 'gate' for purposes of this task.\n\nSince no other gate is associated with the number '0', and given the requirement to fly through the gate with number 0, the red circle is our target.\n\nTherefore, the simplified and contextually accurate command involves flying through the red circular gate associated with the number '0'.",
+    "prompt_after_reasoning": "Fly through the red circle gate with number 0"
+}

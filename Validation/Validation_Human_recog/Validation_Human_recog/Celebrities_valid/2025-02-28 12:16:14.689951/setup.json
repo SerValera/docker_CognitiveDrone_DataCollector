@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with benedict cumberbatch",
+    "prompt_simpler": "Fly through the small round blue gate with benedict cumberbatch",
+    "options": [
+        "benedict_cumberbatch.dae",
+        "Elon_Musk.dae",
+        "rihanna.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

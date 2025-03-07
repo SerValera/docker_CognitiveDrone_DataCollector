@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Vincent van Gogh",
+    "prompt_simpler": "Fly through the small triangle green gate with Vincent van Gogh",
+    "options": [
+        "Mark_Zuckerberg.dae",
+        "Michael_Jordan.dae",
+        "Vincent_van_Gogh.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

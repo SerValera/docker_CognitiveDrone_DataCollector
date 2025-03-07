@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 5+1",
+    "prompt_simpler": "Fly through the big round blue gate with 6",
+    "options": [
+        "six.dae",
+        "seven.dae",
+        "eight.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate with a number that equals 5+1, which simplifies to 6. Analyzing the image:\n- There are three gates, each marked with numbers 6, 7, and 8.\n- Each gate is associated with a shape and color: the gate with '6' has a circle (blue), '7' has a square (red), and '8' has a triangle (green).\n- The goal is to identify the gate labeled with 6, as 5+1 equals 6.\n- The gate with '6' is clearly visible and appears to be on the left side of the image.\n \nGiven the clear visibility and the math calculation: 5+1 is 6, there are no ambiguities in this task. The command should direct the drone to fly through the correct gate while adhering to safety and feasibility.",
+    "prompt_after_reasoning": "Fly through blue circle gate with number 6"
+}

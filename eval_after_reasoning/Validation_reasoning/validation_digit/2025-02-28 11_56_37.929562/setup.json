@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with ten",
+    "prompt_simpler": "Fly through the small round blue gate with ten",
+    "options": [
+        "one.dae",
+        "ten.dae",
+        "four.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly the drone through the gate associated with the number '10'. From the visual data provided, I can see three numbers presented in a scene with shapes beneath them: a '1' with a red square, a '10' with a blue circle, and a '4' with a green triangle. Since the instruction specifies the number '10', and it is associated with the blue circle shape, the task involves flying through the blue circular gate linked to the number '10'. There are no environmental constraints such as obstacles or lighting conditions affecting this operation, and the visual data is clear and unambiguous. Thus, the command should focus strictly on flying through the appropriate gate.",
+    "prompt_after_reasoning": "Fly through blue circle gate with number 10"
+}

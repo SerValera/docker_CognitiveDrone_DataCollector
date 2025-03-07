@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_11.dae",
+        "Healthy/healthy_6.dae",
+        "Unhealthy/unhealthy_14.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate associated with healthy food. From the provided FPV image, we observe three gates: a green square, a blue triangle, and a red triangle. Each gate is associated with corresponding images above them.\n\nFrom left to right:\n1. The green square gate is above an image of packaged snacks, which are not generally considered healthy food.\n2. The blue triangle gate is above images of fresh fruits, including peaches, which are widely recognized as healthy food.\n3. The red triangle gate is above an image of strawberry slices, another healthy food item.\n\nGiven the context of 'healthy food,' either the blue triangle or red triangle gate could be the correct option. However, the blue triangle gate should be prioritized since it represents a variety of healthy fruits, which simplifies the decision.\n\nNo apparent environmental constraints are present in the image, such as obstacles or difficult lighting conditions. Also, the task does not mention any priorities between individual pieces of healthy food, so demonstrating a preference for variety seems logical here. \n\nThus, the target gate is the blue triangle gate with healthy food (fruits).",
+    "prompt_after_reasoning": "Fly through blue triangle gate with healthy fruits"
+}

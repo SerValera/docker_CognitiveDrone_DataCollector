@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_8.dae",
+        "Unhealthy/unhealthy_11.dae",
+        "Healthy/healthy_17.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "To execute the command 'Fly to the gate with healthy food,' my first step is to correctly identify the gate associated with healthy food based on the image and provided description. \n\nFrom the image:\n- There are three food objects and three gates (blue square, red circle, and green triangle).\n- The food items appear to be a sandwich, cookies, and a bowl of salad.\n- The bowl of salad, positioned above the blue square gate, is typically considered 'healthy food' compared to the other options which could be seen as less healthy.\n\nIdentifying the relevant gate:\n- The bowl of salad is directly above the blue square gate, connecting it to the healthy food in question.\n\nGiven this analysis and the clarity of the image structure:\n- There are no visual ambiguities or overlapping elements that could confuse the gates or food with each other.\n- Safety-wise, the gates appear clear of obstacles in this simulation-like setup, making movement straightforward.\n\nBased on this reasoning, the blue square gate is clearly associated with the healthy food (salad). The command must reflect this choice.",
+    "prompt_after_reasoning": "Fly through blue square gate with healthy food"
+}

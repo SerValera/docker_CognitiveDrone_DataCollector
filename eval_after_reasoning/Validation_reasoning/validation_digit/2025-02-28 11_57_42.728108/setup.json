@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with six",
+    "prompt_simpler": "Fly through the small round green gate with six",
+    "options": [
+        "eight.dae",
+        "six.dae",
+        "three.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to 'Fly through the gate with six.' Based on the visual information from the image:\n- The number '6' is centered in the image, which implies it’s the primary focus.\n- A green circle is below the number '6', which could represent a gate based on the task's instruction (using the number '6').\n- There are no other gates in the image, but the green circle's position and relation to the number '6' suggest this is the gate through which the drone should fly.\n- Given the image composition and the singular understanding of what is considered a 'gate,' the green circle directly under '6' should qualify for this task.  \n- No ambiguity arises since the command seems straightforward with the image supporting this context. Thus, the command stays focused on this interpretation.",
+    "prompt_after_reasoning": "Fly through green circle gate with 6"
+}

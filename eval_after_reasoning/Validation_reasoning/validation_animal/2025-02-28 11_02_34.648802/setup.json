@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a frog",
+    "prompt_simpler": "Fly through the big round red gate with a frog",
+    "options": [
+        "flamingo.dae",
+        "owl.dae",
+        "frog.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with a frog. Analyzing the visual data: \n- There are three gates of distinct colors (blue, green, and red) in the FPV image.\n- The red gate is circled, possibly indicating it as the target, but it must be confirmed with context.\n- The green gate is near a small frog image, fitting the task's description of flying with a frog.\n- The blue gate is near a bird image and does not seem relevant.\n- The red gate appears to be near a larger, unclear image that does not resemble a frog.\n- Spatially, the green gate and frog image are clearly closer to one another compared to other gates and objects.\n\nAssuming the task involves a visual association with the frog, the green gate is the most relevant one, as the green gate is near the frog image. The red circled gate does not seem contextually relevant to flying with a frog.\nTherefore, the final simplified command should involve flying through the green gate with the frog.",
+    "prompt_after_reasoning": "Fly through green gate with frog"
+}

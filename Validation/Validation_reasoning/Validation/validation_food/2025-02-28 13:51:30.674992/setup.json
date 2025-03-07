@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small triangle red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_19.dae",
+        "Healthy/healthy_13.dae",
+        "Unhealthy/unhealthy_17.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Michael Jordan",
+    "prompt_simpler": "Fly through the small triangle blue gate with Michael Jordan",
+    "options": [
+        "Carlo_Ancelotti.dae",
+        "leonardo_decaprio.dae",
+        "Michael_Jordan.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with Michael Jordan based on the visual data provided. The image shows three sections, each containing a person and a colored gate with a corresponding team logo. The person associated with the Chicago Bulls logo and the blue gates is considered Michael Jordan. The object locations appear to be defined as follows: \n\n- On the left is a red triangle with a person who is not associated with Michael Jordan.\n- In the center is a green circle gate with a person who is likely Michael Jordan associated with the Chicago Bulls.\n- On the right is a blue triangle gate with a segment of a crowd which might indicate a game or event setting relevant to the Bulls.\n\nGiven the complexities and the described task, the goal is to match the person with Michael Jordan and confirm the accurate gate. The green circle gate aligns with Michael Jordan since it includes his team logo. \n\nAssumptions: \n1. The team logo associated with Michael Jordan is Chicago Bulls.\n2. The green circle gate marks Michael Jordan's section.\n\nFollowing safety and accuracy, the task is clearly simplified to fly through the specific gate declared.",
+    "prompt_after_reasoning": "Fly through green circle gate with Michael Jordan"
+}

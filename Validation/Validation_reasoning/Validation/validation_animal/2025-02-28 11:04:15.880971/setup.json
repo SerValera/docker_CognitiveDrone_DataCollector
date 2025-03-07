@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a cow",
+    "prompt_simpler": "Fly through the big square green gate with a cow",
+    "options": [
+        "kangaroo.dae",
+        "cow.dae",
+        "dog_1.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

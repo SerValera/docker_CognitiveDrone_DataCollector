@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with eight",
+    "prompt_simpler": "Fly through the big triangle green gate with eight",
+    "options": [
+        "two.dae",
+        "ten.dae",
+        "eight.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Analyzing the visual data from the FPV image:\n- There are three main objects with numerical values: 2, 10, and 8.\n- Next to each number is a distinct shape: a red circle with the number 2, a blue square with the number 10, and a green triangle with the number 8.\n- The instruction is to 'Fly through the gate with eight,' which implies flying through the area associated with the number 8.\n- The 'gate' with number 8 appears to be the green triangle, as 'gate' in drone operations usually implies an opening or passageway to navigate through.\n- There are no visible obstacles or complex spatial relationships that would preclude a straightforward flight towards the green triangle.\n- Safety-wise, considering only visual input and the given objects, there are no apparent conflicts for flying towards the green triangle.\n\nGiven these observations, the task involves flying towards and through the area associated with the number 8.",
+    "prompt_after_reasoning": "Fly through the green triangle gate with 8"
+}

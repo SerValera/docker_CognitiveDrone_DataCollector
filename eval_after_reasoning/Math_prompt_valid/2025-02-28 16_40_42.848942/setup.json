@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 0-0",
+    "prompt_simpler": "Fly through the big square red gate with 0",
+    "options": [
+        "four.dae",
+        "zero.dae",
+        "two.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to adjust the command related to flying through a gate associated with the number 0. From the image, three gates are visible: a blue triangular gate with the number 4, a red square gate with the number 0, and a green circular gate with the number 2. The command specifies the number 0, which matches the gate with the red square and the number 0. Considering the provided image, the correct gate to fly through is the red square gate marked '0'. The command needs to be simplified into a single and clear action for the drone, maintaining the selection of the appropriate gate. There are no apparent environmental constraints or obstacles apparent in the image that would affect this decision. The command should therefore refer specifically to flying through the red square gate with the number 0.",
+    "prompt_after_reasoning": "Fly through red square gate with 0"
+}

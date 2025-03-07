@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with linkedin",
+    "prompt_simpler": "Fly through the big round red gate with linkedin",
+    "options": [
+        "linkedin.dae",
+        "pixar.dae",
+        "airbnb.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Restating the task: The original instruction is to fly through the gate with LinkedIn. Observing the visual data from the drone’s FPV image, there are three distinct gates: a red circle, a green triangle, and a blue triangle. These gates are associated with different branding logos which could be used as identifiers or 'gates'. The 'LinkedIn' logo is next to the red circle gate.\n\nKey components and constraints:\n- Objects: The three gates (red circle, green triangle, blue triangle) are the primary objects.\n- Colors and Shapes: The gates are distinctly different by color and shape - red circle, green triangle, blue triangle. \n- Spatial Relationships: The LinkedIn logo is clearly placed beside the red circle gate.\n- Ambiguities: The term 'gate' might imply a pass-through, so a clear direction for which gate correlates with 'LinkedIn' is necessary.\n\nResolving ambiguities:\n- Visual Analysis: The red circle gate is visibly paired with the LinkedIn logo, which makes it reasonable to assume that this is the LinkedIn 'gate'.\n- Reasonable Assumptions: Given that the task involves flying 'through the gate', the 'gate' in this context is the red circle.\n\nSimplifying the task: \nGiven the analysis, the operation is simplified to flying through the red circle gate as it is associated with LinkedIn.",
+    "prompt_after_reasoning": "Fly through red circle gate with LinkedIn"
+}

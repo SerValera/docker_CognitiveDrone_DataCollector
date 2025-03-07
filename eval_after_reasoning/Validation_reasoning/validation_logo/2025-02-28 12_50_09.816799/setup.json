@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with fedex",
+    "prompt_simpler": "Fly through the big round green gate with fedex",
+    "options": [
+        "fedex.dae",
+        "android_1.dae",
+        "stellaris.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone through a gate associated with FedEx. However, there isn't a clear gate in the image associated directly with 'FedEx.' Instead, the image shows the FedEx logo logo to the left, close to a green horizontal ellipse. Also, there are other gates, including a red circular one and a blue triangular one. The instruction seems to imply gate association visually rather than literally creating a gate; the green horizontal ellipse could be considered the 'gate' since it's near the FedEx logo. \n\nEven though the exact arrangement is somewhat ambiguous, focusing on the effective command—there's no explicit gate—but the green ellipse near the FedEx logo could symbolically represent it. To simplify, and given the context and image, the realistic and safest action would be to interpret it as flying through the green ellipse.\n\nAssumptions: \n- The green horizontal ellipse is interpreted as the 'gate' associated with the FedEx logo due to proximity.\n- It's the most logical visual association with the phrase “gate with fedex.”\n\nGiven the constraints and ensuring the command is feasible and clear for drone operation, we can form the command accordingly.",
+    "prompt_after_reasoning": "Fly through green gate with FedEx logo"
+}

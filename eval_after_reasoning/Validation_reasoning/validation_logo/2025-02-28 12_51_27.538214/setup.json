@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with starbucks",
+    "prompt_simpler": "Fly through the big round green gate with starbucks",
+    "options": [
+        "starbucks.dae",
+        "facebook.dae",
+        "mercedes.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Given the task 'Fly through the gate with Starbucks', I analyzed the provided image to determine relevant objects and their relationships. In the image, there are three logos: Starbucks (top left), Infinity (top middle), and Mercedes-Benz (top right). Below these logos are corresponding colored shapes: a green circle, a red circle, and a blue triangle. The Starbucks logo is positioned above the green circle, which could signify a gate based on its circular shape. \n\nThe task's wording, 'Fly through the gate with Starbucks,' suggests that the green circle is intended to be the gate for the Starbucks logo. The green circle is distinct and clearly visible in the image, with no apparent environmental constraints or obstructions.\n\nNo ambiguities are present regarding the Starbucks logo or the green circular gate. It's clear and safe to proceed with the task as specified.\n\nGiven these observations and the task requirements, the command should instruct the drone to fly through the green circular gate associated with the Starbucks logo.",
+    "prompt_after_reasoning": "Fly through green circle gate with Starbucks"
+}

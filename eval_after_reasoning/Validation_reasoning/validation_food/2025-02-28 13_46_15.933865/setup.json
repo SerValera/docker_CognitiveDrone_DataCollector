@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_18.dae",
+        "Healthy/healthy_12.dae",
+        "Unhealthy/unhealthy_8.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to the gate with healthy food. The images show three objects: a hotdog, broccoli, and cookies, each framed with a specific color box. Among these objects, broccoli is considered healthy food. The image indicates that the broccoli is within a red-colored square box, which suggests it is associated with one of the gates. Therefore, the gate with healthy food is the one marked by the red square box. However, the provided gates are described as a green square, a blue square, and a red circular shape. Since the image does not neatly match the ordered gates, we assume 'the gate with healthy food' refers to the red circular shape surrounding the gate that matches the colors of the broccoli's box in the image. Hence, the simplified command would involve flying to the gate indicated by the red circular shape.",
+    "prompt_after_reasoning": "Fly through red, circular gate with broccoli"
+}

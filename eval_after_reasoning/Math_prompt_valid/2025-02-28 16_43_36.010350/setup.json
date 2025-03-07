@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 9-8",
+    "prompt_simpler": "Fly through the big square red gate with 1",
+    "options": [
+        "two.dae",
+        "eight.dae",
+        "one.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate with the number 9-8, which is interpreted as the number equivalent to 9 minus 8, thus the gate with number 1 is the correct target. From the FPV image: \n- There are three gates with numbers: 2 (green triangle), 8 (blue circle), and 1 (red square).\n- The correct gate is the one with the number 1, which is highlighted with a red square.\n- There are no environmental constraints, such as obstacles or lighting conditions, visible in the image.\n- The command should focus on navigating the drone through the gate with the number 1, simplifying the task to ensure safety and clarity.",
+    "prompt_after_reasoning": "Fly through the red square gate with number 1"
+}

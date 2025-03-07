@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a peacock",
+    "prompt_simpler": "Fly through the small triangle red gate with a peacock",
+    "options": [
+        "peacock.dae",
+        "goat.dae",
+        "crocodile.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

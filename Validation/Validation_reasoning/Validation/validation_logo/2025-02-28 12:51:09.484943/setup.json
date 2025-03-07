@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with aurora",
+    "prompt_simpler": "Fly through the small triangle red gate with aurora",
+    "options": [
+        "tiktok.dae",
+        "aurora.dae",
+        "panasonic.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

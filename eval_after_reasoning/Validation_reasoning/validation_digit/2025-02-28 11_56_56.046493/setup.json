@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the big square blue gate with two",
+    "options": [
+        "six.dae",
+        "two.dae",
+        "three.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with the number 2. Looking at the FPV image, there are three objects: a number '6' associated with a red square, a number '2' associated with a blue square, and a number '3' associated with a green and blue circular gate. Based on the task 'Fly through the gate with two', the relevant gate is the blue square associated with the number 2. There are no visible obstacles in the pathway to the blue square, and all objects are clearly distinguishable. The task seems unambiguous, and the blue gate with the number 2 is the most relevant to the command.",
+    "prompt_after_reasoning": "Fly through blue square gate with 2"
+}

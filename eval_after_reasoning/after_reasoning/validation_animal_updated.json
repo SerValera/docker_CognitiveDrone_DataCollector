@@ -1,0 +1,872 @@
+[
+    {
+        "prompt": "Fly through the gate with a chimpanzee",
+        "prompt_simpler": "Fly through the small round green gate with a chimpanzee",
+        "options": [
+            "rat.dae",
+            "chimpanzee.dae",
+            "monkey.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original command is 'Fly through the gate with a chimpanzee.' Analyzing the provided visual data:\n\n1. **Objects and Gates:**\n   - Two distinct images are present: an animal resembling a rodent on the green grass and a chimpanzee sitting. \n   - Three gates: A red square gate, a green circular gate, and a blue square gate.\n\n2. **Spatial Relationships and Target:**\n   - No spatial relationships are specified in the command, but the task targets a gate associated with the chimpanzee.\n\n3. **Ambiguities and Assumptions:**\n   - The task doesn't specify which gate to use, and no direct association is visually indicated between the chimpanzee and a specific gate. However, the task clearly refers to the chimpanzee.\n   - A reasonable assumption is to choose the closest gate to the chimpanzee for the task.\n\n4. **Safe and Feasible Command:**\n   - The chimpanzee is closest to the blue square gate.\n   - Therefore, the most logical command is to fly through the blue square gate with the chimpanzee, ensuring clarity and feasibility.\n\n5. **Final Command Format Check:**\n   - The given format is 'Fly through <color, shape> gate with <max simplified name of object>' which matches our derived command nicely.",
+        "prompt_after_reasoning": "Fly through the blue square gate with the chimpanzee"
+    },
+    {
+        "prompt": "Fly through the gate with a camel",
+        "prompt_simpler": "Fly through the big square blue gate with a camel",
+        "options": [
+            "crocodile.dae",
+            "camel.dae",
+            "dog.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to 'Fly through the gate with a camel.' Analyzing the visual data:\n\n- There are three objects visible in the image, each framed by a distinct gate: a green gate with a bird picture, a blue gate with a camel picture, and a red gate with a dog picture. \n- The task specifies a camel, which matches the image in the blue gate. \n- There are no environmental constraints or obstacles visible in the image that would affect flight safety. \n- The sky is clear, and the gates are positioned at a safe distance from one another.\n- There are no ambiguities related to color, shape, or object identity since the images are clear and distinct.\n\nSimplifying the task:\nSince the task explicitly states 'Fly through the gate with a camel' and the camel is associated with the blue gate, the command needs no adjustment. The program does not mandate any further action other than executing the fly-through.",
+        "prompt_after_reasoning": "Fly through blue square gate with camel"
+    },
+    {
+        "prompt": "Fly through the gate with a frog",
+        "prompt_simpler": "Fly through the big round red gate with a frog",
+        "options": [
+            "flamingo.dae",
+            "owl.dae",
+            "frog.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with a frog. Analyzing the visual data: \n- There are three gates of distinct colors (blue, green, and red) in the FPV image.\n- The red gate is circled, possibly indicating it as the target, but it must be confirmed with context.\n- The green gate is near a small frog image, fitting the task's description of flying with a frog.\n- The blue gate is near a bird image and does not seem relevant.\n- The red gate appears to be near a larger, unclear image that does not resemble a frog.\n- Spatially, the green gate and frog image are clearly closer to one another compared to other gates and objects.\n\nAssuming the task involves a visual association with the frog, the green gate is the most relevant one, as the green gate is near the frog image. The red circled gate does not seem contextually relevant to flying with a frog.\nTherefore, the final simplified command should involve flying through the green gate with the frog.",
+        "prompt_after_reasoning": "Fly through green gate with frog"
+    },
+    {
+        "prompt": "Fly through the gate with a gorilla",
+        "prompt_simpler": "Fly through the big triangle blue gate with a gorilla",
+        "options": [
+            "eagle.dae",
+            "alligator.dae",
+            "gorilla.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a gorilla. Based on the image:\n- Three distinct shapes are present: a circle, a triangle, and another triangle.\n- The circle is red, the first triangle is green and the second is blue.\n- The gorilla image is aligned with the blue triangle, suggesting that the 'gate' could refer to the blue triangle.\n- There are no visible gates in a traditional sense, so 'gate' might metaphorically mean passing through the space defined by the triangle shape.\n- The task goal is to interpret flying through the blue triangle as passing through the 'gate' with the gorilla.\n- No safety concerns are apparent from the image since it is a simplified representation.\n- Thus, the simplified command should focus on flying through the blue triangle.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with gorilla"
+    },
+    {
+        "prompt": "Fly through the gate with a elephant",
+        "prompt_simpler": "Fly through the small square green gate with a elephant",
+        "options": [
+            "crocodile.dae",
+            "elephant.dae",
+            "wolf.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate associated with an elephant. Observing the FPV image, there are three gates: a red circle, a green square, and a blue rectangle. Each gate is associated with a different image: the red circle with a bird, the green square with an elephant, and the blue rectangle with a wolf. The elephant is clearly identified as being associated with the green square gate based on the visual data. There are no environmental constraints or ambiguities that prevent the drone from executing the task as described in the image. Given this, the most accurate and simplified directive would be to fly through the green square gate with the elephant explicitly associated with it.",
+        "prompt_after_reasoning": "Fly through green square gate with elephant"
+    },
+    {
+        "prompt": "Fly through the gate with a crow",
+        "prompt_simpler": "Fly through the small round green gate with a crow",
+        "options": [
+            "crow.dae",
+            "dog.dae",
+            "panda.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to make a drone 'Fly through the gate with a crow.' Observing the FPV image, there are three gates: a green circle, a blue triangle, and a red circle. Additionally, we have three images of animals: a crow in the top-left, a dog in the top-center, and a panda in the top-right. The crow is associated with the green circle because it's located directly to the left of the other two animals, which aligns with the position of the green circle relative to the other gates. \n\nSince the task specifies 'a crow,' and the green circle is spatially nearest to the crow's image, the most logical assumption is that the 'gate with a crow' is the green circle gate. There are no ambiguities in the task description or the visual data that affect this interpretation.\n\nNo environmental constraints like lighting or obstacles are visible that would affect this operation. With the above reasoning, executing the task is both feasible and safe for the drone. Given that we need a clear and executable command in one of the provided formats, it translates best to the 'Fly through' command.",
+        "prompt_after_reasoning": "Fly through green circle gate with crow"
+    },
+    {
+        "prompt": "Fly through the gate with a bear",
+        "prompt_simpler": "Fly through the small square blue gate with a bear",
+        "options": [
+            "hippo.dae",
+            "bear.dae",
+            "leopard.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a bear based on the FPV image. Analyzing the visual data, there are three gates with distinct colors and shapes: a red circular gate, a blue square gate, and a green rectangular gate. Next to each gate is an image of an animal - a hippo near the red gate, a bear near the blue gate, and a leopard near the green gate. Given the task requires flying through the gate with the bear, the blue square gate is the correct choice as the bear's picture is associated with it. There are no environmental constraints indicated that would affect this approach.",
+        "prompt_after_reasoning": "Fly through blue square gate with bear"
+    },
+    {
+        "prompt": "Fly through the gate with a pig",
+        "prompt_simpler": "Fly through the big square red gate with a pig",
+        "options": [
+            "zebra.dae",
+            "pig.dae",
+            "leopard.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a pig. Analyzing the visual data shows three images structured with colored shapes indicating gates: a blue circle with a zebra, a red square with a pig, and a green square with a leopard. The command specifically targets the gate with a pig. The red square gate is the one containing the pig. There are no apparent environmental constraints or ambiguities in the image—each gate and its content are distinct and clearly identified. Thus, the command must involve flying through the red square gate.",
+        "prompt_after_reasoning": "Fly through red square gate with pig"
+    },
+    {
+        "prompt": "Fly through the gate with a zebra",
+        "prompt_simpler": "Fly through the big round green gate with a zebra",
+        "options": [
+            "zebra.dae",
+            "turtle.dae",
+            "rat.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "Analyzing the provided image and instructions:\n1. The task involves flying through a gate associated with a zebra.\n2. The image shows three distinct animals (a zebra, a pig, and another pig) within separate colored outlines.\n3. The zebra is associated with the green circle.\n4. The phrasing 'fly through the gate with a zebra' should refer to the zebra's associated gate, which, accordingly, is the green circle.\n5. The phrase 'gate' here likely translates to the circle visual shape surrounding the respective images.\n6. Hence, the action should involve the drone moving through the green circle gate while targeting the area with the zebra.\n\nGiven these observations, the command should emphasize flying through the green circle gate linked to the zebra and ensure no obstructions or adverse movements exist in this course of action. No safety hazards are implied in the instruction or visual data shown.",
+        "prompt_after_reasoning": "Fly through green circle gate with zebra"
+    },
+    {
+        "prompt": "Fly through the gate with a frog",
+        "prompt_simpler": "Fly through the small round green gate with a frog",
+        "options": [
+            "frog.dae",
+            "crocodile.dae",
+            "dog_1.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a frog. Observing the FPV image, there are three distinct objects and three associated gates: a frog near a green circular gate, a wolf near a red triangular gate, and a dog near a blue rectangular gate. The original task specifies 'the gate with the frog', and the image shows the frog closest to the green circular gate. There are no ambiguities; the AND condition links the green gate explicitly to the frog. It's reasonable and safe to fly through the green circular gate with the object (frog).",
+        "prompt_after_reasoning": "Fly through green, circular gate with frog"
+    },
+    {
+        "prompt": "Fly through the gate with a tiger",
+        "prompt_simpler": "Fly through the big round blue gate with a tiger",
+        "options": [
+            "tiger.dae",
+            "flamingo.dae",
+            "dog_1.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Starting with the original task 'Fly through the gate with a tiger,' and using the FPV image for analysis:\n\n1. Analyze objects and visual information: \n   - There are three doors with pictures related to animals and nature.\n   - The left door has a tiger image.\n   - The middle door has a bird image.\n   - The right door has a dog image.\n   - There are gates in front of each door: blue, red, and green from left to right.\n\n2. Identify key components related to 'gate with a tiger':\n   - The task needs the gate with a tiger. \n   - The left door is associated with a tiger and a blue gate.\n   \n3. Determine actionable command:\n   - There is a blue gate and a tiger image on the left door. So, this must be the intended target.\n\n4. Simplify the command for drone operation:\n   - 'Fly through blue gate with a tiger.' \n\n5. Addressing safety and feasibility:\n   - The target is clear and visually distinct. No other contradictions or overlapping objects are found. Thus, the simplified command addresses the task correctly in a straightforward manner while ensuring safety.",
+        "prompt_after_reasoning": "Fly through blue gate with tiger"
+    },
+    {
+        "prompt": "Fly through the gate with a rabbit",
+        "prompt_simpler": "Fly through the big round red gate with a rabbit",
+        "options": [
+            "rabbit.dae",
+            "cat.dae",
+            "crow.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task involves flying through a gate associated with a rabbit. Upon analyzing the FPV image, I observe three gates: a red circular gate, a green circular gate, and a blue triangular gate. Additionally, there are three objects in view: a rabbit is visible near the red circular gate, a cat is near the green circular gate, and a bird is near the blue triangular gate. Since the gate associated with the rabbit is the red circular gate, the command should be adjusted to fly through that specific gate. There are no apparent obstacles or environmental constraints noted in this image that would impede the flight. The task is clear, and safety considerations are met if the drone accurately targets the red circular gate.",
+        "prompt_after_reasoning": "Fly through red circular gate with rabbit"
+    },
+    {
+        "prompt": "Fly through the gate with a fox",
+        "prompt_simpler": "Fly through the big triangle blue gate with a fox",
+        "options": [
+            "fox.dae",
+            "turtle.dae",
+            "rat.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires flying through a gate associated with a fox. In the image, three distinct shapes serve as gates: a blue triangle, a red circle, and a green square. There are also three animals presented: a fox, a bear, and a groundhog.\n\n- The fox is positioned above the green square, and this spatial relationship suggests that the green square is the gate tied to the fox.\n- No ambiguities involve the color or shape of the gate regarding the fox.\n- To ensure safety and adherence to the one-action-per-command rule, I will simplify the command to include only one gate associated with the fox and disregard other objects. \n\nThus, we should fly through the green square gate, which corresponds to the simplified directive involving the fox.",
+        "prompt_after_reasoning": "Fly through the green square gate with the fox"
+    },
+    {
+        "prompt": "Fly through the gate with a zebra",
+        "prompt_simpler": "Fly through the small square red gate with a zebra",
+        "options": [
+            "goat.dae",
+            "alligator.dae",
+            "zebra.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate with a zebra. From the visual data, there are three gates: \n- A green circle,\n- A blue circle, and\n- A red rectangle.\n\nThere is also a visual of a zebra present next to the red rectangular gate. The zebra is associated more spatially with the red rectangular gate than the other two. To resolve any ambiguity, we consider the spatial relationship between the zebra and the gates. The zebra is in the vicinity of the red rectangular gate, not the blue or green circular gates.\n\nSince the goal is to fly through a gate related to a zebra, and considering the spatial proximity of the zebra to the red rectangular gate, the appropriate command should involve this specific gate. It is safe and clear to correlate the zebra with the red rectangular gate.\n\nAssuming that the red gate is accessible and there are no other environmental constraints, the task can be simplified into an executable command based on the given instructions, focusing on the most logical relationship from the visual analysis.",
+        "prompt_after_reasoning": "Fly through red rectangle gate with zebra"
+    },
+    {
+        "prompt": "Fly through the gate with a monkey",
+        "prompt_simpler": "Fly through the big round green gate with a monkey",
+        "options": [
+            "wolf.dae",
+            "hippo.dae",
+            "monkey.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Given the task 'Fly through the gate with a monkey,' we need to interpret this in the context of the provided image. \n\n1. **Objects and Gates Identification**:\n   - The images display three animals: a wolf, a rabbit, and a monkey.\n   - There are two gates visible: a red circle and a green circle. A blue square gate is also present, but it’s not a circle.\n   \n2. **Spatial Analysis**:\n   - The monkey is positioned in the image to the right, aligned with the green circular gate.\n   - The wolf is associated with the red circular gate, and the rabbit is not closely linked to any gate.\n\n3. **Task Constraints**:\n   - The task specifies the monkey and involves flying through a gate.\n   - Based on its proximity and alignment, the green circular gate appears to be the intended one.\n\n4. **Safety and Feasibility**:\n   - Flying through the green circular gate with the monkey image aligns with the task’s instruction, ensuring no obstacles are noted between the gates and the designated paths.\n\n5. **Command Simplification**:\n   - Streamline the operation into a direct and unambiguous command focusing on the intended action: 'Fly through the green circle gate with the monkey.'\n\nWith this analysis, the most appropriate, safe, and clear command based on the provided visual and task description can be generated.",
+        "prompt_after_reasoning": "Fly through the green circle gate with the monkey."
+    },
+    {
+        "prompt": "Fly through the gate with a whale",
+        "prompt_simpler": "Fly through the big round red gate with a whale",
+        "options": [
+            "whale.dae",
+            "kangaroo.dae",
+            "cheetah.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "First, I restate the original task: I need the drone to fly through a gate associated with a whale. Observing the FPV image, there are no whales directly visible; however, there is a picture of a whale, possibly indicating the icon or symbol to follow.\n  \nKey components:\n- There are three gates: a red one on the left, a blue one in the middle, and a green one on the right.\n- Adjacent to the left gate, there is an image of a whale.\n- The right gate seems to have a giraffe next to it, and the blue gate has no image beside it.\n- Spatial relationships and environmental constraints are not a major factor based on this image.\n  \nResolving ambiguities:\n- The command 'Fly through the gate with a whale' logically links the whale image to the red gate, as the whale is the closest visual association in the image.\n- Prioritizing safety, I do not interpret the instruction to literally fly through the picture of the whale but rather consider the gate adjacent to the whale image.\n  \nWith these considerations, the task can be translated into a clear and executable command.",
+        "prompt_after_reasoning": "Fly through red, circle gate with whale image"
+    },
+    {
+        "prompt": "Fly through the gate with a cow",
+        "prompt_simpler": "Fly through the big square green gate with a cow",
+        "options": [
+            "kangaroo.dae",
+            "cow.dae",
+            "dog_1.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a cow. Analyzing the visual data:\n\n- There are three gates in the image: one red rectangle, one green square, and one blue triangle. \n- There are three objects that look like cows: the first cow is black and white, the second cow is brown and white, and the third cow is also brown and white.\n- The red rectangle gate appears to be aligned with the black and white cow, the green square gate with the brown and white cow in the middle, and the blue triangle gate with the brown and white dog.\n- To ensure safety and feasibility, the gate with the cow must be appropriately aligned and unobstructed.\n- The middle gate (green square) seems to be the safest option, as it is aligned with a cow, and there are no visible obstructions.\n\nAssuming the drone should maintain safety while following the instructions, the most appropriate action is to fly through the green square gate, aligned with the middle cow.",
+        "prompt_after_reasoning": "Fly through green square gate with cow"
+    },
+    {
+        "prompt": "Fly through the gate with a sheep",
+        "prompt_simpler": "Fly through the big triangle green gate with a sheep",
+        "options": [
+            "elephant.dae",
+            "monkey.dae",
+            "sheep.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "First, I analyze the task: the command is to fly through a gate associated with a sheep. The image contains multiple objects: a red circle, a blue triangle, a green triangle, and three pictures, one of which contains a sheep. Each gate (shapes) is associated with a picture above it. The green triangle appears to have a sheep picture above it. Given these observations:\n1. The task specifies a 'gate with a sheep', which means the object with the sheep picture must be identified. The sheep's picture maps to the green triangle.\n2. The task is clear and not ambiguous, no safety or environmental concerns are apparent in the provided visual.\n3. The visual evidence supports selecting the green triangle as the correct gate associated with the sheep. \n\nBased on the analysis, the task can be simplified into an action involving the green triangle gate.",
+        "prompt_after_reasoning": "Fly through green triangle gate with sheep"
+    },
+    {
+        "prompt": "Fly through the gate with a koala",
+        "prompt_simpler": "Fly through the small triangle blue gate with a koala",
+        "options": [
+            "octopus.dae",
+            "squirrel.dae",
+            "koala.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task initially states 'Fly through the gate with a koala.' Analyzing the image, there are three distinct objects and gates, each with unique colors and shapes. The objects are a fish, a squirrel, and a koala. Each has a corresponding gate with these attributes:\n- A red triangular gate with a fish above it.\n- A green triangular gate with a squirrel above it.\n- A blue triangular gate with a koala above it.\nThe most relevant and immediately clear action, based on the presence of a koala above the blue gate, supports the instruction and visual alignment. No environment constraints appear to affect movement or safety around these gates.",
+        "prompt_after_reasoning": "Fly through blue triangular gate with koala"
+    },
+    {
+        "prompt": "Fly through the gate with a wolf",
+        "prompt_simpler": "Fly through the small square red gate with a wolf",
+        "options": [
+            "zebra.dae",
+            "peacock.dae",
+            "wolf.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a wolf, but we need to clarify the actual scene from the provided image. \n\n- **Objects and Landmarks:** \n    - The image contains a zebra within a green gate. \n    - A peacock is located within a blue gate.\n    - A wolf is displayed within a red gate. \n\n- **Colors and Shapes:** \n    - The zebra gate is green and square, the peacock gate is blue and triangular, and the wolf gate is red and also square.\n  \n- **Task Analysis:**\n    - The instruction specifically mentions the wolf, aligning with the red gate in the image that contains the wolf.\n\n- **Ambiguities:** \n    - There's only one gate with a wolf, reducing ambiguity related to gate selection.\n  \n- **Resolution of task:**\n    - The wolf is clearly associated with the red square gate. The command 'fly through the gate with a wolf' translates to 'fly through the red square gate with the wolf.'\n\n- **Safety and feasibility:**\n    - No potential obstacles, environmental constraints, or unsafe elements are visually evident, so the task appears straightforward and unambiguous with this command format.",
+        "prompt_after_reasoning": "Fly through red square gate with wolf"
+    },
+    {
+        "prompt": "Fly through the gate with a leopard",
+        "prompt_simpler": "Fly through the small round green gate with a leopard",
+        "options": [
+            "frog.dae",
+            "monkey.dae",
+            "leopard.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate accompanied by a leopard. From the image, the relevant objects include animal images of a turtle, a monkey, and a leopard, along with a red triangular gate, a blue triangular gate, and a green circular gate. The objective is to identify the correct gate associated with the leopard and ensure safe flight through it.\n\n- Objects present: A visual depiction of a turtle, a monkey, and a leopard are present, alongside three gates. \n- Colors and shapes: The gates are distinguished by shape (triangle and circle) and color (red, blue, green). \n- Spatial relationships: The leopard is associated spatially with the green circular gate, as they are near each other.\n- Ambiguities: No ambiguities are observed in the visual data; the association of the leopard with the green circle is clear. \n\nTaking these observations into account, the command should be modified from a general 'fly through the gate with a leopard' to a specific 'fly through the green circular gate with the leopard.'\n\nAssumptions: \n- The command's intent is to accompany the leopard visual element with the appropriate gate (green circle). \n- The drone is capable of recognizing the gate with the leopard (green circular gate) based on its location in the scene. \n\nTherefore, the final task combines the leopard and the green gate for a safe and clear operation.",
+        "prompt_after_reasoning": "Fly through green circular gate with the leopard"
+    },
+    {
+        "prompt": "Fly through the gate with a hippo",
+        "prompt_simpler": "Fly through the big triangle red gate with a hippo",
+        "options": [
+            "hippo.dae",
+            "bear.dae",
+            "eagle.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "Given the original command is 'Fly through the gate with a hippo', and analyzing the provided FPV image:\n\n1. **Objects Analysis:**\n   - The image contains a green rectangular frame displaying a hippo relaxation scene, a pink triangle gate, a blue rectangle presumably representing a gate or barrier, a green triangle gate, and a picture of a bird (presumably not relevant to the command).\n   - The hippo picture seems to be enclosed within the green rectangular frame.\n\n2. **Gate Analysis:**\n   - There is a pink triangle, a blue rectangle, and a green triangle that potentially represent gates within the scene. None of these are associated directly with the hippo image, but the command requires identifying a gate to fly through.\n\n3. **Spatial Relationship:**\n   - The hippo image is located on the left side of the image scene, while the gates are more toward the center and right side.\n   - There is no direct spatial relationship that suggests which gate is associated with the hippo.\n\n4. **Safety and Feasibility:**\n   - Flying directly through a gate, especially in the absence of a direct spatial correlation to the hippo, needs precise target selection. Assuming pink triangle, blue rectangle, and green triangle as potential gates for action.\n   - Given the task is to fly through a gate with the hippo, the most visually distinct and isolated shape seems to be the pink triangle.\n\n5. **Command Simplification:**\n   - The command is to be shortened. Based on the visual data and the command's focus (gate and hippo), simplified, and safely executable action is to process the command as focusing on the gate.",
+        "prompt_after_reasoning": "Fly through red triangle gate with hippo"
+    },
+    {
+        "prompt": "Fly through the gate with a monkey",
+        "prompt_simpler": "Fly through the big round green gate with a monkey",
+        "options": [
+            "monkey.dae",
+            "mouse.dae",
+            "sparrow.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly through a gate associated with a monkey. In analyzing the image, three gates are visible, differentiated by color (green, red, blue), with distinct objects placed above or near each:\n\n1. **Green Gate**: Features a picture of a monkey.\n2. **Red Gate**: Features a picture of a cat.\n3. **Blue Gate**: Features a picture of a bird.\n\nThe task specifies the gate associated with a monkey. Based on the visual data, the green gate is associated with a monkey, as its picture is clearly displayed above or near it. \n\nThere are no visible obstacles or unsafe conditions related to the gates or surrounding environment. Thus, it's safe to assume the direct flight path to the green gate involves no imminent hazards. \n\nGiven this reasoning, the command can be simplified to focus on flying through the green gate where the monkey image is located.",
+        "prompt_after_reasoning": "Fly through green gate with monkey"
+    },
+    {
+        "prompt": "Fly through the gate with a cow",
+        "prompt_simpler": "Fly through the small square red gate with a cow",
+        "options": [
+            "leopard.dae",
+            "cow.dae",
+            "goat.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a cow. From the visual provided:\n- There are three gates, each with a different color: blue, red, and green.\n- There are animals associated with pictures of cows.\n- The cow images and associated colors are:\n  - Blue circle near a cow on grass.\n  - Red square near a Eland (similar to a cow).\n  - Green triangle near a goat, which is not a cow.\n- Each gate has a different animal and shape above it, suggesting the color associates with the gate in use.\n- The goal suggests utilizing the cow, which could imply selecting the closest cow image for safety and simplicity.\n- The red square near the Eland, which is similar to a cow, would be a reasonable target since the other gates involve non-cow images.\n- I'll follow the red gate associated with the Eland assuming it to be a cow.\n- There are no visible obstacles or lighting concerns that affect the maneuver.",
+        "prompt_after_reasoning": "Fly through red square gate with Eland(cow)"
+    },
+    {
+        "prompt": "Fly through the gate with a raccoon",
+        "prompt_simpler": "Fly through the small triangle red gate with a raccoon",
+        "options": [
+            "rat.dae",
+            "chimpanzee.dae",
+            "raccoon.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to simplify 'Fly through the gate with a raccoon' by analyzing the FPV image. Upon analyzing the image:\n\n1. There are three gate-like symbols in the image: a blue triangle, a green square, and a red triangle. Each is positioned in front of a screen displaying an animal. \n2. The animal images likely correspond to the objects mentioned in the task. The left screen shows what appears to be a giraffe; the middle screen shows a raccoon, and the right screen displays a raccoon as well, but the right red triangle is the furthest, and risk for precision is higher.\n3. The task specifies a 'gate with a raccoon.' From the screens, the most prominent and central image of a raccoon is associated with the green square.\n4. Since the animals are behind the shapes, the command will need to match the raccoon image with the corresponding gate shape.\n5. The middle gate (green square) is aligned with the raccoon, and is therefore the most logical choice for the required action.\n6. There are no visible environmental constraints like obstacles or lighting conditions that would hinder the flight路径 based on the image. \n7. The goal of ensuring a safe and feasible action aligns with flying through the green square since it is clearly marked and positioned centrally.\n\nGiven this analysis, the command should specify flying through the green square gate with the raccoon.",
+        "prompt_after_reasoning": "Fly through green square gate with raccoon"
+    },
+    {
+        "prompt": "Fly through the gate with a sparrow",
+        "prompt_simpler": "Fly through the small round red gate with a sparrow",
+        "options": [
+            "sparrow.dae",
+            "rat.dae",
+            "lion.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly through a gate with a sparrow. In the provided image, there are a few distinct visual elements to consider:\n\n1. **Object Identification**:\n   - A sparrow is clearly visible on the far left, located above a red circular gate, perched on what appears to be a branch.\n   - A lion image is located at the far right above a green triangular gate.\n   - A rabbit-like figure is present in the center-left side above a blue square gate.\n   - There are three distinct gates colored red, blue, and green in circular, square, and triangular shapes.\n\n2. **Spatial Relationships**:\n   - The sparrow is positioned above the red circular gate.\n   - The gates are separated spatially: the red circular gate is the leftmost gate.\n\n3. **Environmental Context**:\n   - There appear to be no obstacles or unsafe flying conditions depicted in the image regarding these gates.\n   - All gates seem of equal distance from the drone's perspective based on the image.\n\n4. **Resolution of Ambiguities**:\n   - The task specifies a sparrow, and the sparrow is clearly associated with the red circular gate as it is directly above it.\n   - There are no apparent safety concerns within this frame.\n\n5. **Command Simplification**:\n   - The task should specify flight through the red circular gate with the sparrow. It is specific and alignable with the visual data.\n   - Since the gate is circular, red, and has a sparrow above it, the command can be clearly expressed.",
+        "prompt_after_reasoning": "Fly through red circular gate with sparrow"
+    },
+    {
+        "prompt": "Fly through the gate with a cat",
+        "prompt_simpler": "Fly through the big triangle blue gate with a cat",
+        "options": [
+            "hippo.dae",
+            "lion.dae",
+            "cat.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly through a gate that has a cat associated with it. From the image, we observe three distinct gates, each with a unique color and an animal texture above them. \n- The green gate (left) has a bear texture.\n- The red gate (center) has a lion texture.\n- The blue gate (right) has a cat texture.\n\nThe task specifically mentions a gate with a cat, which aligns with the blue gate in the image. There are no ambiguous elements or environmental constraints visible in the image that would hinder the drone's ability to fly through the blue gate safely. Therefore, the simplified command should direct the drone to fly through the blue gate with the cat texture.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with cat"
+    },
+    {
+        "prompt": "Fly through the gate with a peacock",
+        "prompt_simpler": "Fly through the small triangle red gate with a peacock",
+        "options": [
+            "peacock.dae",
+            "goat.dae",
+            "crocodile.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to adjust the given command 'Fly through the gate with a peacock' based on the visual information from the FPV image. Here's the breakdown:\n- The visual data shows three distinct objects: a peacock, a calf, and a bear, as well as three shapes: a red triangle, a green square, and a blue rectangle.\n- The peacock is aligned with the red triangle, suggesting a potential connection between the two.\n- Since the original task mentions a gate, we can consider each shape as a 'gate.' The red triangle can be associated with the peacock.\n- The command implies the drone needs to fly through a specific gate while focusing on the peacock.\n- However, there appears to be no mention of 'flying with the peacock' in the sense of carrying it; it likely means to focus on the peacock as a reference point during the flight.\n\nSimplifying the task under the above assumptions, the most accurate and feasible command would be to fly through the gate (the red triangle) with the peacock acting as a focal point.”",
+        "prompt_after_reasoning": "Fly through red triangle gate with peacock"
+    },
+    {
+        "prompt": "Fly through the gate with a sheep",
+        "prompt_simpler": "Fly through the big round blue gate with a sheep",
+        "options": [
+            "rhino.dae",
+            "turtle.dae",
+            "sheep.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task instruction is 'Fly through the gate with a sheep'. From the provided image, we can observe a sheep within a green square frame in the semi-circle shape image on the right side. Additionally, there is a red triangle and a blue circle resembling gates. Initially, it seems there isn't a direct spatial relationship (such as 'near', 'above') elaborated in the command between the sheep and a gate. However, the instruction directs us to fly through a gate with a sheep, implying a specific gate related association. Among the visible gates, the closest contextually, due to its positioning and visibility, is the blue circular 'gate'. Based on visual confirmation and the exclusivity of the gate's shape matching the circular gate in the image, an assumption is made associating the blue circle with the task's gate. Therefore, integrating all these observations leads to concluding that the appropriate command is to fly through the blue circle gate with the sheep.",
+        "prompt_after_reasoning": "Fly through blue circle gate with sheep"
+    }
+]

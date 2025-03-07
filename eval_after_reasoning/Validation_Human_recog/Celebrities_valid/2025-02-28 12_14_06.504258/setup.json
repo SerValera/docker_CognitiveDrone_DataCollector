@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Brad Pitt",
+    "prompt_simpler": "Fly through the big triangle green gate with Brad Pitt",
+    "options": [
+        "Brad_Pitt.dae",
+        "Alex_Ferguson.dae",
+        "jennifer_lawrence.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "First, I'll restate the task: The goal is to command the drone to fly through a gate associated with Brad Pitt. TheFPV image shows three gates: one green triangle, one blue triangle, and one red triangle. Each gate has a rectangular cutout above it containing an image of a person. \n\nIn this case, I will assume that the instruction refers to the left gate with the green triangle gate, as it is the leftmost gate and its cutout contains a male figure that could be identified as Brad Pitt. \n\nThe middle gate shows a different individual, and the right gate has a female figure. Additionally, the middle gate's blue triangle may be ambiguous, and the right gate may not logically correspond to Brad Pitt. Since visual identification of people can be uncertain, I'll prioritize safety and simplicity by selecting the left gate.\n\nAssuming the left gate's green triangle corresponds to Brad Pitt's gate, I'll generate a clear, executable command to fulfill the task. No immediate environmental constraints, such as obstacles or lighting conditions, are apparent in the image.",
+    "prompt_after_reasoning": "Fly through green triangle gate with Brad Pitt"
+}

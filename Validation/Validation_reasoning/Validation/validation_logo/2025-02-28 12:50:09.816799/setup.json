@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with fedex",
+    "prompt_simpler": "Fly through the big round green gate with fedex",
+    "options": [
+        "fedex.dae",
+        "android_1.dae",
+        "stellaris.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

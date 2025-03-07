@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 6+2",
+    "prompt_simpler": "Fly through the small triangle red gate with 8",
+    "options": [
+        "three.dae",
+        "zero.dae",
+        "eight.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate that corresponds to a number equal to 6+2, which is 8. Analyzing the visual data provided: \n- There are three gates visible in the image.\n- Each gate has a number above it: 4, 0, and 8.\n- The gate with the number 8 is identified as a triangle with a red outline.\n- No ambiguity exists in choosing the appropriate gate because the number 8 matches the calculation in the task.\n\nGiven the clear visual identification of the number 8 and the corresponding triangle-shaped gate, the task is unambiguous. The drone should safely fly through the gate with the number 8 as there are no visible obstructions or environmental constraints within this image.",
+    "prompt_after_reasoning": "Fly through red, triangle gate with number 8"
+}

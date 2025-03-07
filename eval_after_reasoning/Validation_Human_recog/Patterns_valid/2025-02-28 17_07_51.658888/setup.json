@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with freckles",
+    "prompt_simpler": "Fly through the big round blue gate with a person with freckles",
+    "options": [
+        "freckles.dae",
+        "a_watch_on_their_wrist.dae",
+        "the_sunglasses.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task instructs the drone to fly through a gate associated with a person with freckles. From the FPV image, there are three gates: a blue circle, a red triangle, and a green triangle. Each gate is associated with a smaller picture of a person. Analyzing these people:\n\n- The person near the blue circle appears to lack visible freckles.\n- The person near the red triangle appears to lack visible freckles.\n- The person near the green triangle also seems to lack visible freckles based on the size and resolution of the image.\n\nGiven that no person in these gate-associated images clearly shows freckles, this introduces an ambiguity. A freckled person is not visibly identifiable from the provided image data. \n\nHowever, the task must still be simplified into an executable command. I have to make a decision to avoid an undefined situation. I choose the green triangle gate because people often have freckles that are not clearly visible in small or low-resolution images. It is a fair guess given the current constraints.\n\nIn conclusion, the safest handling of the ambiguous data is to assume the person near the green triangle is the one with freckles.",
+    "prompt_after_reasoning": "Fly through green triangle gate with person"
+}

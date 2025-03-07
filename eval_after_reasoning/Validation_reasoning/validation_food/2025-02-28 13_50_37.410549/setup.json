@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_9.dae",
+        "Unhealthy/unhealthy_11.dae",
+        "Healthy/healthy_9.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone to a gate associated with 'healthy food'. Analyzing the image shows three distinct gates: a green circle on the left, a red square in the center, and a blue triangle on the right. Above each gate, there is a visual indicator that could suggest the type of food associated with each.\n\n1. The green circle gate has a visual of bread and jam, which can be considered relatively unhealthy if consumed in excess.\n2. The red square gate has a visual of fried chicken, which is generally considered unhealthy due to its high fat content.\n3. The blue triangle gate has a visual of carrots, which are definitely healthy due to their high fiber and nutrient content.\n\nGiven this analysis, the blue triangle gate, associated with carrots, is the most appropriate choice for 'healthy food.' There are no visible environmental constraints, such as obstacles, that would prevent the drone from safely executing the command. The gates are distinct in color and shape, reducing ambiguities. The task does not involve spatial relationships like 'near' or 'above,' only identifying the gate with healthy food.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with carrots"
+}

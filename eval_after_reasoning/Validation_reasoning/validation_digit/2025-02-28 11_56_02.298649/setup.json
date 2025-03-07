@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with three",
+    "prompt_simpler": "Fly through the big round blue gate with three",
+    "options": [
+        "two.dae",
+        "three.dae",
+        "four.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Translation and Visual Analysis of the Task: The initial task is to 'Fly through the gate with three', which refers to an object associated with the number 3.\n\nKey Identification and Analysis of Elements:\n- The image displays three numerals, namely 2, 3 and 4. Each numeral is associated with a distinct color and a corresponding shape beneath it.\n- Number 2 is coupled with a red square.\n- Number 3 is coupled with a blue circle. \n- Number 4 is paired with a green triangle.\n\nSpatial relationships and environmental constraints:\n- Shapes represent gates in the context of this task, interpreting the output within a drone operation framework. \n- Numbers positioned directly above the shapes indicate a potential route/destination for the drone.\n- No visual ambiguities are present, such as overlapping or unclear shapes or numbers.\n\nResolving Ambiguities:\n- The 'gate with three' is explicitly the blue circle beneath the numeral 3. \n- Assumptions are not needed regarding visual ambiguity.\n\nSimplification and Command Generation:\n- Based on the visual analysis and object association, the command can be correctly simplified for drone operation without unsafe nuances.\n- The command is explicitly asking to fly through a specified gate, so creating an unambiguous and safe command is necessary.",
+    "prompt_after_reasoning": "Fly through blue circle gate with three"
+}

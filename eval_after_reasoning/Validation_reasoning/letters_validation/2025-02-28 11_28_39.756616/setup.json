@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter R",
+    "prompt_simpler": "Fly through the small round red gate with a letter R",
+    "options": [
+        "H.dae",
+        "R.dae",
+        "T.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with the letter 'R'. In the provided image, there is a green triangle, a red small circle, a letter 'R' in a block, and a letter 'T' near a blue ring. The 'R' is enclosed in a rectangular block. There's no specific mention of a gate associated with the letter 'R' in the text provided, but the blue ring could reasonably be considered as a gate. Since the blue ring is adjacent to the letter 'T', not 'R', it's necessary to consider the context and interpret the command based on the visual analysis. There’s no other circular or gate-like shape explicitly associated with the letter 'R', but the presence of the letter 'R' suggests it should have some significance. Therefore, a safe and logical assumption would be to navigate such that the letter 'R' aligns with the 'goal' or 'target' being sought. However, there’s a need to ensure that the drone doesn’t encounter any ambiguous motions. It is likely implied that operation should target the letter 'R'. As for the blue ring, omit it from the 'R'. Thus, the command should focus on alignment to 'R'.",
+    "prompt_after_reasoning": "Go to block with letter R"
+}

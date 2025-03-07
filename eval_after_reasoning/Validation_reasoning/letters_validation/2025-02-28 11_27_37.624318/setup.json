@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter O",
+    "prompt_simpler": "Fly through the small round blue gate with a letter O",
+    "options": [
+        "K.dae",
+        "O.dae",
+        "G.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Firstly, restate the task: The command is to fly through a specific gate that is associated with the letter 'O'. In the visual data, I note the following:\n- There are three distinct objects, each resembling a letter: 'K', 'O', and 'G'.\n- Each letter has a specific color and shape feature: \n  - 'K' is black with a green triangle below it.\n  - 'O' is black with a blue circle below it.\n  - 'G' is black with a red circle below it.\n- The letter 'O' has a blue circle beneath it which can likely be treated as the gate the drone is supposed to fly through.\n\nConsidering the task, the instruction given is clear and the goal of flying through the 'O' gate can be unambiguously identified. There are no visible obstructions or constraints from the visual context that would alter this target.\n\nThere are no ambiguities or uncertainties to resolve, as the 'O' is clearly correlated with the blue circle which seems to be the intended gate.\n  \nThus, following the guidelines, the command can be a straightforward interpretation of the task.",
+    "prompt_after_reasoning": "Fly through blue circle gate with letter O"
+}

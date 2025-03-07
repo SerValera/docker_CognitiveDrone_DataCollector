@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a tiger",
+    "prompt_simpler": "Fly through the big round blue gate with a tiger",
+    "options": [
+        "tiger.dae",
+        "flamingo.dae",
+        "dog_1.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

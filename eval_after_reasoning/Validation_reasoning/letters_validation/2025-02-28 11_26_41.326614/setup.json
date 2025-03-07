@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter L",
+    "prompt_simpler": "Fly through the small triangle blue gate with a letter L",
+    "options": [
+        "X.dae",
+        "A.dae",
+        "L.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the letter 'L'. The FPV image shows four distinct objects: 'X', 'A', 'L', and a triangle, each with a corresponding colored shape below. The letter 'L' is clearly visible above a blue triangle, which appears to represent the gate associated with it. This setup suggests a straightforward task with clear visual markers. \n\n- Objects: 'X', 'A', 'L', and a triangle.\n- Colors and Shapes: Green circle under 'X', red circle under 'A', and blue triangle under 'L'.\n- Spatial relationships: The triangle is directly associated with the letter 'L'.\n- No environmental constraints are apparent in the FPV image.\n- There’s no ambiguity in identifying the letter 'L' and its associated gate.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with letter L"
+}

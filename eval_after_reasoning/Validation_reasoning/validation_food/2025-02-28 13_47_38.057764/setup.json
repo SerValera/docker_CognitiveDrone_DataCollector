@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_6.dae",
+        "Unhealthy/unhealthy_11.dae",
+        "Healthy/healthy_1.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to a gate associated with healthy food. Analyzing the visual data, I see several distinct objects: a red circle, a green triangle, a blue triangle, and a picture depicting apples. The apples are traditionally and widely recognized as a symbol of healthy food.\nSince there isn’t a distinct 'gate' shape, but the task suggests a connection to healthy food, the image showing the apples can logically be interpreted as a 'gate with healthy food.'\nThere is no ambiguity in visual data concerning the healthy food representation as it is clearly an image of apples. The red circle, green triangle, and blue triangle do not seem to relate to the task of locating healthy food.\n\nNo safety concerns arise from this command as it involves standard flight toward a target image. Thus, the task interpretation and visual analysis can be summarized into a simple and safe drone command.",
+    "prompt_after_reasoning": "Go to the apples"
+}

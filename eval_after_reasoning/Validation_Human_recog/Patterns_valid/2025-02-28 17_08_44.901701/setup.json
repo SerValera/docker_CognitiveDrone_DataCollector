@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a hat",
+    "prompt_simpler": "Fly through the small round green gate with a person with a hat",
+    "options": [
+        "a_hat.dae",
+        "a_ring_on_their_finger.dae",
+        "tall_height.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task asks the drone to fly through a gate that has a person with a hat. From the provided image:  \n- There are three gates, each with a different shape (circle, square, circle) and color (green, red, blue).  \n- In the left and right sections, two individuals, one with a hat and one without, are partially shown behind each gate.  \n- The middle gate with the red square has the person without a hat in the image.  \n- The left gate with the green circle has the person with a hat. The right gate with the blue circle also has the person with a hat.  \n- Since two gates are associated with individuals wearing hats, a choice must be made. Given that the left gate's green circle is closer to the center compared to the blue circle on the right, it seems more prominent in the field of view.  \n- Assuming that the closest and most visible gate with a person wearing a hat should be prioritized for the task. \n\nTo resolve any ambiguity, the left gate with the green circle and the person with the hat is selected as it demonstrates a clear focal point within the image and adheres to probable task execution.",
+    "prompt_after_reasoning": "Fly through the green circle gate with the person with a hat"
+}

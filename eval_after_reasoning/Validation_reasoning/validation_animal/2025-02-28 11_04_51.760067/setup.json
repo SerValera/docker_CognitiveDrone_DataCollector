@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a crow",
+    "prompt_simpler": "Fly through the small round green gate with a crow",
+    "options": [
+        "crow.dae",
+        "dog.dae",
+        "panda.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to make a drone 'Fly through the gate with a crow.' Observing the FPV image, there are three gates: a green circle, a blue triangle, and a red circle. Additionally, we have three images of animals: a crow in the top-left, a dog in the top-center, and a panda in the top-right. The crow is associated with the green circle because it's located directly to the left of the other two animals, which aligns with the position of the green circle relative to the other gates. \n\nSince the task specifies 'a crow,' and the green circle is spatially nearest to the crow's image, the most logical assumption is that the 'gate with a crow' is the green circle gate. There are no ambiguities in the task description or the visual data that affect this interpretation.\n\nNo environmental constraints like lighting or obstacles are visible that would affect this operation. With the above reasoning, executing the task is both feasible and safe for the drone. Given that we need a clear and executable command in one of the provided formats, it translates best to the 'Fly through' command.",
+    "prompt_after_reasoning": "Fly through green circle gate with crow"
+}

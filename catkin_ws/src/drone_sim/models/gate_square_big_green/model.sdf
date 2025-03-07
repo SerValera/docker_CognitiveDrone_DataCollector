@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name='gate_square_big_green'>
+    <static>1</static>
+    <pose frame=''>5 5 0 0 0 0</pose>
+    <link name='gate_square_big_green'>
+      <visual name='gate'>
+        <geometry>
+          <mesh>
+            <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_green/gate_square_big_green.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='gate_collision_1'>
+        <geometry>
+          <mesh>
+            <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_green/gate_square_big_green.dae</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+  </model>
+</sdf>

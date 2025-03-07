@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a frog",
+    "prompt_simpler": "Fly through the small round green gate with a frog",
+    "options": [
+        "frog.dae",
+        "crocodile.dae",
+        "dog_1.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a frog. Observing the FPV image, there are three distinct objects and three associated gates: a frog near a green circular gate, a wolf near a red triangular gate, and a dog near a blue rectangular gate. The original task specifies 'the gate with the frog', and the image shows the frog closest to the green circular gate. There are no ambiguities; the AND condition links the green gate explicitly to the frog. It's reasonable and safe to fly through the green circular gate with the object (frog).",
+    "prompt_after_reasoning": "Fly through green, circular gate with frog"
+}

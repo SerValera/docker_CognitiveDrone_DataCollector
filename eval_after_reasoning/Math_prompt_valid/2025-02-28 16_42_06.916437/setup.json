@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 4+0",
+    "prompt_simpler": "Fly through the small square red gate with 4",
+    "options": [
+        "four.dae",
+        "zero.dae",
+        "two.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate that corresponds to the number equal to 4 + 0, which is 4. The FPV image shows three gates with numbers above them: a red gate with the number 4, a green gate with the number 0, and a blue gate with the number 2. Since the red gate is marked with the number 4, it matches the mathematical requirement of the task. \n\nVisual analysis further confirms: \n- The red gate is aligned with the number '4', fitting the requirement.\n- Thegreen gate is the '0', which is irrelevant for this task since it doesn't align with the sum 4.\n- The blue gate is marked with '2', which is also irrelevant.\n\nSince this interpretation is unambiguous and safety is prioritized, we can confidently proceed with the command as analyzed from both the task statement and the visual confirmation.",
+    "prompt_after_reasoning": "Fly through red gate with number 4"
+}

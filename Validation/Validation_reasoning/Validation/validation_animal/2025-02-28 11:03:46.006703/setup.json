@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a gorilla",
+    "prompt_simpler": "Fly through the big triangle blue gate with a gorilla",
+    "options": [
+        "eagle.dae",
+        "alligator.dae",
+        "gorilla.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a unibrow",
+    "prompt_simpler": "Fly through the small triangle green gate with a person with a unibrow",
+    "options": [
+        "freckles.dae",
+        "a_unibrow.dae",
+        "short-sleeve_shirt.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to 'Fly through the gate with a person with a unibrow.' Analyzing the image:\n- There are three individuals depicted with photographs above triangles and circles, symbolizing gates.\n- The individual on the left has a noticeable unibrow when analyzed from the photograph (this is assumed based on the instructions and visual representation).\n- The associated gate for this person is a red triangle.\n- The other two individuals do not match the given description (unibrow), and their gates are green and blue, respectively.\n- There are no environmental constraints visible that would prevent the drone from flying through the red triangle gate.\nAssuming the goal is to match the unibrowed person with the appropriate gate, the visual information confirms the red triangle is the gate to target.",
+    "prompt_after_reasoning": "Fly through red triangle gate with the person with a unibrow."
+}

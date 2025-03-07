@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with dhl",
+    "prompt_simpler": "Fly through the small round blue gate with dhl",
+    "options": [
+        "disney.dae",
+        "android_1.dae",
+        "dhl.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Neil Armstrong",
+    "prompt_simpler": "Fly through the big square green gate with Neil Armstrong",
+    "options": [
+        "Yuri_Gagarin.dae",
+        "Neil_Armstrong.dae",
+        "rihanna.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

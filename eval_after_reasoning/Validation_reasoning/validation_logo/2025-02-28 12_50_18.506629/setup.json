@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with hp",
+    "prompt_simpler": "Fly through the big square green gate with hp",
+    "options": [
+        "nikon.dae",
+        "volkswagen.dae",
+        "hp.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a specific gate associated with the 'hp' logo. Analyzing the visual image provided, there are three gates of different colors: blue, red, and green, each with a box label under a corresponding logo. The 'hp' logo is associated with the green gate. The 'go to' and 'fly through' commands seem the most suitable for this scenario. Considering the environmental constraints, such as the assumption that these gates could represent different routes or obstacles, the closest and most intuitive match for the task based on the image is to fly through the green gate with the 'hp' logo. Additionally, there are no obstacles or peculiarities noticeable in the image that would prevent safe passage through the gate. Thus, we choose the 'Fly through' action as the main command. The visual analysis confirms the green gate's association with the 'hp' logo.",
+    "prompt_after_reasoning": "Fly through green gate with hp"
+}

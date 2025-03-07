@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a koala",
+    "prompt_simpler": "Fly through the small triangle blue gate with a koala",
+    "options": [
+        "octopus.dae",
+        "squirrel.dae",
+        "koala.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

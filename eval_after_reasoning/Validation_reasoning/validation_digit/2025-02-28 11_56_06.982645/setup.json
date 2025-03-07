@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with two",
+    "prompt_simpler": "Fly through the small round red gate with two",
+    "options": [
+        "one.dae",
+        "two.dae",
+        "six.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with the number '2'. In the image, I observe three distinct objects: a green triangle with the number '1', a red circle with the number '2', and a green triangle with the number '6'. Each object is situated within or near a respective geometric shape gate: a green triangle, a red circle, and another green triangle, respectively. The red circle gate is specifically associated with the number '2'. The instruction necessitates flying through the gate connected to the number '2'. No environmental constraints like obstacles or lighting issues are immediately discernible. Thus, the red circular gate is the target for the operation.",
+    "prompt_after_reasoning": "Fly through red circle gate with two"
+}

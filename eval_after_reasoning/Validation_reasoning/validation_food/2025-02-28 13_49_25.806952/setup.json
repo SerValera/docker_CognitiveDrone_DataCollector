@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square blue gate with healthy food",
+    "options": [
+        "Healthy/healthy_20.dae",
+        "Unhealthy/unhealthy_2.dae",
+        "Unhealthy/unhealthy_10.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone to a gate associated with healthy food. Analyzing the visual data, there are three food items and three colored gates. The items correspond to food as follows: \n\n- The leftmost item appears to be a bunch of grapes, which is typically considered a healthy food.\n- The middle item is a serving of french fries, which is generally not considered a healthy food.\n- The rightmost item is a dessert with ice cream and ice cream balls on top, which is also not considered a healthy food.\n\nSince the leftmost item (grapes) is identified as healthy food, the corresponding gate is the blue gate.  \n\nThere are no visible environmental constraints such as obstacles in the provided image. There are no ambiguities in the task description or visual data regarding the healthy food and the associated gate as the blue gate is clearly aligned with the grapes.\n\nThe final command should be directed to the blue gate with the context of healthy food in consideration.",
+    "prompt_after_reasoning": "Fly through blue square gate with grapes"
+}

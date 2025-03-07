@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Neil Armstrong",
+    "prompt_simpler": "Fly through the big square red gate with Neil Armstrong",
+    "options": [
+        "chris_hemsworth.dae",
+        "Robert_Lewandowski.dae",
+        "Neil_Armstrong.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with Neil Armstrong. In the provided image, there are three gates — one green triangle to the left, one blue triangle in the center, and one red semi-circle to the right. Each gate has a figure placed above it. The figure above the red semi-circle is labeled with the flag of the United States and a formal portrait. Given thatNeil Armstrong is a famous figure related to the U.S. space program, it is reasonable to associate him with the figure and the red semi-circle gate.\n\nThe ambiguity in the task description about the exact gate or color is resolved by visually analyzing the correlation between the figure and the nearby gate. The red semi-circular gate is clearly distinguishable and matches the aesthetic representation of a gate relevant to the given instruction. The other gates (green and blue triangles) do not seem to be linked to Neil Armstrong based on the visual context.\n\nThus, the command must specify that the drone should fly through the red semi-circular gate, taking into account the safe and feasible execution of the command.",
+    "prompt_after_reasoning": "Fly through red semi-circle gate with Neil Armstrong"
+}

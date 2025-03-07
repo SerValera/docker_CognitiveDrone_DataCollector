@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a bear",
+    "prompt_simpler": "Fly through the small square blue gate with a bear",
+    "options": [
+        "hippo.dae",
+        "bear.dae",
+        "leopard.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a bear based on the FPV image. Analyzing the visual data, there are three gates with distinct colors and shapes: a red circular gate, a blue square gate, and a green rectangular gate. Next to each gate is an image of an animal - a hippo near the red gate, a bear near the blue gate, and a leopard near the green gate. Given the task requires flying through the gate with the bear, the blue square gate is the correct choice as the bear's picture is associated with it. There are no environmental constraints indicated that would affect this approach.",
+    "prompt_after_reasoning": "Fly through blue square gate with bear"
+}

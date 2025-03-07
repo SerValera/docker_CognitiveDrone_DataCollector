@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a leopard",
+    "prompt_simpler": "Fly through the small round green gate with a leopard",
+    "options": [
+        "frog.dae",
+        "monkey.dae",
+        "leopard.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate accompanied by a leopard. From the image, the relevant objects include animal images of a turtle, a monkey, and a leopard, along with a red triangular gate, a blue triangular gate, and a green circular gate. The objective is to identify the correct gate associated with the leopard and ensure safe flight through it.\n\n- Objects present: A visual depiction of a turtle, a monkey, and a leopard are present, alongside three gates. \n- Colors and shapes: The gates are distinguished by shape (triangle and circle) and color (red, blue, green). \n- Spatial relationships: The leopard is associated spatially with the green circular gate, as they are near each other.\n- Ambiguities: No ambiguities are observed in the visual data; the association of the leopard with the green circle is clear. \n\nTaking these observations into account, the command should be modified from a general 'fly through the gate with a leopard' to a specific 'fly through the green circular gate with the leopard.'\n\nAssumptions: \n- The command's intent is to accompany the leopard visual element with the appropriate gate (green circle). \n- The drone is capable of recognizing the gate with the leopard (green circular gate) based on its location in the scene. \n\nTherefore, the final task combines the leopard and the green gate for a safe and clear operation.",
+    "prompt_after_reasoning": "Fly through green circular gate with the leopard"
+}

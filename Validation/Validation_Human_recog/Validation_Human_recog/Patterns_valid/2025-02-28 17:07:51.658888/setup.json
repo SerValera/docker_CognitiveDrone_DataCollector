@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with freckles",
+    "prompt_simpler": "Fly through the big round blue gate with a person with freckles",
+    "options": [
+        "freckles.dae",
+        "a_watch_on_their_wrist.dae",
+        "the_sunglasses.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

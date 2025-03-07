@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Elon Musk",
+    "prompt_simpler": "Fly through the small triangle red gate with Elon Musk",
+    "options": [
+        "selena_gomez.dae",
+        "Elon_Musk.dae",
+        "William_Shakespeare.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "Firstly, the original instruction is to fly through the gate with Elon Musk. Analyzing the FPV image, three distinct shapes with images inside can be seen. There is a blue square on the left that contains an image of a little girl, a red triangle in the middle that contains an image of a man who seems to resemble Elon Musk, and a green circle on the right that contains an image that doesn't match Elon Musk. The task is to fly through the gate with Elon Musk's image, and based on the analysis of the images within the shapes, the red triangle is the gate with Elon Musk’s image. There are no visible environmental constraints or ambiguities that would prevent the drone from safely executing this command. Therefore, I should make the command specific to the red triangle gate, which has Elon Musk's image.",
+    "prompt_after_reasoning": "Fly through red triangle gate with Elon Musk"
+}

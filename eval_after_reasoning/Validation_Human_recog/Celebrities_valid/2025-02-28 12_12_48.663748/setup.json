@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with rihanna",
+    "prompt_simpler": "Fly through the big round green gate with rihanna",
+    "options": [
+        "Isaac_Newton.dae",
+        "rihanna.dae",
+        "angelina_jolie.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through the gate associated with Rihanna. In the image, there are three gates (red square, green circle, blue circle) and three images of individuals. The central image appears to be Rihanna based on the visual appearance. The green circle gate is directly below Rihanna, suggesting it's the correct gate to fly through. There are no visible obstacles or environmental constraints that would impede the drone from flying through the green circle gate. To ensure safety and feasibility, I must confirm this by choosing a clear command that aligns with the visual data.\n\nUnderstanding the spatial relationship: Rihanna is aligned with the green circle gate, which implies the drone should fly through this gate. The visual clarity and matching alignment eliminate other ambiguities or alternatives.",
+    "prompt_after_reasoning": "Fly through green circle gate with Rihanna"
+}

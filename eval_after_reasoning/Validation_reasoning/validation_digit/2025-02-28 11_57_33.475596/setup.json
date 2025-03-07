@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with three",
+    "prompt_simpler": "Fly through the small triangle blue gate with three",
+    "options": [
+        "three.dae",
+        "eight.dae",
+        "nine.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to interpret the instruction 'Fly through the gate with three' and align it with the visual data provided in the image. The image shows three numbered signs with corresponding shapes underneath: a '3' with a red triangle, an '8' with a red circle, and a '9' with a green triangle. \n\nAnalyzing the task and the visual data:\n- The phrase 'gate with three' suggests navigating through a gate with the number '3'.\n- The red triangle beneath the '3' sign is likely the intended gate as it is specifically aligned with the '3' sign.\n- The red triangle gate appears unobstructed and does not present safety concerns.\n\nConsidering these factors:\n- The red triangle should be identified as the 'gate with three'.\n- The command should specify the color and shape of the gate as per the rules.\n\nAssumptions:\n- The 'gate' is represented by the shape beneath each number, as it is the most reasonable interpretation of 'gate' given the visual data.\n- There are no visible environmental constraints preventing the drone from safely flying through the red triangle.\n- Given the context and the image, the command can be safely and effectively aligned.\n\nFollowing the specific format required for the command, the most suitable and clear command would direct the drone to fly through the red triangle gate with the number '3'.",
+    "prompt_after_reasoning": "Fly through red triangle gate with number 3"
+}

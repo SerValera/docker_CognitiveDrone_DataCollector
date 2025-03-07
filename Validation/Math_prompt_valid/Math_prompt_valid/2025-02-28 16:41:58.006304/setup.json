@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with number equal 1-1",
+    "prompt_simpler": "Fly through the big round red gate with 0",
+    "options": [
+        "nine.dae",
+        "six.dae",
+        "zero.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a rabbit",
+    "prompt_simpler": "Fly through the big round red gate with a rabbit",
+    "options": [
+        "rabbit.dae",
+        "cat.dae",
+        "crow.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate associated with a rabbit. Upon analyzing the FPV image, I observe three gates: a red circular gate, a green circular gate, and a blue triangular gate. Additionally, there are three objects in view: a rabbit is visible near the red circular gate, a cat is near the green circular gate, and a bird is near the blue triangular gate. Since the gate associated with the rabbit is the red circular gate, the command should be adjusted to fly through that specific gate. There are no apparent obstacles or environmental constraints noted in this image that would impede the flight. The task is clear, and safety considerations are met if the drone accurately targets the red circular gate.",
+    "prompt_after_reasoning": "Fly through red circular gate with rabbit"
+}

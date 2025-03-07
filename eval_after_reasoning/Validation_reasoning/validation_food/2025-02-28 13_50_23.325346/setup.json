@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small round blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_15.dae",
+        "Healthy/healthy_9.dae",
+        "Unhealthy/unhealthy_8.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The FPV image presents three rectangular images showing food items: a chocolate bar on the far left, a portion of orange slices in the center, and a bowl of yellow, mashed food on the right. The bowl of mashed food is circled in green, suggesting it is the 'healthy food' mentioned in the task since the other two items (chocolate and orange slices) are not labeled in this manner. In front of the images and aligned with each, there are gates with distinct colors and shapes: a red rectangular gate corresponding to the chocolate, a blue circular gate corresponding to the orange slices, and a green circular gate aligned with the bowl of mashed food. Given the visual emphasis indicated by the green circle and the alignment of the gates, it is reasonable to assume the green circular gate is meant to be associated with the healthy mashed food. Therefore, the command should be oriented towards flying through the green gate, which aligns with the bowl of mashed food.",
+    "prompt_after_reasoning": "Fly through green circle gate with healthy mashed food"
+}

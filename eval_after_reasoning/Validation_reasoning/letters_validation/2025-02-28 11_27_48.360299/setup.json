@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter U",
+    "prompt_simpler": "Fly through the big triangle blue gate with a letter U",
+    "options": [
+        "Z.dae",
+        "O.dae",
+        "U.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with the letter 'U'. The FPV image displays three gates, each corresponding to a different letter: 'Z', 'O', and 'U'. The gates are color-coded with distinct geometric shapes—green squared gate with 'Z', red squared gate with 'O', and a triangular gate in blue with 'U'. There are no explicit spatial relationships indicated beyond the order of presentation. The blue triangular gate with the letter 'U' is distinctly visible, and there are no ambiguities because the letter is clearly marked within the gate. There are no apparent environmental constraints. Since the task specifies 'U', the command should focus on the blue triangular gate with 'U'. No other action is necessary such as turning or going to any other object, as the gate with 'U' is clearly indicated.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with letter U"
+}

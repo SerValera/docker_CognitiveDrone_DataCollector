@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name='label'>
+    <static>1</static>
+    <pose frame=''>5 5 0 0 0 0</pose>
+    <link name='label'>
+      <visual name='vis_label'>
+        <geometry>
+          <mesh>
+            <uri>/home/sim/ardupilot_docker/math/-.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name='col_label'>
+        <geometry>
+          <mesh>
+            <uri>/home/sim/ardupilot_docker/math/-.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+  </model>
+</sdf>

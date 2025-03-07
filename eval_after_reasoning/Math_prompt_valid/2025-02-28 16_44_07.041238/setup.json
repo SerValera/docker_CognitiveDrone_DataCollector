@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 9-8",
+    "prompt_simpler": "Fly through the big round green gate with 1",
+    "options": [
+        "nine.dae",
+        "eight.dae",
+        "one.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task requires the drone to fly through a gate related to the number resulting from a calculation: 9 minus 8, which is 1. The visual data from the FPV image shows three distinct gates or markers:\n1. A blue triangle gate associated with the number 9.\n2. A red square gate associated with the number 8.\n3. A green circular gate associated with the number 1.\n\nEach gate is represented by a shape and a number. The task specifically refers to the result of '9-8,' which is '1,' thus indicating the relevant gate is the green circular one due to its association with ‘1’. The visual explanation confirms the green circle is connected to the number '1', resolving any ambiguities about the numerical request. The command needs to direct the drone to fly through the appropriate gate which is clearly the green circular gate with the number '1'.",
+    "prompt_after_reasoning": "Fly through green circular gate with number 1"
+}

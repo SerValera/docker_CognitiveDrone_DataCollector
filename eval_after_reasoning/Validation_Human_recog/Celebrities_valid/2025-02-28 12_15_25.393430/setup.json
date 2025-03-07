@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Brad Pitt",
+    "prompt_simpler": "Fly through the small square green gate with Brad Pitt",
+    "options": [
+        "lionel_messi.dae",
+        "Brad_Pitt.dae",
+        "Nikola_Tesla.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly through a gate associated with Brad Pitt. Analyzing the FPV image, it shows three gates (red, green, and blue), each paired with a portrait of a different individual. None of the captions explicitly state Brad Pitt; hence, I must match him to one of the individuals visually. The middle gate features a green frame paired with a portrait of a man resembling Brad Pitt from his appearance (assumed here). Brad Pitt's face here matches public perceptions. The red and blue gates contain other figures that don’t match images of Brad Pitt.\n\nFurther analysis shows no potential obstacles, safety constraints, or lighting issues. The following assumptions are made: The green gate's associated portrait represents Brad Pitt. There are no conflicting tasks or visual ambiguities affecting the command.",
+    "prompt_after_reasoning": "Fly through the green gate with Brad Pitt"
+}

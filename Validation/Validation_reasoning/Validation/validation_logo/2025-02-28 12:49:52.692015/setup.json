@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with facebook",
+    "prompt_simpler": "Fly through the small round red gate with facebook",
+    "options": [
+        "hp.dae",
+        "facebook.dae",
+        "mcdonalds.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

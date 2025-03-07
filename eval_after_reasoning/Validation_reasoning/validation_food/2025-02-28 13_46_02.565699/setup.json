@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big square green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_9.dae",
+        "Healthy/healthy_13.dae",
+        "Unhealthy/unhealthy_4.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires me to fly the drone to a gate associated with healthy food. In the image, there are three gates: a blue gate, a green gate, and a red gate. The blue gate is aligned with a close-up image of sausages, which is not typically considered healthy food. The green gate is aligned with a broccoli image, which is widely recognized as a healthy food option. The red gate is aligned with a pizza image, which is generally not considered a healthy choice. Based on the visual data, the green gate is the only one that can be effectively linked to 'healthy food.' Thus, the simplified command should match this.",
+    "prompt_after_reasoning": "Fly through green gate with broccoli"
+}

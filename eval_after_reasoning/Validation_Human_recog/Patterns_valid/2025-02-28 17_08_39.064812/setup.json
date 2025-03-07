@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with braids",
+    "prompt_simpler": "Fly through the small round green gate with a person with braids",
+    "options": [
+        "a_backpack.dae",
+        "braids.dae",
+        "an_umbrella.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate that is associated with a person with braids. Looking at the visual information:\n\n1. Three gates are visible: a red gate, a green gate, and a blue gate.\n2. There are pictures of people near each gate. The red gate has a picture of a person who appears to have braids, the green gate has a picture of a person looking straight ahead, and the blue gate has a picture of a person holding an umbrella.\n3. The red gate is the only one associated with a person who seems to have braids, matching the criteria in the text.\n\nThere are no visible environmental constraints like obstacles or adverse lighting conditions, and the gates are clearly distinguishable by color and shape. Given the clear match between the textual instruction and the visual data, the appropriate command can be issued directly.",
+    "prompt_after_reasoning": "Fly through red gate with person with braids"
+}

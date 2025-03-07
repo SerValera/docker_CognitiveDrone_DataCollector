@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Madonna",
+    "prompt_simpler": "Fly through the small round blue gate with Madonna",
+    "options": [
+        "Madonna.dae",
+        "taylor_swift.dae",
+        "rihanna.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to command the drone to fly through a gate associated with Madonna, based on the given image. Analyzing the FPV image, I observe the following elements:\n\n- There are three gates in the image: blue (circle), green (circle), and red (triangle).\n- To the right, there is a poster featuring Madonna.\n- To the left, there is another face image, but it's not relevant to Madonna.\n- A rectangular white block is also present between the images, which likely does not influence the task as it doesn't relate to gate shapes or colors.\n- The task specifically mentions 'Madonna,' so this implies flying through the gate associated with the Madonna image, which is near the red triangular gate.\n\nAssumptions:\n- Since Madonna is associated with the red triangular gate on the right side, we should fly through the red triangular gate.\n\nBased on the visual evidence and given task, combining the textual description and visual analysis leads to a clear command, ensuring safety and feasibility for the drone.",
+    "prompt_after_reasoning": "Fly through red, triangle gate with Madonna"
+}

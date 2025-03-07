@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with rihanna",
+    "prompt_simpler": "Fly through the big round green gate with rihanna",
+    "options": [
+        "Isaac_Newton.dae",
+        "rihanna.dae",
+        "angelina_jolie.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a coat",
+    "prompt_simpler": "Fly through the big square green gate with a person with a coat",
+    "options": [
+        "a_coat.dae",
+        "a_long_beard.dae",
+        "the_sunglasses.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate identified by the presence of a person wearing a coat. From the visual data, three colored gates are visible: a green rectangular one on the left, a red rectangular one in the middle, and a blue triangular one on the right. Two images of people are also shown: one is of a person in a dark coat behind the red gate, and the other is of a person wearing sunglasses (without a visible coat) behind the blue gate.\n   \n- Objects and Colors: The green, red, and blue gates are the most prominent features. The person in the coat is associated with the red gate.  \n- Spatial Relationships: The red gate with the person in a coat is situated centrally in the image.\n- Environmental Constraints: The gates appear to be located in a clear pathway, and no additional obstacles or hazardous conditions are visible.\n- Ambiguities: The blue gate has a person wearing sunglasses, but no coat is visible. Since the task specifies a person with a coat, the red gate is the correct one.\n   \nUsing visual analysis, the person wearing a coat is clearly positioned behind the red gate, confirming it as the target. This aligns with the task requirement. Safety and simplicity are maintained by choosing the clearly visible and unambiguous red gate.",
+    "prompt_after_reasoning": "Fly through red square gate with person in coat"
+}

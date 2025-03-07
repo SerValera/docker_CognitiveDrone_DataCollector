@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with airbnb",
+    "prompt_simpler": "Fly through the big square red gate with airbnb",
+    "options": [
+        "mercedes.dae",
+        "microsoft.dae",
+        "airbnb.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to adjust the command 'Fly through the gate with airbnb' based on the visual and textual information from the provided image. \n\nAnalyzing the image:\n- There are several logos visible: a black Mercedes logo, Microsoft logo boxes, and the Airbnb logo.\n- The task specifies flying through a 'gate' with an Airbnb reference.\n\nIn the image:\n- The Airbnb logo is prominently located and is the only object associated with a recognizable 'gate' or passage-like shape represented by the red surrounding box.\n- No direct obstacle or actual gate structures are visible, but the Airbnb logo is in a rectangular position that can be interpreted as a gate.\n- There are other shapes like triangles and colorful blocks in the scene, but they are unrelated to the task's focus on Airbnb.\n\nAmbiguities:\n- There is no physical 'gate' but the rectangular lines framing the Airbnb logo can reasonably be considered the 'gate'.\n- The task should focus on flying towards the Airbnb target since this matches the command context.\n\nConsidering safety and simplicity:\n- Since this is an FPV operation, the rectangular frame around the Airbnb logo can be treated as a virtual gate.\n- The target should be the highlighted Airbnb logo to ensure the command is unambiguous and aligned.\n\nThus, given the command and analysis of the visual data:",
+    "prompt_after_reasoning": "Fly through red rectangular gate with Airbnb logo"
+}

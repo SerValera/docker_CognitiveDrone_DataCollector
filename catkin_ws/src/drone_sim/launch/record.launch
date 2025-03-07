@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Load ROS params -->
+  <rosparam command="load" file="/home/sim/ardupilot_docker/config.yaml" />
+
+  <node name="spawn" pkg="drone_sim" type="spawn_model.py" output="screen">
+  </node>
+
+</launch>

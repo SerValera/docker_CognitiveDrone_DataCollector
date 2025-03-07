@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small triangle red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_19.dae",
+        "Healthy/healthy_13.dae",
+        "Unhealthy/unhealthy_17.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The image shows three food items placed above colored gates: a blue rectangular gate on the left underneath a *red dish* (possibly pasta), a red triangular gate in the middle above a *green vegetable dish* (appears to be broccoli), and a green square gate on the right aligned with a *light yellowish dish topped with greens* (likely a casserole or savory dish). The instructions specify flying to the gate with 'healthy food.' \n\nAssessing the food visually: \n- The red pasta dish may not be considered the healthiest due to its presumably high carbohydrate and possibly high-fat content. \n- The green vegetable dish looks like broccoli, widely recognized as healthy food, high in fiber, vitamins, and minerals. \n- The light yellowish dish could be a casserole, which might not be as easily categorized as 'healthy' without more information about its ingredients but it seems less plain compared to broccoli.\n\nAssuming 'healthy food' refers to the most nutritionally straightforward and universally perceived healthy choice, the best match is the green vegetable dish (broccoli) above the red triangle gate. To ensure the command is safe and unambiguous, we will direct the drone to the middle gate with the healthy food item.",
+    "prompt_after_reasoning": "Fly through red triangle gate with green vegetable dish"
+}

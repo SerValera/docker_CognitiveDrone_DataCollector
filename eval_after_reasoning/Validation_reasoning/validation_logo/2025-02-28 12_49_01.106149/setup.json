@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with lego",
+    "prompt_simpler": "Fly through the small round green gate with lego",
+    "options": [
+        "lego.dae",
+        "netflix.dae",
+        "luminova.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone through a gate associated with a LEGO object. Upon analyzing the visual data, there are several objects and gates available. The relevant objects include:\n- A LEGO logo with a red color and distinct shape.\n- A Netflix logo with a black and red rectangular shape.\n- A set of colorful rectangles resembling a DJI logo.\n\nThe gates associated with these objects are colored circles and triangles positioned in front of them:\n- A green circular gate in front of the LEGO logo.\n- A blue triangular gate in front of the Netflix logo.\n- A red triangular gate in front of the colorful rectangles (DJI logo).\n\nGiven the instruction to fly through the gate with LEGO, the correct gate is the green circular one. There are no environmental constraints or overlapping objects that would complicate this task. The association between the LEGO logo and the green gate is straightforward.",
+    "prompt_after_reasoning": "Fly through green circular gate with LEGO"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 0*2",
+    "prompt_simpler": "Fly through the small square green gate with 0",
+    "options": [
+        "zero.dae",
+        "two.dae",
+        "four.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with the number 0*2, which simplifies to the number 0. First, let's analyze the FPV image. The image contains several shapes with numbers and symbols alongside them: a green square, a blue circle, a red triangle, and the number 4 within a gate-like structure. Because no '0' is visible in the image, I must interpret the requirement of 'number equal 0*2' as identifying the closest visually represented equivalent. Considering this, the closest number in the image is the '4', located in a white gate-like structure. This structure holds no other easily visible relation to the number 0 directly, but it could be a reasonable target as no '0' is visible. I will assume that going through this gate is the intended task due to the absence of '0'. Additionally, the task emphasizes the need for safe navigation, so I will modify the command to follow this analysis while ensuring clarity.",
+    "prompt_after_reasoning": "Fly through the white gate with number 4"
+}

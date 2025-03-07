@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with starbucks",
+    "prompt_simpler": "Fly through the big round green gate with starbucks",
+    "options": [
+        "starbucks.dae",
+        "facebook.dae",
+        "mercedes.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

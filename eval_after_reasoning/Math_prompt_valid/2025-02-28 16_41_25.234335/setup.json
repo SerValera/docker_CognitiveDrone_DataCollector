@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 1-1",
+    "prompt_simpler": "Fly through the big triangle green gate with 0",
+    "options": [
+        "eight.dae",
+        "seven.dae",
+        "zero.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task initially directed involves flying through a gate with the number equal to 1-1. Analyzing the provided FPV image reveals the following: \n\n1. The scene contains three prominent number markers – 8, 7, and 0 – arranged spatially with distinct shapes and colors beneath them.\n2. There is no visible gate directly marked with the number '1'.\n3. The visual objects and their descriptors do not align with a '1-1' gate, suggesting the possibility that this value should be inferred from the numbers in the scene.\n4. The closest match derived from the visible numbers would be a subtraction task as '8 - 7' resulting in '1'. \n5. A simplification yields that the '1' should logically relate to the gate positioned beneath the '0', since the subtraction result of 8 - 7 equates to '1'.\n6. Therefore, the task becomes flying through the green triangle gate associated with the number '0'. \n\nGiven no environmental concerns such as visible obstacles, the operation seems safe. Thus, the command can be simplified while ensuring clarity and safety.",
+    "prompt_after_reasoning": "Fly through green triangle gate with number 0"
+}

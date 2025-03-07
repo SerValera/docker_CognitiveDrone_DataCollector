@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with redbull",
+    "prompt_simpler": "Fly through the small round green gate with redbull",
+    "options": [
+        "microsoft.dae",
+        "redbull.dae",
+        "facebook.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

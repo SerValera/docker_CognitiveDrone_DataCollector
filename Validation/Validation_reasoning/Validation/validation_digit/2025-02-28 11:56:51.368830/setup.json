@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with eight",
+    "prompt_simpler": "Fly through the small square green gate with eight",
+    "options": [
+        "five.dae",
+        "eight.dae",
+        "two.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

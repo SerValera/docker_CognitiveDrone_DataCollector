@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter T",
+    "prompt_simpler": "Fly through the big round blue gate with a letter T",
+    "options": [
+        "T.dae",
+        "D.dae",
+        "Y.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the letter T. From the provided visual, the letter T appears with a blue circular marker underneath it. The letter T is aligned above the blue circle, suggesting that this blue circle acts as the gate. There are other letters present (D and Y), each with their own colored markers (green and red respectively), but the blue circle directly correlates with the letter T. There are no environmental constraints or ambiguities that could complicate the task based on the visual provided. Additionally, the visual suggests that the letters and gates are placed on a flat surface with ample spacing, reducing the risk of collisions.\n\nGiven the clarity of the visual and the task at hand, the command can be simplified to focus solely on the blue gate associated with the T, as this is unambiguous and ensures safety for the operation. Therefore, the focus will be on the blue circle under the letter T.",
+    "prompt_after_reasoning": "Fly through blue circle gate with letter T"
+}

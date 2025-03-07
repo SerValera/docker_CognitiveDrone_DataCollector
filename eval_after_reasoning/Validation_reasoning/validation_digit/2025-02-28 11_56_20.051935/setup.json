@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with one",
+    "prompt_simpler": "Fly through the big square green gate with one",
+    "options": [
+        "eight.dae",
+        "three.dae",
+        "one.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task requires me to make the drone fly through a gate with the number 'one'. From the image, I observe three gates. Each gate has a number associated with it, and they are distinguished by numbers inside squares and preceding shapes of different colors:  \n1. A red triangle is associated with the number '8'.  \n2. A blue triangle is associated with the number '3'.  \n3. A green triangle is associated with the number '1', which fits the description in the task.  \n\nThe task mentions 'gate with one', and visually, the gate linked to the number '1' is the green triangle gate. There are no environmental constraints apparent in the image that would impede the drone's ability to fly through this gate. The task is clear, and there are no ambiguities. The assumption here is that 'gate with one' refers to the number '1' on the gate, which is supported by the visual evidence.",
+    "prompt_after_reasoning": "Fly through the green triangle gate with one"
+}

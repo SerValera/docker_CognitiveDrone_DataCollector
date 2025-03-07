@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter P",
+    "prompt_simpler": "Fly through the big square green gate with a letter P",
+    "options": [
+        "P.dae",
+        "O.dae",
+        "T.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a letter 'P'. Looking at the provided image, we see a green rectangle enclosing a 'P', a red circle around an 'O', and a blue rectangle enclosing a 'T'. The green rectangle with the 'P' clearly represents the gate we should target based on the task. The other gates ('O' and 'T') involve different colors and letters, so they are not relevant to the task. The drone must navigate through the green gate with the letter 'P'. No other gateway or environmental constraints are noted in the image. Thus, the task is straightforward and the command can be directly inferred.",
+    "prompt_after_reasoning": "Fly through green rectangle gate with letter P"
+}

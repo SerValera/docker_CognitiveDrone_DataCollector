@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with dhl",
+    "prompt_simpler": "Fly through the small triangle red gate with dhl",
+    "options": [
+        "dhl.dae",
+        "disney.dae",
+        "uber.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task suggests flying through a gate related to DHL. Upon analyzing the visual data from the FPV image:\n- There are three triangular gates, each near a rectangular object.\n- The rectangular objects have different logos: one displays 'DHL', another is blank (indicating potential interference or lack of logo), and the third displays 'UBER'.\n- The red triangular gate is aligned with the 'DHL' logo, suggesting a strong association between this gate and the instruction.\n- The 'DHL' text is clearly visible and matches the task description.\n- The other gates, as indicated by their distance and associated logos, do not correspond to the specified task.\n\nGiven the visual data and the task instruction, it is accurate to infer that the red triangular gate near the 'DHL' logo is the gate the drone should fly through. There are no apparent environmental constraints, such as obstacles, that interfere with this action.\n\nAssuming the colors in the task description align with the colors in the image, the red gate directly correlates with the DHL. Therefore, the command simplifies correctly into a clear and safe action for the drone, following the mentioned formatting constraints.",
+    "prompt_after_reasoning": "Fly through the red triangular gate with DHL"
+}

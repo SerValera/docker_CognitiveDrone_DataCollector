@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 6+2",
+    "prompt_simpler": "Fly through the big round blue gate with 8",
+    "options": [
+        "eight.dae",
+        "five.dae",
+        "nine.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly through the gate corresponding to the number 6+2, which equals 8. From the image, I observe three gates or markers, each labeled with numbers and associated colors and shapes: a blue circle associated with number 8, a red square associated with number 5, and a green triangle associated with number 9. \n\nTo execute the task correctly, the drone needs to fly through the gate with the number 8. The number 8 is clearly linked with the blue circular gate, as visually analyzed. There are no ambiguities or environmental constraints affecting the operation, and the task can be safely and feasibly executed. \n\nTherefore, by combining the computational reasoning that 6+2 = 8 and the visual confirmation of the blue gate being associated with 8, the command can be simplified to target the blue gate.",
+    "prompt_after_reasoning": "Fly through the blue circle gate with number 8"
+}

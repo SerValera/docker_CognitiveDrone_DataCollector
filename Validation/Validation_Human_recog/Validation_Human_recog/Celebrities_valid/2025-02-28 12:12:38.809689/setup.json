@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Madonna",
+    "prompt_simpler": "Fly through the small round blue gate with Madonna",
+    "options": [
+        "Madonna.dae",
+        "emma_watson.dae",
+        "Ludwig_Van_Beethoven.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room"
+}

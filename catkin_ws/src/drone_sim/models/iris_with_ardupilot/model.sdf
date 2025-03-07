@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+  <model name="iris_demo">
+    <include>
+      <uri>model://iris_with_standoffs</uri>
+    </include>
+
+    <link name="camera_link_1">
+      <pose>0.1 0 0.3 0 0 0</pose>
+
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+            <ixx>0.0001</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0001</iyy>
+            <iyz>0</iyz>
+            <izz>0.0001</izz>
+            <!-- low intertia necessary to avoid not disturb the drone -->
+        </inertia>
+      </inertial>
+
+      <sensor type="depth" name="camera1">
+        <update_rate>120</update_rate>
+        <camera name="head">
+          <!-- TODO(lucasw) is noise used? -->
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.25</stddev>
+          </noise>
+          <horizontal_fov>2.2</horizontal_fov>
+          <image>
+            <width>1024</width>
+            <height>768</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.02</near>
+            <far>300</far>
+          </clip>
+        </camera>
+        <plugin name="camera_controller" filename="libgazebo_ros_depth_camera.so">
+          <alwaysOn>true</alwaysOn>
+          <!-- Keep this zero, update_rate will control the frame rate -->
+          <updateRate>0.0</updateRate>
+          <cameraName>camera_1</cameraName>
+          <imageTopicName>image_raw_1</imageTopicName>
+          <cameraInfoTopicName>camera_info_1</cameraInfoTopicName>
+          <depthImageTopicName>depth_1/image_raw</depthImageTopicName>
+          <!-- neither camera info is getting published, frame_id is empty
+            in points and both image headers -->
+          <depthImageCameraInfoTopicName>depth_1/camera_info</depthImageCameraInfoTopicName>
+          <pointCloudTopicName>points_1</pointCloudTopicName>
+          <frameName>camera_link_1</frameName>
+          <!-- TODO(lucasw) is this used by depth camera at all? -->
+          <hackBaseline>0.07</hackBaseline>
+          <pointCloudCutoff>0.001</pointCloudCutoff>
+          <distortionK1>0.0</distortionK1>
+          <distortionK2>0.0</distortionK2>
+          <distortionK3>0.0</distortionK3>
+          <distortionT1>0.0</distortionT1>
+          <distortionT2>0.0</distortionT2>
+        </plugin>
+      </sensor>
+    </link>
+
+    <joint name="camera_joint_1" type="revolute">
+      <parent>iris::base_link</parent>
+      <child>camera_link_1</child>
+      <axis>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+        </limit>
+        <xyz>0 0 1</xyz>
+        <use_parent_model_frame>true</use_parent_model_frame>
+      </axis>
+    </joint>
+
+  </model>
+</sdf>

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 9*1",
+    "prompt_simpler": "Fly through the big square blue gate with 9",
+    "options": [
+        "seven.dae",
+        "nine.dae",
+        "zero.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate associated with the number 9*1, which simplifies to 9. From the FPV image, the objects presented are numbers 7, 9, and 0, each associated with distinct shapes and colors: a red triangle with the number 7, a blue square with the number 9, and a green circle with the number 0. The gate \"with number equal 9*1\" corresponds to the blue square.\nNo environmental constraints such as obstacles or lighting conditions are visually apparent from this image. The command must focus solely on the blue square, as it is the only gate associated with the number 9. Considering the provided formats, the action that most accurately conveys this task is 'Fly through <color, shape> gate with <simplified object name>'.",
+    "prompt_after_reasoning": "Fly through blue square gate with number 9"
+}

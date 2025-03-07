@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a rabbit",
+    "prompt_simpler": "Fly through the big round red gate with a rabbit",
+    "options": [
+        "rabbit.dae",
+        "cat.dae",
+        "crow.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

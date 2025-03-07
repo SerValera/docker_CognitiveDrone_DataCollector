@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big round red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_15.dae",
+        "Healthy/healthy_17.dae",
+        "Unhealthy/unhealthy_10.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires flying to a gate associated with 'healthy food.' From the FPV image, there are three distinct gates represented by shapes and colors: a green triangle, a red circle, and a blue circle. Each gate has an associated image: a dark, rectangular object resembling chocolate appears near the green triangle, almonds are seen near the red circle, and an image of a colorful ice cream sundae is associated with the blue circle.\n\nHealthy food generally includes items like fruits, vegetables, nuts, and lean proteins. Almonds fit this category, suggesting the red circle gate represents healthy food. Chocolate and ice cream are typically considered indulgences or less healthy options, making them less suitable choices for the given task. Since the goal is to fly to the gate with healthy food, the clearest decision is to select the red circle gate.\n\nThere are no immediate safety concerns or collisions visible in the image that would affect the execution of this command. The visual analysis directly connects almonds to the healthy food concept, resolving any ambiguities present with other gate options.\n\nTherefore, the task can be accurately simplified as flying to the gate associated with almonds.",
+    "prompt_after_reasoning": "Fly through red circle gate with almonds"
+}

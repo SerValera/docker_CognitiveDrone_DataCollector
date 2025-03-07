@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter V",
+    "prompt_simpler": "Fly through the small triangle green gate with a letter V",
+    "options": [
+        "V.dae",
+        "G.dae",
+        "R.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task is to fly through the gate with the letter 'V'. Based on the provided visual data:\n1. Three gates are visible, each with a letter and a color: \n   - A green triangle gate with the letter 'V',\n   - A blue square gate with the letter 'G',\n   - A red rectangle gate with the letter 'R'.\n2. The goal is to identify the correct gate, which corresponds to the letter 'V'.\n3. The green triangle gate features the letter 'V', indicating that this is the correct gate.\n4. There are no apparent spatial relationships or environmental constraints affecting this task. The gates appear to be spaced out and clearly visible.\n5. The command should be simplified into an executable format: 'Fly through <color, shape> gate with <max simplified name of object>'.\n6. Safety and feasibility are ensured as the task specifies a clear and visible target.",
+    "prompt_after_reasoning": "Fly through the green triangle gate with the letter V"
+}

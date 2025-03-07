@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_10.dae",
+        "Healthy/healthy_1.dae",
+        "Unhealthy/unhealthy_12.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to navigate towards a gate associated with 'healthy food'. From the visual data provided, there are three objects under consideration: a bowl of salad or mixed fruit (which could be categorized as healthy), an image of red fruits, potentially apples, with a wafer cookie, and what seems to be sushi in plastic wrap. The most straightforward healthy food option is the bowl of salad/mixed fruit on the left. A triangle, square, and circle serve as markers for these options. Given the goal is to choose healthy food and associating the geometric shapes with the food underneath, the bowl of salad is clearly aligned with the healthy food criteria. As the blue triangle corresponds to the salad image, it is logical to consider the blue triangle as the gate.",
+    "prompt_after_reasoning": "Go to blue triangle"
+}

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a chimpanzee",
+    "prompt_simpler": "Fly through the small round green gate with a chimpanzee",
+    "options": [
+        "rat.dae",
+        "chimpanzee.dae",
+        "monkey.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

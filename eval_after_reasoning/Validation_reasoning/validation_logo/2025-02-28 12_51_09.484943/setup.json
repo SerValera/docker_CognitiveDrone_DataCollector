@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with aurora",
+    "prompt_simpler": "Fly through the small triangle red gate with aurora",
+    "options": [
+        "tiktok.dae",
+        "aurora.dae",
+        "panasonic.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The given task involves flying the drone through a gate associated with 'aurora'. The text specifically mentions 'gate with aurora'. Observing the FPV image:\n\n1. There are several objects visible in the image, including a TikTok logo, an object with an 'aurora' label, a screen with a flowery display text, and shapes such as a circle, triangle, and diamond at the base of objects.\n\n2. The object labeled 'aurora' is the one with a flowery display screen. This suggests that the intended gate is directly linked to this object.\n\n3. The term 'gate' typically implies an entryway or opening, but visually, there is no apparent arch-like or standard gate formation. However, the diamond shape could serve as a gate-like entry as it's positioned at the base, aligning with the aurora object.\n\n4. Despite the missing arch-like structure, the diamond position can be logically implied as a virtual gate ensuring safety and the least ambiguity. It’s priority aligned with the associated object and visual hint.\n\nA reasonable assumption is that the command intends maneuvering through a virtual gate emphasized by the diamond shape in front of the aurora object.",
+    "prompt_after_reasoning": "Fly through white diamond gate with aurora"
+}

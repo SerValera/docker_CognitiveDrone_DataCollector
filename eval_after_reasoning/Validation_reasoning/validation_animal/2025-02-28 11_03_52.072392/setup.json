@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a koala",
+    "prompt_simpler": "Fly through the small triangle blue gate with a koala",
+    "options": [
+        "octopus.dae",
+        "squirrel.dae",
+        "koala.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task initially states 'Fly through the gate with a koala.' Analyzing the image, there are three distinct objects and gates, each with unique colors and shapes. The objects are a fish, a squirrel, and a koala. Each has a corresponding gate with these attributes:\n- A red triangular gate with a fish above it.\n- A green triangular gate with a squirrel above it.\n- A blue triangular gate with a koala above it.\nThe most relevant and immediately clear action, based on the presence of a koala above the blue gate, supports the instruction and visual alignment. No environment constraints appear to affect movement or safety around these gates.",
+    "prompt_after_reasoning": "Fly through blue triangular gate with koala"
+}

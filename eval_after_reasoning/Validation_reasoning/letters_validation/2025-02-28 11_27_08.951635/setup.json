@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter V",
+    "prompt_simpler": "Fly through the big round red gate with a letter V",
+    "options": [
+        "M.dae",
+        "V.dae",
+        "H.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to 'Fly through the gate with a letter V.' Based on the visual analysis of the FPV image, I observe a total of three gates, represented by symbols and letters above them. The letter V is distinctly located at the center of the image. Below the V is a red circular gate, implying that this is the gate symbolized by the letter V. There are no visible obstacles around the gate, and the lighting conditions seem clear. The gate appears well-defined and safe for the drone to fly through. Since the task is to specifically pass through the gate associated with the letter V, this red circular gate is the target.",
+    "prompt_after_reasoning": "Fly through red circle gate with letter V"
+}

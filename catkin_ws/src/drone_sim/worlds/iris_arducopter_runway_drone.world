@@ -1,0 +1,348 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <gui>
+      <camera name="user_camera">
+        <pose>-5 0 1 0 0.2 0</pose>
+      </camera>
+    </gui>
+    <physics type="ode">
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>100</iters>
+          <sor>1.0</sor>
+        </solver>
+        <constraints>
+          <cfm>0.0</cfm>
+          <erp>0.2</erp>
+          <contact_max_correcting_vel>0.1</contact_max_correcting_vel>
+          <contact_surface_layer>0.0</contact_surface_layer>
+        </constraints>
+      </ode>
+      <real_time_update_rate>-1</real_time_update_rate>
+      <!-- <max_step_size>0.000025</max_step_size> -->
+    </physics>
+    <gravity>0 0 -9.8</gravity>
+    
+    <light name="sun" type="directional">
+      <cast_shadows>false</cast_shadows>  <!-- Disable shadows -->
+      <pose>0 0 10 0 -0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.5 -1</direction>
+    </light>
+
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+    <!-- Drone for flight -->
+    <model name="iris_demo">
+      <include>
+        <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/iris_camera_copy</uri>
+      </include>
+    </model>
+
+    <light name="point_light" type="point">
+      <pose>0 -2 1 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.0</quadratic>
+      </attenuation>
+      <cast_shadows>false</cast_shadows>
+    </light>
+
+      <light name="point_light_2" type="point">
+    <pose>0 2 1 0 0 0</pose>
+    <diffuse>0.5 0.5 0.5 1</diffuse>
+    <specular>0.2 0.2 0.2 1</specular>
+    <attenuation>
+      <range>20</range>
+      <constant>0.5</constant>
+      <linear>0.01</linear>
+      <quadratic>0.0</quadratic>
+    </attenuation>
+    <cast_shadows>false</cast_shadows>
+  </light>
+
+    <model name='gate_1'>
+      <static>1</static>
+      <pose frame=''>4.0 4.0 0 0 0 2.0</pose>
+      <link name='gate_1'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_round_big_blue/gate_round_big_blue.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_round_big_blue/gate_round_big_blue.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+    <model name='gate_2'>
+      <static>1</static>
+      <pose frame=''>5.0 0 0 0 0 1.57</pose>
+      <link name='gate_2'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_green/gate_square_big_green.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_green/gate_square_big_green.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+    <model name='gate_3'>
+      <static>1</static>
+      <pose frame=''>4.0 -4.0 0 0 0 1.0</pose>
+      <link name='gate_3'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_red/gate_square_big_red.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/catkin_ws/src/drone_sim/models/gate_square_big_red/gate_square_big_red.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+    <model name='label_1'>
+      <static>1</static>
+      <pose frame=''>4.0 4.0 2.75 0 0 3.57</pose>
+      <link name='label_1'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/seven.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/seven.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+
+    <model name='label_2'>
+      <static>1</static>
+      <pose frame=''>5.0 0.0 2.75 0 0 3.14</pose>
+      <link name='label_2'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/one.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/one.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+    <model name='label_3'>
+      <static>1</static>
+      <pose frame=''>4.0 -4.0 2.75 0 0 2.57</pose>
+      <link name='label_3'>
+        <visual name='gate'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/four.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='gate_collision'>
+          <geometry>
+            <mesh>
+              <uri>/home/sim/ardupilot_docker/droneVLA_dataset/Reasoning/math_desk_1/four.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+
+
+  </world>
+</sdf>

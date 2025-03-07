@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a pig",
+    "prompt_simpler": "Fly through the big square red gate with a pig",
+    "options": [
+        "zebra.dae",
+        "pig.dae",
+        "leopard.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a pig. Analyzing the visual data shows three images structured with colored shapes indicating gates: a blue circle with a zebra, a red square with a pig, and a green square with a leopard. The command specifically targets the gate with a pig. The red square gate is the one containing the pig. There are no apparent environmental constraints or ambiguities in the image—each gate and its content are distinct and clearly identified. Thus, the command must involve flying through the red square gate.",
+    "prompt_after_reasoning": "Fly through red square gate with pig"
+}

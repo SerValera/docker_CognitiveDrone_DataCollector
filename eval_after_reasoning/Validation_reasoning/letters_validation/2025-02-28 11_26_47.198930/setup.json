@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter A",
+    "prompt_simpler": "Fly through the big square red gate with a letter A",
+    "options": [
+        "A.dae",
+        "K.dae",
+        "V.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with the letter 'A'. The visual data from the drone's camera shows three letters—'A', 'K', and 'V'—each associated with a colored shape underneath them. The letter 'A' is aligned with a red gate. The 'K' is associated with a green square gate and the 'V' with a blue triangular gate. The task is clear with no environmental constraints or ambiguities; the setup implies the red gate is associated with the letter 'A'. Thus, the drone's target is the red gate with the letter 'A'.",
+    "prompt_after_reasoning": "Fly through red gate with letter A"
+}

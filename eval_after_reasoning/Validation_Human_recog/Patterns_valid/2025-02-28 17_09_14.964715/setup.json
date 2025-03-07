@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a hat",
+    "prompt_simpler": "Fly through the big triangle red gate with a person with a hat",
+    "options": [
+        "gloves.dae",
+        "short_nails.dae",
+        "a_hat.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "First, let's analyze the providedFPV image and the given task. The task is to 'Fly through the gate with a person with a hat'. Now, considering the visual data:\n\n1. There are three gates的颜色为绿色、蓝色和红色的三角形结构，符合任务所需的“gate”条件。 \n\n2. 视觉信息中没有任何人物佩戴帽子。因此，这个任务描述中存在一定的不一致。假设任务描述中的“person with a hat”是要接近一个显示有戴着帽子的人物的屏幕，那么我们可以确定每个屏幕上显示的人物。绿色三角形后面的屏幕显示一个穿着绿色衣服的人物，蓝色三角形后面的屏幕显示一个拿着手的女子，红色三角形后面的屏幕显示一个人带着帽子。因此，可以合理假设红色三角形的门是与“person with a hat”相关的门。\n\n3. 没有环境约束或障碍需要特别注意，而且没有提到具体的飞行路径或速度要求。\n\n4. 综上所述，综合任务要求和视觉数据，任务是要穿过与“戴着帽子的人物”的屏幕相关的红色三角形门。\n\n",
+    "prompt_after_reasoning": "Fly through red triangle gate with person with a hat"
+}

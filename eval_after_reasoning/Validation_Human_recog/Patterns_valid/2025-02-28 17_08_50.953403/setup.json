@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with sneakers",
+    "prompt_simpler": "Fly through the small square red gate with a person with sneakers",
+    "options": [
+        "sneakers.dae",
+        "a_unibrow.dae",
+        "a_scarf_around_their_neck.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to interpret the command 'Fly through the gate with a person with sneakers.' Looking at the provided image, there are three gates with distinct shapes and colors: red (rectangle), blue (triangle), and green (triangle). Additionally, there are three human figures associated with these gates. \n\nTo determine which gate the command refers to based on the criteria of a person with sneakers:\n- The figure near the red rectangle (left) isn’t visible clearly enough to confirm footwear.\n- The figure near the blue triangle seems to wear darker patterns in their legs that could be interpreted as sneakers based on color contrast.\n- The figure near the green triangle (right) has a less clear indication of旗下 what appears to be sneakers.\n\nGiven these observations with visual clearest confirmation of sneakers linked to the person near the blue triangle.\n\nBy focusing on safety and simplicity, I'll proceed with the blue triangle, assuming it will fulfill the condition of a person with sneakers.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with person with sneakers."
+}

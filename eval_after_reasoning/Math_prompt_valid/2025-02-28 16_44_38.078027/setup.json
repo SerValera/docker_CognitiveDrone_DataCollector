@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 8-6",
+    "prompt_simpler": "Fly through the small square green gate with 2",
+    "options": [
+        "eight.dae",
+        "zero.dae",
+        "two.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task involves flying through a gate that represents the number resulting from 8 - 6, which is 2. The FPV image shows three gates: one marked with '8', another with '0', and the third with '2'. The goal is to find and fly through the gate with the number 2, as derived from the calculation.\n\nAnalyzing the image, each gate is distinct and not obscured. The number '2' is located to the right side of the image, indicating it as the target gate. There are no visible obstacles near the gate with the number '2', ensuring a safe flight path.\n\nThere are no ambiguities in the task or visual data; the gate's identity and the task requirement are clear. The task will be simplified to direct the drone through this specific gate.",
+    "prompt_after_reasoning": "Fly through green square gate with number 2"
+}

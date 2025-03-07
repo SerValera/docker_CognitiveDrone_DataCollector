@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with four",
+    "prompt_simpler": "Fly through the small square blue gate with four",
+    "options": [
+        "four.dae",
+        "six.dae",
+        "two.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task asks to 'Fly through the gate with four'. From the FPV image, we see three distinct gates, each associated with a number: the blue square gate with '4', the red triangle gate with '6', and the green triangle gate with '2'. The task explicitly mentions 'four,' so the relevant gate is the blue square gate with the number 4. There are no ambiguities in identifying the correct gate since the numbers are clear, and visual cues like shape and color help confirm the selections. No environmental constraints or hazards appear in the provided image, but standard safety precautions remain in place for the drone flight. Based on these observations, the command can be adjusted to specifically fly through the blue square gate with the number four.",
+    "prompt_after_reasoning": "Fly through blue square gate with four"
+}

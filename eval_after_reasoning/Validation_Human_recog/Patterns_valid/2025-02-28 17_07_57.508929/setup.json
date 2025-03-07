@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with earrings",
+    "prompt_simpler": "Fly through the big triangle green gate with a person with earrings",
+    "options": [
+        "sneakers.dae",
+        "earrings.dae",
+        "a_skirt.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to 'Fly through the gate with a person with earrings.' Analyzing the image, there are three rectangular areas representing potential gates, each containing a person. The person within the blue triangular area (left) is lying down, and no earrings are clearly visible. In the green triangular area (center), the person standing appears to have earrings, as one can observe small, distinct shapes near the ears. The red triangular area (right) contains a person who seems to be wearing a white dress, but no earrings are clearly visible.\n\nKey components and constraints:\n- Objects: Three gates (blue, green, and red triangles) with associated individuals.\n- Colors: Red, green, and blue.\n- Shapes: Triangles symbolizing gates.\n- Spatial relationships: The gates are lined up side by side.\n- Visual ambiguity: Earrings are not clearly identifiable due to image resolution and angles, but the person in the green gate is a feasible candidate based on the visible shapes near the ears.\n\nResolution of ambiguity:\n- Assuming the person in the central green gate has earrings based on small shapes near the ears. \n- This assumption is made for this task while ensuring it aligns with safety and simplicity.\n\nSimplifying the command:\nBased on these observations and assumptions, the task is executed by focusing on the green gate with the person who appears to have earrings.\n\n",
+    "prompt_after_reasoning": "Fly through green triangle gate with person with earrings"
+}

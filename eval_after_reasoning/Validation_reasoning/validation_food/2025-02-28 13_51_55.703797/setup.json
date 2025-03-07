@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_12.dae",
+        "Unhealthy/unhealthy_18.dae",
+        "Healthy/healthy_20.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone to a gate associated with healthy food. The FPV image showcases three images with food items: a plate of sushi, a hot dog, and a container of chickpeas. Of the options, sushi and chickpeas are generally considered healthier than the hot dog. The sushi plate is associated with the blue gate, the hot dog with the red gate, and the chickpeas with the green gate. The image shows no apparent environmental constraints or ambiguous overlaps. Given the options, sushi and chickpeas can both be considered healthy, but since sushi involves fish, it might be considered more balanced nutritionally in this case. Therefore, without further instruction, the most reasonable choice would be the sushi as a representative of healthy food. The task becomes: 'Fly through the blue gate with sushi.'",
+    "prompt_after_reasoning": "Fly through blue gate with sushi"
+}

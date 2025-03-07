@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with a person with a hat",
+    "prompt_simpler": "Fly through the small round green gate with a person with a hat",
+    "options": [
+        "a_hat.dae",
+        "a_ring_on_their_finger.dae",
+        "tall_height.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

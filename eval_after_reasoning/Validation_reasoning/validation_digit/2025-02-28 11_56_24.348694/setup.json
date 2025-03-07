@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with three",
+    "prompt_simpler": "Fly through the big square green gate with three",
+    "options": [
+        "eight.dae",
+        "three.dae",
+        "nine.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to adjust the command 'Fly through the gate with three' based on the visual information from the FPV image.  \n1. **Objects and Constraints**:  \n   - The image contains numbers (8, 3, 9) and associated shapes.  \n   - The number '3' is associated with a green square.  \n   - The number '8' is associated with a red circle.  \n   - The number '9' is associated with a combination of a light blue circle inside a green triangle.  \n   - The command specifies the number '3'.  \n\n2. **Spatial Relationships**:  \n   - The number '3' and its associated green square are centrally positioned in the image.  \n   - There is no visible 'gate' in the definition of barriers or paths. The 'gate' likely refers to the shapes connected with the numbers.  \n\n3. **Visual Analysis and Resolution of Ambiguities**:  \n   - 'Gate' probably refers to the shape linked with each number, as it conveys the meaning of a passable path.  \n   - The 'gate with three' then suggests the green square connected with '3'.  \n   - The image does not show any overlapping or confusing objects that obstruct visual clarity.  \n\n4. **Final Inference and Command Formation**:  \n   The most straightforward interpretation of \"gate with three\" requires the drone to navigate through the green square linked with the number '3'. The visual data corroborates this interpretation.  \n\nSimplification ensures the command adheres to task guidelines and remains unambiguous and safe for the drone executable format.",
+    "prompt_after_reasoning": "Fly through green square gate with 3"
+}

@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with jennifer lawrence",
+    "prompt_simpler": "Fly through the small square blue gate with jennifer lawrence",
+    "options": [
+        "Vinicius_Junior.dae",
+        "angelina_jolie.dae",
+        "jennifer_lawrence.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

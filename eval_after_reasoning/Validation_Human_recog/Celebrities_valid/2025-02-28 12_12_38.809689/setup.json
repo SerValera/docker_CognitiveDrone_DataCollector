@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Madonna",
+    "prompt_simpler": "Fly through the small round blue gate with Madonna",
+    "options": [
+        "Madonna.dae",
+        "emma_watson.dae",
+        "Ludwig_Van_Beethoven.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with Madonna. The provided image shows three gates, each with a circular marker in blue, red, and green. Above the red gate, there is a movie poster of a film that appears to feature Madonna. This can be inferred from the facial features and known public image of Madonna.\n\nKey components of the task:\n- Observe the visual clues in the image to identify the gate related to Madonna.\n- The red gate is highlighted, and the image above it points to it being related to Madonna.\n\nAmbiguities:\n- While the face appears to be Madonna, no textual confirmation is provided. However, the task's description associates Madonna with one of these gates, and the visual seems to indicate the red gate.\n\nAssumptions:\n- Given the context, the most logical association is that the red gate corresponds to Madonna, as indicated by the recognition of her image above the gate.\n\nSafety and feasibility:\n- Flying through the red gate is directly indicated with no visible environmental constraints or obstacles in the image.\n\nTherefore, the safest and most unambiguous command can be formed.",
+    "prompt_after_reasoning": "Fly through red gate with Madonna"
+}

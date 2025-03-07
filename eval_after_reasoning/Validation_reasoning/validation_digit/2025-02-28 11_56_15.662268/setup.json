@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with ten",
+    "prompt_simpler": "Fly through the big triangle red gate with ten",
+    "options": [
+        "five.dae",
+        "ten.dae",
+        "nine.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task given is 'Fly through the gate with ten.' Considering the provided FPV image and the task, here’s the analysis:\n- The image shows three colored triangles (red, blue, and green) with numbers 5, 10, and 9 respective to their colors.\n- The number 10 is associated with the red triangle, indicating the specific gate we should target for the task.\n- There are no visual signs of obstructions or complex spatial relationships making the task straightforward.\n- The 'gate with ten' matches the red triangle with the number 10 which is clearly visible and unambiguous.\n- The phrase 'gate' is being used for the triangles in this context, and the red triangle is the only one that matches the given number 10.\n\nSince the task is to fly through the gate with ten and the analysis matches exactly with the red triangle, the command should be adjusted accordingly.",
+    "prompt_after_reasoning": "Fly through red triangle gate with ten"
+}

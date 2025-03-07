@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a zebra",
+    "prompt_simpler": "Fly through the small square red gate with a zebra",
+    "options": [
+        "goat.dae",
+        "alligator.dae",
+        "zebra.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate with a zebra. From the visual data, there are three gates: \n- A green circle,\n- A blue circle, and\n- A red rectangle.\n\nThere is also a visual of a zebra present next to the red rectangular gate. The zebra is associated more spatially with the red rectangular gate than the other two. To resolve any ambiguity, we consider the spatial relationship between the zebra and the gates. The zebra is in the vicinity of the red rectangular gate, not the blue or green circular gates.\n\nSince the goal is to fly through a gate related to a zebra, and considering the spatial proximity of the zebra to the red rectangular gate, the appropriate command should involve this specific gate. It is safe and clear to correlate the zebra with the red rectangular gate.\n\nAssuming that the red gate is accessible and there are no other environmental constraints, the task can be simplified into an executable command based on the given instructions, focusing on the most logical relationship from the visual analysis.",
+    "prompt_after_reasoning": "Fly through red rectangle gate with zebra"
+}

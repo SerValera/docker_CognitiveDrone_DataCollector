@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big round red gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_17.dae",
+        "Healthy/healthy_6.dae",
+        "Unhealthy/unhealthy_5.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires flying the drone to the gate associated with 'healthy food'. Upon interpreting the visual data, we observe three sections, each containing different items and corresponding colored shapes. The left section contains tacos, which can be considered 'healthy food' depending on their ingredients. The central section has peaches, which are universally recognized as healthy. The right section includes donuts with icing, commonly seen as less healthy due to their high sugar content.\n\nAnalyzing the shapes below each section:\n- The green triangle is near the tacos.\n- The red circle is near the peaches.\n- The blue circle is near the donuts.\n\nTo decide the gate, we must prioritize healthy food. Between tacos and peaches, peaches are universally regarded as healthier. Considering this, the 'healthy food' gate is represented by the red circle near the peaches.\n\nThere are no environmental constraints in the provided image, and the gates are distinct with no overlapping objects. I assume that the red circle can be safely and feasibly traversed as a gate.",
+    "prompt_after_reasoning": "Fly through red circle gate with peaches"
+}

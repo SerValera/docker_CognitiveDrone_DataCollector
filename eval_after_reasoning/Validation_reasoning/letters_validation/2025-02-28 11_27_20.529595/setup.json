@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter M",
+    "prompt_simpler": "Fly through the big round red gate with a letter M",
+    "options": [
+        "Q.dae",
+        "M.dae",
+        "W.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a letter 'M'. The FPV image shows several elements: the letter 'Q' with a green triangle, the letter 'M' with a red circle, and the letter 'W' with a blue rectangle. The letters are clearly labeled, so there is no ambiguity in identifying the letter 'M'. The shape associated with the letter 'M' is a red circle. There are no environmental constraints or obstacles visible in the image, and the visual data does not suggest any safety issues. Therefore, the command can be directly generated based on the text and the visual elements in the image.",
+    "prompt_after_reasoning": "Fly through red circle gate with letter M"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a cat",
+    "prompt_simpler": "Fly through the big triangle blue gate with a cat",
+    "options": [
+        "hippo.dae",
+        "lion.dae",
+        "cat.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task requires the drone to fly through a gate that has a cat associated with it. From the image, we observe three distinct gates, each with a unique color and an animal texture above them. \n- The green gate (left) has a bear texture.\n- The red gate (center) has a lion texture.\n- The blue gate (right) has a cat texture.\n\nThe task specifically mentions a gate with a cat, which aligns with the blue gate in the image. There are no ambiguous elements or environmental constraints visible in the image that would hinder the drone's ability to fly through the blue gate safely. Therefore, the simplified command should direct the drone to fly through the blue gate with the cat texture.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with cat"
+}

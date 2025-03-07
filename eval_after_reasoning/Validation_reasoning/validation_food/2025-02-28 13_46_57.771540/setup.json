@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_4.dae",
+        "Healthy/healthy_14.dae",
+        "Unhealthy/unhealthy_5.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly to a gate with 'healthy food.' Based on the provided FPV image, we need to identify which food can be considered 'healthy' and then determine the corresponding gate. The three food images appear to be:\n1. A pizza on the left associated with the red square gate.\n2. A plate with what appears to be boiled eggs in the center, associated with the blue triangle gate.\n3. Three donuts on the right, one with chocolate glaze, associated with the green square gate.\n\nAnalyzing 'healthiness': \n- Pizza, while enjoyable, is typically not considered healthy due to its high fat and caloric content.\n- Donuts are also generally not considered healthy due to their high sugar, fat, and calorie content.\n- Boiled eggs are widely recognized as a healthy food choice due to their high protein content, low calorie count, and essential nutrients.\n\nWith this reasoning, the blue triangle gate associated with the eggs is the 'healthy food' gate. There are no apparent environmental constraints or ambiguities that could interfere with the drone's operation. \n\nThus, the task should be simplified to involve flying through the blue triangle gate.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with healthy food"
+}

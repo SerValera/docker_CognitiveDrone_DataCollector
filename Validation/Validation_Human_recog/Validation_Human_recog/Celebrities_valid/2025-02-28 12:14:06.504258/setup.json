@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Brad Pitt",
+    "prompt_simpler": "Fly through the big triangle green gate with Brad Pitt",
+    "options": [
+        "Brad_Pitt.dae",
+        "Alex_Ferguson.dae",
+        "jennifer_lawrence.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room"
+}

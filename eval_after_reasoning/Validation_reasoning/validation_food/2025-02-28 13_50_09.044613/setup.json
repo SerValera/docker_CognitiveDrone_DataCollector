@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square green gate with healthy food",
+    "options": [
+        "Unhealthy/unhealthy_16.dae",
+        "Healthy/healthy_3.dae",
+        "Unhealthy/unhealthy_12.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone to a gate associated with healthy foods. The visual elements in the image include three food items accompanied by colored squares (likely gates). \n\n- The blue square is associated with a plate of pizza.\n- The green square is associated with strawberries.\n- The red square is associated with a plate of shrimp.\n\nIt's reasonable to assess which of these foods are considered 'healthy.' While personal dietary needs vary, strawberries are widely accepted as universally healthy food due to their nutrient richness and low-calorie count. Pizza and shrimp can be included in a balanced diet, but they’re often regarded as less universally 'healthy' than strawberries.\n\nBased on this analysis, the green square/gate, linked to the strawberries, most clearly matches the task requirement for 'healthy food.' There are no visible obstacles or environmental constraints noted, so the assumption is the safe and straightforward path towards the gate is clear.\n\nHence, the appropriate action is to direct the drone towards the green square.",
+    "prompt_after_reasoning": "Fly through green square gate with strawberries"
+}

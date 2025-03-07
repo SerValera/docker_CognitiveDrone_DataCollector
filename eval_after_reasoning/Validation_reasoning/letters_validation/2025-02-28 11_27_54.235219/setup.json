@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter H",
+    "prompt_simpler": "Fly through the small round green gate with a letter H",
+    "options": [
+        "M.dae",
+        "H.dae",
+        "S.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to execute a command that involves flying through a gate with a letter 'H'. The provided image is an FPV view showing three distinct gates, each identified by a letter and a color-coded circle below it. The gates have the letters 'M', 'H', and 'S', which match with colored circles (red, green, blue respectively).\n\n- The letter 'H' is at the center of the image with a green circle directly below it, indicating a green gate corresponds to the letter 'H'.\n- There are no apparent environmental constraints such as obstacles or lighting issues between the gates affecting the view.\n- The task mentions flying through a gate with the letter 'H', suggesting the central gate with the green circle is the relevant gate for the command.\n- Given the clear visual information, there is no ambiguity in identifying which gate to fly through. The task requires only one action in a single, clear, and executable command format suitable for the drone.\n\nAssuming all gates are at safe distances and no other visual obstructions are present, I need to generate a straightforward command for flying through the green gate associated with the letter 'H'.",
+    "prompt_after_reasoning": "Fly through green circle gate with H"
+}

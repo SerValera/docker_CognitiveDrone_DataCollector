@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Nelson Mandela",
+    "prompt_simpler": "Fly through the big round green gate with Nelson Mandela",
+    "options": [
+        "Michelangelo.dae",
+        "Nelson_Mandela.dae",
+        "Bill_Gates.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with Nelson Mandela. In the image, there are three distinct objects with faces, each corresponding to a different symbol placed on the ground. The symbols are a red circle, a green circle, and a blue triangle. Each object's face appears in the corner of a colored frame matching its symbol's color. \n\nUpon analysis of the objects:\n- The left object, associated with the red circle, seems to be the face of a person with hair and facial hair, possibly not Nelson Mandela.\n- The middle object with the green circle features the face of an older man with a formal appearance but does not have clear visual confirmation of being Nelson Mandela.\n- The right object, connected with the blue triangle, displays the face of a man with a smiling look who matches the widely recognized features of Nelson Mandela.\n\nGiven that the blue triangle is correlated with Nelson Mandela, and based on the provided task, the gate with the blue triangle is the correct target. No ambiguities arise from visual data, as the correlation between the face and the symbol is clear. Additionally, there are no obstacles or constraints visible that would make this maneuver unsafe.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with Nelson Mandela"
+}

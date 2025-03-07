@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 3+5",
+    "prompt_simpler": "Fly through the small square red gate with 8",
+    "options": [
+        "five.dae",
+        "four.dae",
+        "eight.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task provided is to 'Fly through the gate with number equal 3+5'. The sum of 3 and 5 equals 8. Analyzing the FPV image shows three numbers: 5, 4, and 8, each associated with a different gate. \n\nThe number 5 has a circular blue gate around it, the number 4 has a green triangle, and the number 8 is surrounded by a red square. Since the task specifies to fly through the gate with the number 8, this gate matches the calculation from the task.\n\nTo simplify and make it an executable command for the drone while ensuring safety and feasibility, we disregard other gates visible in the image. We conclude that the drone should focus solely on the red gate with the number 8 on it.\n\nNo environmental constraints or ambiguities appear directly applicable to this analysis, as each gate is clearly distinguishable and spatial relationships seem straightforward.",
+    "prompt_after_reasoning": "Fly through red square gate with number 8"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter Z",
+    "prompt_simpler": "Fly through the small round red gate with a letter Z",
+    "options": [
+        "R.dae",
+        "Z.dae",
+        "D.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly the drone through the gate associated with the letter 'Z'. From the FPV image, there are three objects with letters 'R', 'Z', and 'D', and each has a corresponding gate. The letter 'Z' is positioned between the letter 'R' and the letter 'D'. The gate associated with 'Z' is circular and red. The other gates are a green square by 'R' and a blue circle by 'D'. There are no environmental constraints visible in the image, and the gates are clearly visible, so no assumptions about visibility or obstacles are necessary. The command should be simplified to flying through the red circular gate with the letter 'Z'.",
+    "prompt_after_reasoning": "Fly through red circular gate with letter Z"
+}

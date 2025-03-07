@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a person with a hat",
+    "prompt_simpler": "Fly through the small square blue gate with a person with a hat",
+    "options": [
+        "a_hat.dae",
+        "sneakers.dae",
+        "long_eyelashes.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate associated with a person wearing a hat. I'll analyze the visual data to identify the correct gate and person:\n1. Visual Objects: The image shows three rectangular objects that seem like display panels. These panels do not directly indicate gates. There is also a visual of a person with a hat and another person in a different pose, but no clear gates are present.\n2. Gates Analysis: There are two circular icons in the image, one red and one green, resembling possible gates. However, neither are explicitly associated with a hat-wearing person.\n3. Person Analysis: The left panel shows a person with a hat, while the central and right panels show other individuals. \n4. Reasonable Assumptions: Given there are no explicit gates matching the task's goal, the task instruction may be referencing the closest object resembling a gate. Here, the green circle could potentially be a gate since it is distinct in both color and location compared to the red circle.\n5. Focusing on Safety and Feasibility: Flying through a circular icon in the context of this image is logical since there are no traditional gates visible. Therefore, associating the person with a hat to the green circle gate is a safe and executable decision.",
+    "prompt_after_reasoning": "Fly through green gate with person wearing a hat"
+}

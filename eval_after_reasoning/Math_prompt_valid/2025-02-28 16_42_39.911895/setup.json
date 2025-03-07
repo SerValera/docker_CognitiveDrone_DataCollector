@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with number equal 3-0",
+    "prompt_simpler": "Fly through the small triangle blue gate with 3",
+    "options": [
+        "three.dae",
+        "nine.dae",
+        "two.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "big",
+            "shape": "square",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The original task requires flying through a gate with the number equal to 3. In the provided visual data, there are three different symbols, each associated with a number and shape: a blue triangle with the number 3, a red square with the number 9, and a green circle with the number 2. Given the task requirement, we should focus on the blue triangle shape associated with the number 3. Since there's no explicit mention of a 'gate' in the visual data, we simply interpret the 'gate' concept as the path indicated by these shapes. The task appears to guide the drone through the blue triangle path, which is identified by the number 3. This aligns well with the 'Fly through <color, shape> gate with <number>' command format. \n\nThere are no mentioned environmental constraints like obstacles or lighting conditions affecting safe flight. No ambiguities exist; each shape corresponds clearly to a numeric value, and the blue triangle visually aligns with the number specified in the task.",
+    "prompt_after_reasoning": "Fly through blue triangle gate with number 3"
+}

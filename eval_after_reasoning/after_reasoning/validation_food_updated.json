@@ -1,0 +1,872 @@
+[
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_1.dae",
+            "Healthy/healthy_15.dae",
+            "Unhealthy/unhealthy_16.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires the drone to fly towards a gate associated with 'healthy food.' In the provided FPV image, there are two food items shown: one appears to be pastries with visible cream, suggesting less healthiness, and the other looks like breakfast food (waffles), which has a slightly healthier connotation compared to pastries. The waffles are located above a red triangular gate, which could imply a lighter, healthier choice in this context. \n\nTherefore, the gate associated with 'healthy food' is likely represented by the red triangular gate. No explicit color is mentioned for the gate, but the environment seems clear, with no visible obstacles along a direct path to the red gate. Hence, the best interpretation is to understand the red triangle gate as the 'healthy food’ gate. Thus, it is safe and feasible for the drone to fly through this gate.",
+        "prompt_after_reasoning": "Fly through red triangle gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big round green gate with healthy food",
+        "options": [
+            "Healthy/healthy_1.dae",
+            "Unhealthy/unhealthy_13.dae",
+            "Unhealthy/unhealthy_18.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to direct the drone to a gate associated with healthy food. The FPV image shows three gates: a green circle gate, a blue circle gate, and a red triangle gate. Below each gate is a picture or icon possibly indicating the type of food or item related to that gate. \n\n- **Green circle gate:** Contains an image of apples, which are typically considered healthy food.\n- **Blue circle gate:** Displays a picture of a dessert, which is not often categorized as healthy.\n- **Red triangle gate:** Shows a picture of a hot dog, usually not considered healthy.\n\nGiven that the green circle gate is associated with apples (healthy food), it is reasonable to assume this is the gate the task refers to. There are no visual or environmental constraints such as obstacles or unclear shapes that would make the command unsafe or ambiguous. The triangular and circular gates are distinct and non-overlapping, and therefore, the drone can safely navigate to the green circle gate.",
+        "prompt_after_reasoning": "Fly through green circle gate with apples"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square blue gate with healthy food",
+        "options": [
+            "Healthy/healthy_20.dae",
+            "Unhealthy/unhealthy_2.dae",
+            "Unhealthy/unhealthy_10.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone to a gate associated with healthy food. Analyzing the visual data, there are three food items and three colored gates. The items correspond to food as follows: \n\n- The leftmost item appears to be a bunch of grapes, which is typically considered a healthy food.\n- The middle item is a serving of french fries, which is generally not considered a healthy food.\n- The rightmost item is a dessert with ice cream and ice cream balls on top, which is also not considered a healthy food.\n\nSince the leftmost item (grapes) is identified as healthy food, the corresponding gate is the blue gate.  \n\nThere are no visible environmental constraints such as obstacles in the provided image. There are no ambiguities in the task description or visual data regarding the healthy food and the associated gate as the blue gate is clearly aligned with the grapes.\n\nThe final command should be directed to the blue gate with the context of healthy food in consideration.",
+        "prompt_after_reasoning": "Fly through blue square gate with grapes"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square blue gate with healthy food",
+        "options": [
+            "Healthy/healthy_18.dae",
+            "Unhealthy/unhealthy_14.dae",
+            "Unhealthy/unhealthy_16.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task involves determining the 'gate with healthy food'. From the image:\n\n1. Three visual sections contain food-related images/themes:\n   - A blue gate on the left shows a large crate of strawberries.\n   - A red gate in the middle contains what appears to be a bowl of strawberries, presented as a smaller, often associated snack or dish.\n   - A green gate on the right depicts pancakes with syrup on a plate, suggesting a dessert or breakfast dish.\n\n2. Among these options, strawberries are considered a healthier choice than pancakes, which contain higher amounts of sugars and fats. The crate in the blue gate is also clearly labeled and identifiable as strawberries.\n\n3. There’s a need to consider which object is most direct in representing 'healthy food'. Both the crate and the bowl of strawberries qualify as healthy, but the crate visually represents a greater quantity and is more distinctly categorized as an unprocessed food.\n\n4. The command must be clear and safe. The blue gate is distinct and dominant, reducing the chances of ambiguity.\n\nBased on the analysis, flying through the blue gate with strawberries (the crate) is both safe and meets the criteria of the 'healthy food' description.",
+        "prompt_after_reasoning": "Fly through blue gate with strawberries"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square green gate with healthy food",
+        "options": [
+            "Healthy/healthy_8.dae",
+            "Unhealthy/unhealthy_12.dae",
+            "Unhealthy/unhealthy_13.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to a gate associated with healthy food. Analyzing the visual information in the provided image:\n\n1. Identify gates: There are three gates visible in the image. They are distinguished by color and shape: a green gate, a red gate, and a blue gate.\n2. Identify objects: The images associated with each gate show food items, and a judgment on 'healthy food' must be made:\n   - The green gate shows a bowl of cranberries and a plate of broccoli. These are widely considered healthy foods.\n   - The red gate shows a plate with oysters. While oysters have health benefits, they might not be as universally regarded as cranberries and broccoli as healthy foods.\n   - The blue gate shows a dish with cheese and what appears to be a baguette or similar bread, which are not typically categorized as health foods.\n3. Determine the most likely 'healthy food' option: The green gate with cranberries and broccoli appears to represent the healthiest food option out of the three.\n4. Safety and simplicity: There are no visible obstacles, and the gates are distinct. It’s safe and straightforward to proceed with the assumed healthiest food as the focus.\n   \nGiven the analysis, the task is clear: The drone should target the green gate as it aligns with the description of ‘healthy food.’”",
+        "prompt_after_reasoning": "Fly through green gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_15.dae",
+            "Healthy/healthy_20.dae",
+            "Unhealthy/unhealthy_20.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate with healthy food, and this demands analyzing the image for relevant objects. The visual data depicts three gates colored red, green, and blue. Inside these gates are images of items likely representing different types of food: a bowl of corn kernel (orange tin), a pine cone, and what seems to be cauliflower. Given common knowledge, corn kernels and cauliflower are generally considered healthier food options compared to pine cones which typically are not food. Based on their visual appearances, the yellow/orange tin through the green gate likely represents corn kernels and the white image through the blue gate appears to be cauliflower. As both corn kernel and cauliflower are healthy foods, there's a slight ambiguity. However, since caulifliflower is more widely recognized as a vegetable related to typical healthy foods, hence assuming cauliflower to be the 'healthiest' among options, the blue gate can be picked as the target. The red gate is dismissed considering the pine cone and the subsequent unhealthiness. Thus, the visual and conceptual analysis points toward: the blue gate for healthy food. No immediate hazards or unsafe conditions are noted based on visual information.",
+        "prompt_after_reasoning": "Fly through blue gate with cauliflower"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small triangle red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_9.dae",
+            "Unhealthy/unhealthy_1.dae",
+            "Healthy/healthy_12.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to instruct the drone to fly to the gate associated with 'healthy food.' Observing the image, there are three gates of different colors and shapes, accompanied by three food items. The green circle gate is associated with ribs (unhealthy), the blue triangle gate with a hamburger (also unhealthy), and the red triangle gate with broccoli (which is considered healthy).  \nThe spatial relationships are straightforward: each food item is directly above the gate. There are no overlapping objects, and the colors and shapes of the gates are clearly distinguished in the visual data. Therefore, I can confidently associate the 'healthy food' with the broccoli and the corresponding red triangle gate.  \nTo resolve any potential ambiguity about which gate is associated with the healthy food, the visual analysis is sufficient as the choices are clear with the broccoli being the only healthy option. Based on this reasoning and the relevant visual information, the command can be simplified to fly through the red triangle gate.",
+        "prompt_after_reasoning": "Fly through red triangle gate with broccoli"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_10.dae",
+            "Healthy/healthy_1.dae",
+            "Unhealthy/unhealthy_12.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to navigate towards a gate associated with 'healthy food'. From the visual data provided, there are three objects under consideration: a bowl of salad or mixed fruit (which could be categorized as healthy), an image of red fruits, potentially apples, with a wafer cookie, and what seems to be sushi in plastic wrap. The most straightforward healthy food option is the bowl of salad/mixed fruit on the left. A triangle, square, and circle serve as markers for these options. Given the goal is to choose healthy food and associating the geometric shapes with the food underneath, the bowl of salad is clearly aligned with the healthy food criteria. As the blue triangle corresponds to the salad image, it is logical to consider the blue triangle as the gate.",
+        "prompt_after_reasoning": "Go to blue triangle"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_9.dae",
+            "Unhealthy/unhealthy_11.dae",
+            "Healthy/healthy_9.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone to a gate associated with 'healthy food'. Analyzing the image shows three distinct gates: a green circle on the left, a red square in the center, and a blue triangle on the right. Above each gate, there is a visual indicator that could suggest the type of food associated with each.\n\n1. The green circle gate has a visual of bread and jam, which can be considered relatively unhealthy if consumed in excess.\n2. The red square gate has a visual of fried chicken, which is generally considered unhealthy due to its high fat content.\n3. The blue triangle gate has a visual of carrots, which are definitely healthy due to their high fiber and nutrient content.\n\nGiven this analysis, the blue triangle gate, associated with carrots, is the most appropriate choice for 'healthy food.' There are no visible environmental constraints, such as obstacles, that would prevent the drone from safely executing the command. The gates are distinct in color and shape, reducing ambiguities. The task does not involve spatial relationships like 'near' or 'above,' only identifying the gate with healthy food.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with carrots"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_12.dae",
+            "Unhealthy/unhealthy_18.dae",
+            "Healthy/healthy_20.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone to a gate associated with healthy food. The FPV image showcases three images with food items: a plate of sushi, a hot dog, and a container of chickpeas. Of the options, sushi and chickpeas are generally considered healthier than the hot dog. The sushi plate is associated with the blue gate, the hot dog with the red gate, and the chickpeas with the green gate. The image shows no apparent environmental constraints or ambiguous overlaps. Given the options, sushi and chickpeas can both be considered healthy, but since sushi involves fish, it might be considered more balanced nutritionally in this case. Therefore, without further instruction, the most reasonable choice would be the sushi as a representative of healthy food. The task becomes: 'Fly through the blue gate with sushi.'",
+        "prompt_after_reasoning": "Fly through blue gate with sushi"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_3.dae",
+            "Unhealthy/unhealthy_9.dae",
+            "Healthy/healthy_6.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate associated with healthy food. The image shows four gates, each with a distinct shape and color: a red triangle, a blue circle, a portraited cutout, and a gate with a peach image, which can be considered as healthy food. There are no ambiguities in interpreting the shapes or the peach image, which clearly aligns with the concept of healthy food. Since the context is clear and no obstacles are identified in the image, the command should prioritize the peach gate as it directly matches the instruction of 'health food.' The other gates are irrelevant to the current task criterion.",
+        "prompt_after_reasoning": "Fly through peach gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_16.dae",
+            "Healthy/healthy_3.dae",
+            "Unhealthy/unhealthy_12.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly the drone to a gate associated with healthy foods. The visual elements in the image include three food items accompanied by colored squares (likely gates). \n\n- The blue square is associated with a plate of pizza.\n- The green square is associated with strawberries.\n- The red square is associated with a plate of shrimp.\n\nIt's reasonable to assess which of these foods are considered 'healthy.' While personal dietary needs vary, strawberries are widely accepted as universally healthy food due to their nutrient richness and low-calorie count. Pizza and shrimp can be included in a balanced diet, but they’re often regarded as less universally 'healthy' than strawberries.\n\nBased on this analysis, the green square/gate, linked to the strawberries, most clearly matches the task requirement for 'healthy food.' There are no visible obstacles or environmental constraints noted, so the assumption is the safe and straightforward path towards the gate is clear.\n\nHence, the appropriate action is to direct the drone towards the green square.",
+        "prompt_after_reasoning": "Fly through green square gate with strawberries"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big round red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_15.dae",
+            "Healthy/healthy_17.dae",
+            "Unhealthy/unhealthy_10.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires flying to a gate associated with 'healthy food.' From the FPV image, there are three distinct gates represented by shapes and colors: a green triangle, a red circle, and a blue circle. Each gate has an associated image: a dark, rectangular object resembling chocolate appears near the green triangle, almonds are seen near the red circle, and an image of a colorful ice cream sundae is associated with the blue circle.\n\nHealthy food generally includes items like fruits, vegetables, nuts, and lean proteins. Almonds fit this category, suggesting the red circle gate represents healthy food. Chocolate and ice cream are typically considered indulgences or less healthy options, making them less suitable choices for the given task. Since the goal is to fly to the gate with healthy food, the clearest decision is to select the red circle gate.\n\nThere are no immediate safety concerns or collisions visible in the image that would affect the execution of this command. The visual analysis directly connects almonds to the healthy food concept, resolving any ambiguities present with other gate options.\n\nTherefore, the task can be accurately simplified as flying to the gate associated with almonds.",
+        "prompt_after_reasoning": "Fly through red circle gate with almonds"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_8.dae",
+            "Unhealthy/unhealthy_11.dae",
+            "Healthy/healthy_17.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "To execute the command 'Fly to the gate with healthy food,' my first step is to correctly identify the gate associated with healthy food based on the image and provided description. \n\nFrom the image:\n- There are three food objects and three gates (blue square, red circle, and green triangle).\n- The food items appear to be a sandwich, cookies, and a bowl of salad.\n- The bowl of salad, positioned above the blue square gate, is typically considered 'healthy food' compared to the other options which could be seen as less healthy.\n\nIdentifying the relevant gate:\n- The bowl of salad is directly above the blue square gate, connecting it to the healthy food in question.\n\nGiven this analysis and the clarity of the image structure:\n- There are no visual ambiguities or overlapping elements that could confuse the gates or food with each other.\n- Safety-wise, the gates appear clear of obstacles in this simulation-like setup, making movement straightforward.\n\nBased on this reasoning, the blue square gate is clearly associated with the healthy food (salad). The command must reflect this choice.",
+        "prompt_after_reasoning": "Fly through blue square gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big round red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_2.dae",
+            "Healthy/healthy_20.dae",
+            "Unhealthy/unhealthy_9.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate with healthy food. The FPV image shows three gates, each associated with distinct food images: \n1. French fries on the left associated with the green triangle.\n2. Peanuts on the right-bodied area associated with the red circle.\n3. Cake on the right associated with the blue square.\n  \nAmong these, peanuts are generally considered healthy food compared to french fries (high in processed carbs and oil) and cake (high in sugar). The red circle gate is therefore associated with the healthy food option.\n\nNo environmental constraints like obstacles or lighting conditions are apparent from the image. The task is assumed to prioritize the healthy option presented. Thus flying to the red circle gate with the peanuts is the most appropriate.",
+        "prompt_after_reasoning": "Fly through red circle gate with peanuts"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small round blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_9.dae",
+            "Healthy/healthy_11.dae",
+            "Unhealthy/unhealthy_19.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to navigate to a gate associated with healthy food. The image shows three gates of different shapes and colors: a green circle, a blue circle, and a red triangle. Each gate is linked to a corresponding image: grilled meat, fish fillets, and fried chicken, respectively. \n\n- Grilled meat (linked to the green circle gate) may not qualify as healthy food because while it can be part of a balanced diet, it also depends on its preparation and whether it is lean or processed.\n- Fish fillets (linked to the blue circle gate) are generally considered healthy due to their high protein and omega-3 content, making this a strong candidate.\n- Fried chicken (linked to the red triangle gate) is typically considered unhealthy because of its high fat content and preparation method.\n\nBased on these observations, the blue circle gate with fish fillets is the most appropriate choice linked to healthy food. There are no environmental constraints or unclear visual data affecting this decision. Therefore, my reasonable assumption and focus on healthy food options lead me to choose the blue circle gate.",
+        "prompt_after_reasoning": "Fly through blue circle gate with healthy fish"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_11.dae",
+            "Healthy/healthy_6.dae",
+            "Unhealthy/unhealthy_14.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate associated with healthy food. From the provided FPV image, we observe three gates: a green square, a blue triangle, and a red triangle. Each gate is associated with corresponding images above them.\n\nFrom left to right:\n1. The green square gate is above an image of packaged snacks, which are not generally considered healthy food.\n2. The blue triangle gate is above images of fresh fruits, including peaches, which are widely recognized as healthy food.\n3. The red triangle gate is above an image of strawberry slices, another healthy food item.\n\nGiven the context of 'healthy food,' either the blue triangle or red triangle gate could be the correct option. However, the blue triangle gate should be prioritized since it represents a variety of healthy fruits, which simplifies the decision.\n\nNo apparent environmental constraints are present in the image, such as obstacles or difficult lighting conditions. Also, the task does not mention any priorities between individual pieces of healthy food, so demonstrating a preference for variety seems logical here. \n\nThus, the target gate is the blue triangle gate with healthy food (fruits).",
+        "prompt_after_reasoning": "Fly through blue triangle gate with healthy fruits"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big round red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_17.dae",
+            "Healthy/healthy_6.dae",
+            "Unhealthy/unhealthy_5.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires flying the drone to the gate associated with 'healthy food'. Upon interpreting the visual data, we observe three sections, each containing different items and corresponding colored shapes. The left section contains tacos, which can be considered 'healthy food' depending on their ingredients. The central section has peaches, which are universally recognized as healthy. The right section includes donuts with icing, commonly seen as less healthy due to their high sugar content.\n\nAnalyzing the shapes below each section:\n- The green triangle is near the tacos.\n- The red circle is near the peaches.\n- The blue circle is near the donuts.\n\nTo decide the gate, we must prioritize healthy food. Between tacos and peaches, peaches are universally regarded as healthier. Considering this, the 'healthy food' gate is represented by the red circle near the peaches.\n\nThere are no environmental constraints in the provided image, and the gates are distinct with no overlapping objects. I assume that the red circle can be safely and feasibly traversed as a gate.",
+        "prompt_after_reasoning": "Fly through red circle gate with peaches"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small triangle red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_19.dae",
+            "Healthy/healthy_13.dae",
+            "Unhealthy/unhealthy_17.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "red"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The image shows three food items placed above colored gates: a blue rectangular gate on the left underneath a *red dish* (possibly pasta), a red triangular gate in the middle above a *green vegetable dish* (appears to be broccoli), and a green square gate on the right aligned with a *light yellowish dish topped with greens* (likely a casserole or savory dish). The instructions specify flying to the gate with 'healthy food.' \n\nAssessing the food visually: \n- The red pasta dish may not be considered the healthiest due to its presumably high carbohydrate and possibly high-fat content. \n- The green vegetable dish looks like broccoli, widely recognized as healthy food, high in fiber, vitamins, and minerals. \n- The light yellowish dish could be a casserole, which might not be as easily categorized as 'healthy' without more information about its ingredients but it seems less plain compared to broccoli.\n\nAssuming 'healthy food' refers to the most nutritionally straightforward and universally perceived healthy choice, the best match is the green vegetable dish (broccoli) above the red triangle gate. To ensure the command is safe and unambiguous, we will direct the drone to the middle gate with the healthy food item.",
+        "prompt_after_reasoning": "Fly through red triangle gate with green vegetable dish"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_5.dae",
+            "Unhealthy/unhealthy_14.dae",
+            "Healthy/healthy_13.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "3": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task is to fly the drone towards a gate identified as having 'healthy food'. Based on the visual data from the FPV image:\n\n1. There are three gates visible, each distinctly colored — red, green, and blue.\n2. Associated with these gates are images of food. These foods are:\n   - Next to the red gate: a hot dog, which is generally not considered healthy.\n   - Next to the green gate: a bowl of salad, which is considered healthy.\n   - Next to the blue gate: a group of broccoli, which is also healthy.\n3. The task demands targeting 'healthy food', which narrows our options to either the green gate (salad) or the blue gate (broccoli).\n4. Reasonable assumptions: The goal likely emphasizes flying towards a gate with critically recognized healthy food. Given common usage, both can be considered healthy but the salad, symbolizing variety and grooming, could be perceived slightly more pronounced as healthy by general standards.\n\nOverall, the green gate beside the salad seems like the best fit, notably for simplicity, and safety and adheres to the 'healthy food' description perfectly.",
+        "prompt_after_reasoning": "Fly through green gate with salad"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square green gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_9.dae",
+            "Healthy/healthy_13.dae",
+            "Unhealthy/unhealthy_4.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task requires me to fly the drone to a gate associated with healthy food. In the image, there are three gates: a blue gate, a green gate, and a red gate. The blue gate is aligned with a close-up image of sausages, which is not typically considered healthy food. The green gate is aligned with a broccoli image, which is widely recognized as a healthy food option. The red gate is aligned with a pizza image, which is generally not considered a healthy choice. Based on the visual data, the green gate is the only one that can be effectively linked to 'healthy food.' Thus, the simplified command should match this.",
+        "prompt_after_reasoning": "Fly through green gate with broccoli"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square red gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_16.dae",
+            "Healthy/healthy_2.dae",
+            "Unhealthy/unhealthy_7.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "small",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate associated with healthy food. From the visual data provided, we have three objects: a plate of waffles (not typically considered a healthy food), a cucumber (considered healthy), and a bottle of soda (not considered healthy). These objects are associated with gates colored and shaped distinctively: a green circle, a red square, and a blue triangle, respectively. \n\nGiven the context of 'healthy food,' the most appropriate association is the cucumber with the red square gate. The waffles and soda can be discounted as they do not align with the requirement of being healthy. The spatial environment does not show any significant constraints, and the objects are not blurred or ambiguous, ensuring the drone can easily target the correct gate.\n\nNo safety hazards from the image are apparent, so flying toward the red square gate with the cucumber as the target is both safe and accomplishes the task. The other two gates are not relevant based on the criteria of healthy food.",
+        "prompt_after_reasoning": "Fly through red square gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small square blue gate with healthy food",
+        "options": [
+            "Healthy/healthy_14.dae",
+            "Unhealthy/unhealthy_8.dae",
+            "Unhealthy/unhealthy_14.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "square",
+                "color": "blue"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to 'Fly to the gate with healthy food.' For this, I need to identify which gate is associated with healthy food from the visual data. Observing the image:\n- The blue gate is near an image that appears to show tea cups, which could be considered healthy but is not very representative of a food item.\n- The green gate is paired with an image that appears to show a bowl of soup or similar dish, which can be broadly considered healthy food.\n- The red gate is near an image showing plates with slices of what appears to be watermelon and other fruits, which are definitively healthy food items.\n \nGiven these observations, the red gate is most strongly associated with healthy food. There are no evident obstacles or constraints in the provided image, and no other ambiguities in visual data that would contradict this association. Therefore, I will finalize the task around flying towards the red gate associated with the plates of fruit.",
+        "prompt_after_reasoning": "Fly through red triangle gate with healthy fruit plates"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the small round blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_15.dae",
+            "Healthy/healthy_9.dae",
+            "Unhealthy/unhealthy_8.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "round",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "round",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The FPV image presents three rectangular images showing food items: a chocolate bar on the far left, a portion of orange slices in the center, and a bowl of yellow, mashed food on the right. The bowl of mashed food is circled in green, suggesting it is the 'healthy food' mentioned in the task since the other two items (chocolate and orange slices) are not labeled in this manner. In front of the images and aligned with each, there are gates with distinct colors and shapes: a red rectangular gate corresponding to the chocolate, a blue circular gate corresponding to the orange slices, and a green circular gate aligned with the bowl of mashed food. Given the visual emphasis indicated by the green circle and the alignment of the gates, it is reasonable to assume the green circular gate is meant to be associated with the healthy mashed food. Therefore, the command should be oriented towards flying through the green gate, which aligns with the bowl of mashed food.",
+        "prompt_after_reasoning": "Fly through green circle gate with healthy mashed food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_6.dae",
+            "Unhealthy/unhealthy_11.dae",
+            "Healthy/healthy_1.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "round",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "green"
+            },
+            "3": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to a gate associated with healthy food. Analyzing the visual data, I see several distinct objects: a red circle, a green triangle, a blue triangle, and a picture depicting apples. The apples are traditionally and widely recognized as a symbol of healthy food.\nSince there isn’t a distinct 'gate' shape, but the task suggests a connection to healthy food, the image showing the apples can logically be interpreted as a 'gate with healthy food.'\nThere is no ambiguity in visual data concerning the healthy food representation as it is clearly an image of apples. The red circle, green triangle, and blue triangle do not seem to relate to the task of locating healthy food.\n\nNo safety concerns arise from this command as it involves standard flight toward a target image. Thus, the task interpretation and visual analysis can be summarized into a simple and safe drone command.",
+        "prompt_after_reasoning": "Go to the apples"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_7.dae",
+            "Unhealthy/unhealthy_3.dae",
+            "Healthy/healthy_19.dae"
+        ],
+        "correct": 3,
+        "gates": {
+            "1": {
+                "size": "small",
+                "shape": "round",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task initially involves navigating towards a gate associated with 'healthy food.' From the visual data shown by the FPV image:\n- There are three gates colored green, red, and blue.\n- Each gate is associated with an image: the green gate shows a soda bottle (unhealthy), the red gate shows a dessert (unhealthy), and the blue gate shows avocados (healthy).\n- Based on the definition that avocados are considered a healthy food, the blue gate represents the target.\n- There are no environmental constraints such as obstacles or lighting issues visible in the image, so we can focus on selecting the correct gate.\n- Safety is ensured since the gates do not appear to have any immediate hazards from the image.",
+        "prompt_after_reasoning": "Fly through blue gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_18.dae",
+            "Healthy/healthy_12.dae",
+            "Unhealthy/unhealthy_8.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            },
+            "2": {
+                "size": "big",
+                "shape": "square",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "round",
+                "color": "red"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to the gate with healthy food. The images show three objects: a hotdog, broccoli, and cookies, each framed with a specific color box. Among these objects, broccoli is considered healthy food. The image indicates that the broccoli is within a red-colored square box, which suggests it is associated with one of the gates. Therefore, the gate with healthy food is the one marked by the red square box. However, the provided gates are described as a green square, a blue square, and a red circular shape. Since the image does not neatly match the ordered gates, we assume 'the gate with healthy food' refers to the red circular shape surrounding the gate that matches the colors of the broccoli's box in the image. Hence, the simplified command would involve flying to the gate indicated by the red circular shape.",
+        "prompt_after_reasoning": "Fly through red, circular gate with broccoli"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big square red gate with healthy food",
+        "options": [
+            "Healthy/healthy_10.dae",
+            "Unhealthy/unhealthy_12.dae",
+            "Unhealthy/unhealthy_9.dae"
+        ],
+        "correct": 1,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "small",
+                "shape": "triangle",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The original task instructs the drone to fly to a gate associated with 'healthy food.' Observing the FPV image, there are three gates: a red square gate, a blue triangle gate, and a green triangle gate. Also present are three types of food or food-like items:\n\n1. An assortment of what appears to be eggs and small yellow containers or jars (common, minimally processed food which could be deemed 'healthy').\n2. A dish with some type of cooked meat or protein and garnishes (also seems relatively healthy, given its unprocessed nature).\n3. A platter with some candied or processed-looking pastries (these are likely less healthy).\n\nConsidering the task's intent to go for 'healthy food,' the first option (eggs and containers) seems most likely theoptimal choice. This aligns with a common understanding of what is 'healthy.'\n\nAmong the three gates, there are shape and color variations. Since the food on the left correspond to the red gate, the association is made that the healthy food relates to this red square gate. There are no conflicts or environmental constraints visible within the image such as obstacles near the gate.\n\nThe task can thus be conceived as flying the drone through the red square gate, given the logical correlation between the healthy food and the red gate on the left side.",
+        "prompt_after_reasoning": "Fly through red square gate with healthy food"
+    },
+    {
+        "prompt": "Fly to the gate with healthy food",
+        "prompt_simpler": "Fly through the big triangle blue gate with healthy food",
+        "options": [
+            "Unhealthy/unhealthy_4.dae",
+            "Healthy/healthy_14.dae",
+            "Unhealthy/unhealthy_5.dae"
+        ],
+        "correct": 2,
+        "gates": {
+            "1": {
+                "size": "big",
+                "shape": "square",
+                "color": "red"
+            },
+            "2": {
+                "size": "big",
+                "shape": "triangle",
+                "color": "blue"
+            },
+            "3": {
+                "size": "big",
+                "shape": "square",
+                "color": "green"
+            }
+        },
+        "background": "room",
+        "reasoning": "The task is to fly to a gate with 'healthy food.' Based on the provided FPV image, we need to identify which food can be considered 'healthy' and then determine the corresponding gate. The three food images appear to be:\n1. A pizza on the left associated with the red square gate.\n2. A plate with what appears to be boiled eggs in the center, associated with the blue triangle gate.\n3. Three donuts on the right, one with chocolate glaze, associated with the green square gate.\n\nAnalyzing 'healthiness': \n- Pizza, while enjoyable, is typically not considered healthy due to its high fat and caloric content.\n- Donuts are also generally not considered healthy due to their high sugar, fat, and calorie content.\n- Boiled eggs are widely recognized as a healthy food choice due to their high protein content, low calorie count, and essential nutrients.\n\nWith this reasoning, the blue triangle gate associated with the eggs is the 'healthy food' gate. There are no apparent environmental constraints or ambiguities that could interfere with the drone's operation. \n\nThus, the task should be simplified to involve flying through the blue triangle gate.",
+        "prompt_after_reasoning": "Fly through blue triangle gate with healthy food"
+    }
+]

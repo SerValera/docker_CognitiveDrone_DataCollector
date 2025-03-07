@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with facebook",
+    "prompt_simpler": "Fly through the small round red gate with facebook",
+    "options": [
+        "hp.dae",
+        "facebook.dae",
+        "mcdonalds.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The command suggests navigating through a 'gate with facebook.' However, there are no visible Facebook logos in the FPV image. The image contains several identifiable elements: an HP logo, a McDonald's logo, a recognizable Windows infinity symbol, a red circle, and two triangles – one green and one blue. None of these align with a Facebook logo. Given the lack of a Facebook logo, the task misaligns with the provided visual data, rendering the command invalid as is. Assuming the task may involve flying through one of the shapes acting as a 'gate,' the closest equivalent to the size and prominence of the 'Facebook' theme might be the blue triangle, which stands out similarly. It’s also adjacent to the prominent McDonald’s logo, a well-known brand similar to Facebook. Thus, it’s safest and most feasible to execute a simplified variant where the drone flies through the blue triangle 'gate'. This assumption aligns with safety and feasibility by selecting a prominent shape as a target, though the 'Facebook' part is disregarded.",
+    "prompt_after_reasoning": "Fly through blue triangle gate"
+}

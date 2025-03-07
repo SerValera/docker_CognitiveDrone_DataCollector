@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with Neil Armstrong",
+    "prompt_simpler": "Fly through the small round blue gate with Neil Armstrong",
+    "options": [
+        "Yuri_Gagarin.dae",
+        "Carlo_Ancelotti.dae",
+        "Neil_Armstrong.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The given task is to fly through the gate associated with Neil Armstrong based on the provided image. First, I should identify the gates and their corresponding figures.\n\n- The first gate is circled in green and features a black-and-white portrait.\n- The second gate is circled in red and contains a color image of a person.\n- The third gate is circled in blue and displays a person in a suit with an American flag.\n\nSince the task involves Neil Armstrong, it is reasonable to assume that he is the one in the black-and-white image, as he was an astronaut from an earlier era (the time of the Apollo missions). This matches the first green-circled gate. \n\nThere are no environmental constraints like obstacles or poor lighting in the provided image. The gates are clearly distinguishable with distinct colors and portraits. Thus, the ambiguity is resolved by associating the black-and-white image with Neil Armstrong.\n\nSince it is clear which gate needs to be flown through, and ensuring safety is considered by directly indicating the gate with Neil Armstrong, the task can be converted into a simple drone command.",
+    "prompt_after_reasoning": "Fly through green gate with Neil Armstrong"
+}

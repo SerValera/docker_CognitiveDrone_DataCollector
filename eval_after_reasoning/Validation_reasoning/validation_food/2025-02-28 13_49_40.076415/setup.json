@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly to the gate with healthy food",
+    "prompt_simpler": "Fly through the small square blue gate with healthy food",
+    "options": [
+        "Healthy/healthy_14.dae",
+        "Unhealthy/unhealthy_8.dae",
+        "Unhealthy/unhealthy_14.dae"
+    ],
+    "correct": 1,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "green"
+        },
+        {
+            "gate": "3",
+            "size": "big",
+            "shape": "triangle",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to 'Fly to the gate with healthy food.' For this, I need to identify which gate is associated with healthy food from the visual data. Observing the image:\n- The blue gate is near an image that appears to show tea cups, which could be considered healthy but is not very representative of a food item.\n- The green gate is paired with an image that appears to show a bowl of soup or similar dish, which can be broadly considered healthy food.\n- The red gate is near an image showing plates with slices of what appears to be watermelon and other fruits, which are definitively healthy food items.\n \nGiven these observations, the red gate is most strongly associated with healthy food. There are no evident obstacles or constraints in the provided image, and no other ambiguities in visual data that would contradict this association. Therefore, I will finalize the task around flying towards the red gate associated with the plates of fruit.",
+    "prompt_after_reasoning": "Fly through red triangle gate with healthy fruit plates"
+}

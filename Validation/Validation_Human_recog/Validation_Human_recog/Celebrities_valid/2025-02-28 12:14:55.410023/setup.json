@@ -1,0 +1,31 @@
+{
+    "prompt": "Fly through the gate with Neil Armstrong",
+    "prompt_simpler": "Fly through the small round blue gate with Neil Armstrong",
+    "options": [
+        "Yuri_Gagarin.dae",
+        "Carlo_Ancelotti.dae",
+        "Neil_Armstrong.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "round",
+            "color": "blue"
+        }
+    ],
+    "background": "room"
+}

@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a letter Q",
+    "prompt_simpler": "Fly through the small square blue gate with a letter Q",
+    "options": [
+        "T.dae",
+        "Q.dae",
+        "P.dae"
+    ],
+    "correct": 2,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "big",
+            "shape": "round",
+            "color": "red"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "square",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The provided task is to fly through a gate marked with the letter 'Q'. Analyzing the visual data from the FPV image, we can see three gates, each associated with a letter: 'T', 'Q', and 'P'. The gate with the letter 'Q' is in the center of the image, with a blue square underneath it, indicating that this is the target gate. \nLooking at the other two gates, the one on the left has the letter 'T' with a red square below it, and the one on the right has the letter 'P' with a green square. The task description clearly aims to target the 'Q' gate, which matches the visual input with the blue square.\nNo ambiguities or safety concerns are immediately apparent in this task, as the gates are clearly separated and there’s a clear path identified for the drone. There are no obstacles or environmental constraints visible in the image.\nSince the task is to fly through the 'Q' gate and visual data confirms that the center gate is marked correctly with a 'Q' and a blue square, the task can be directly simplified.",
+    "prompt_after_reasoning": "Fly through blue square gate with Q"
+}

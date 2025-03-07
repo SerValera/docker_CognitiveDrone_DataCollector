@@ -1,0 +1,33 @@
+{
+    "prompt": "Fly through the gate with a wolf",
+    "prompt_simpler": "Fly through the small square red gate with a wolf",
+    "options": [
+        "zebra.dae",
+        "peacock.dae",
+        "wolf.dae"
+    ],
+    "correct": 3,
+    "gates": [
+        {
+            "gate": "1",
+            "size": "small",
+            "shape": "square",
+            "color": "green"
+        },
+        {
+            "gate": "2",
+            "size": "small",
+            "shape": "triangle",
+            "color": "blue"
+        },
+        {
+            "gate": "3",
+            "size": "small",
+            "shape": "square",
+            "color": "red"
+        }
+    ],
+    "background": "room",
+    "reasoning": "The task is to fly through a gate with a wolf, but we need to clarify the actual scene from the provided image. \n\n- **Objects and Landmarks:** \n    - The image contains a zebra within a green gate. \n    - A peacock is located within a blue gate.\n    - A wolf is displayed within a red gate. \n\n- **Colors and Shapes:** \n    - The zebra gate is green and square, the peacock gate is blue and triangular, and the wolf gate is red and also square.\n  \n- **Task Analysis:**\n    - The instruction specifically mentions the wolf, aligning with the red gate in the image that contains the wolf.\n\n- **Ambiguities:** \n    - There's only one gate with a wolf, reducing ambiguity related to gate selection.\n  \n- **Resolution of task:**\n    - The wolf is clearly associated with the red square gate. The command 'fly through the gate with a wolf' translates to 'fly through the red square gate with the wolf.'\n\n- **Safety and feasibility:**\n    - No potential obstacles, environmental constraints, or unsafe elements are visually evident, so the task appears straightforward and unambiguous with this command format.",
+    "prompt_after_reasoning": "Fly through red square gate with wolf"
+}
