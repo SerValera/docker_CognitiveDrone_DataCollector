@@ -8,6 +8,6 @@ The collector uses a Docker container that integrates ROS1, ArduPilot, Gazebo Cl
 
 ## Setup Instructions
 
-[Setup Instructions](0_docker.md)
+[Setup Instructions](doc/0_docker.md)
 
 You can also refer to the related paper on [arXiv](https://arxiv.org/abs/2503.01378).
