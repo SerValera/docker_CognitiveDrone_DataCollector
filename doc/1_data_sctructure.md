@@ -41,8 +41,6 @@ Example:
 
 
 
-[Next: Go to Start Recording](3_recording.md)
+[Next: Go to Start Recording](2_recording.md)
 
 [Back: Go back to docker preporation](0_docker.md)
-
-[Back: Go to Start Simulation](1_sessions.md)

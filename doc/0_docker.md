@@ -101,4 +101,4 @@ export GAZEBO_RESOURCE_PATH=$GAZEBO_RESOURCE_PATH:/usr/share/gazebo-11/worlds
 source ~/.bashrc
 ```
 
-[Next: Go to Start Simulation](1_sessions.md)
+[Next: Data sctructure](1_data_sctructure.md)
