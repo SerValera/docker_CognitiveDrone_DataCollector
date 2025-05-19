@@ -3,7 +3,7 @@
 ### 1. Clone repository
 ```bash
 git clone https://github.com/SerValera/docker_CognitiveDrone_DataCollector
-cd ardupilot_docker
+cd docker_CognitiveDrone_DataCollector
 ```
 
 ### 2. Allow docker xhost for gui interfaces
