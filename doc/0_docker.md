@@ -2,7 +2,7 @@
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/SerValera/ardupilot_docker.git
+git clone https://github.com/SerValera/docker_CognitiveDrone_DataCollector
 cd ardupilot_docker
 ```
 
